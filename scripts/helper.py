@@ -21,17 +21,20 @@ def csv2dic(full_name):
 def read_csv(table_name, csv_file):
     return csv2dic(os.path.join( ps_tables_path, table_name, csv_file)) 
 
-def read_all_table(table_name):   
+def read_all_table(TV):   
     dict1 = {}
-    for table in os.listdir(os.path.join(ps_tables_path, table_name)):
-        dict1[table] = csv2dic(os.path.join(ps_tables_path, table_name, table))
+    for table in os.listdir(os.path.join(ps_tables_path, TV)):
+        dict1[table] = csv2dic(os.path.join(ps_tables_path, TV, table))
     
     return dict1
 
 
-def read_table(table_name=""):   
-    if(table_name):
-        return csv2dic(os.path.join( ps_tables_path, table_name, "Table.csv")) 
+def read_meta_table(TV):   
+    return csv2dic(os.path.join( ps_tables_path, TV, "Meta.csv")) 
+    
+def read_table(TV=""):   
+    if(TV):
+        return csv2dic(os.path.join( ps_tables_path, TV, "Table.csv")) 
     
     dict1 = {}
     for table in os.listdir(ps_tables_path):
