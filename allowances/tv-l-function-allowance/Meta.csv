@@ -1,0 +1,11 @@
+name,value
+info,Funktionszulagen gemäß Teil II Abschnitte 5 und 8 der Entgeltordnung
+func_type,fabsolute
+label_de,Funktionszulagen
+label_en,Function Allowances
+info_de,"Funktionszulagen gemäß Teil II Abschnitte 5 und 8 der Entgeltordnung in Höhe von {{ja_value}} zusätzlich zum monatlichen Bruttogehalt."
+info_en,"Functional allowances in accordance with Part II Sections 5 and 8 of the remuneration regulations in the amount of {{ja_value}} in addition to the monthly gross salary."
+options,nein;ja
+default_option,nein
+options_label_de,Nein;Ja
+options_label_en,No;Yes
