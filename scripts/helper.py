@@ -2,9 +2,36 @@ import os
 from .defs import *
 import csv
 
+import importlib
+
+
+def import_prv_function(prv_module):
+    """
+    Import the 'prv' function from the specified module.
+
+    Args:
+        prv_module (str): The name of the module to import the 'prv' function from.
+
+    Returns:
+        function: The imported 'prv' function.
+    """
+    try:
+        # Import the module dynamically
+        module = importlib.import_module(".prv."+prv_module, package="templates.public_sector.shared.TVData.scripts")
+        # Get the 'prv' function from the imported module
+        return module.prv
+    except ImportError:
+        raise ImportError(
+            f"Failed to import 'prv' function from module: {prv_module}")
+
 
 def ls_tables():
-    """List all tables in the directory specified by the `ps_tables_path` constant."""
+    """List all remuneration tables in the directory specified by the `ps_tables_path` constant."""
+    return os.listdir(ps_tables_path)
+
+
+def ls_prv():
+    """List all the private retirement tables in the directory specified by the `prv_tables_path` constant."""
     return os.listdir(ps_tables_path)
 
 
@@ -18,15 +45,15 @@ def csv2dic(full_name):
     Returns:
     dict: A dictionary containing the data from the CSV file.
     """
-    dict1 = {}
+    table_data = {}
     with open(full_name, "r") as infile:
         reader = csv.reader(infile)
         headers = next(reader)  # Read the headers from the first row
         for row in reader:
             # Create a new dictionary entry for the current row, using the first column as the key
-            dict1[row[0]] = {key: value for key,
-                             value in zip(headers[1:], row[1:])}
-    return dict1
+            table_data[row[0]] = {key: value for key,
+                                  value in zip(headers[1:], row[1:])}
+    return table_data
 
 
 def read_csv(table_name, csv_file):
@@ -53,11 +80,11 @@ def read_all_table(TV):
     Returns:
     dict: A dictionary containing the data from all CSV files in the specified directory.
     """
-    dict1 = {}
+    table_data = {}
     for table in os.listdir(os.path.join(ps_tables_path, TV)):
-        dict1[table] = csv2dic(os.path.join(ps_tables_path, TV, table))
+        table_data[table] = csv2dic(os.path.join(ps_tables_path, TV, table))
 
-    return dict1
+    return table_data
 
 
 def read_meta_table(TV):
@@ -88,11 +115,11 @@ def read_table(TV=""):
         return csv2dic(os.path.join(ps_tables_path, TV, "Table.csv"))
     else:
         # If no table name is specified, read all tables and return their data in a dictionary
-        dict1 = {}
+        table_data = {}
         for table in os.listdir(ps_tables_path):
-            dict1[table] = csv2dic(os.path.join(
+            table_data[table] = csv2dic(os.path.join(
                 ps_tables_path, table, "Table.csv"))
-        return dict1
+        return table_data
 
 
 def read_allowance_data(allowances=None):
@@ -106,17 +133,53 @@ def read_allowance_data(allowances=None):
     dict: A dictionary containing the data from the "allowances" directory.
     """
     # Initialize an empty dictionary to store the table data
-    dict1 = {}
+    table_data = {}
 
     # Loop through each directory in the "allowances" directory
     for allowance_name in os.listdir(ps_allowances_path):
         # If the "allowances" argument is not specified or the current allowance is in the "allowances" argument list
         if allowances is None or allowance_name in allowances:
             # Read the "Meta.csv" and "Table.csv" files for the current allowance and add them to the dictionary
-            dict1[allowance_name] = {
+            table_data[allowance_name] = {
                 "Meta.csv": csv2dic(os.path.join(ps_allowances_path, allowance_name, "Meta.csv")),
                 "Table.csv": csv2dic(os.path.join(ps_allowances_path, allowance_name, "Table.csv"))
             }
 
     # Return the dictionary containing the table data
-    return dict1
+    return table_data
+
+
+def read_prv_data(prv=None):
+    """
+    Read data from the "prv" directory and return a dictionary of table data.
+
+    Args:
+        prv (list): A list of PRV names to include in the output. If None, all PRVs will be included.
+
+    Returns:
+        dict: A dictionary containing the data from the "prv" directory.
+    """
+    # Initialize an empty dictionary to store the table data
+    table_data = {}
+
+    # Loop through each directory in the "prv" directory
+    for prv_name in os.listdir(prv_tables_path):
+        # If the "prv" argument is not specified or the current PRV is in the "prv" argument list
+        if prv is None or prv_name in prv:
+            # Read the "Meta.csv" file for the current PRV and add it to the dictionary
+            table_data[prv_name] = {"Meta.csv": csv2dic(
+                os.path.join(prv_tables_path, prv_name, "Meta.csv"))}
+
+    # Return the dictionary containing the table data
+    return table_data
+
+
+def get_prv_sal_data(gross_sal, prv_type):
+    prv_table = read_prv_data(prv_type)
+    # try:
+    prv_fun = import_prv_function(prv_table[prv_type]["Meta.csv"]["calc_fun"]["value"])
+    # except:
+    #   return gross_sal, gross_sal, 0, 0
+    
+    
+    return prv_fun(gross_sal, prv_table[prv_type]["Meta.csv"])
