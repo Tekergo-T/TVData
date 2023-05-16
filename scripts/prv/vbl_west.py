@@ -1,3 +1,9 @@
+"""
+ Copyright (c) 2023 Beáta Ungurán All rights reserved.
+ Use of this source code is governed by a BSD-style
+ license that can be found in the LICENSE file.
+ """
+
 def prv(brutto_gehalt, data_dict):
     """
     Calculate the social income and other related values based on the salary data and contribution rates.
