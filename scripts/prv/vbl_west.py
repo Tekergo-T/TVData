@@ -4,6 +4,7 @@
  license that can be found in the LICENSE file.
  """
 
+
 def prv(brutto_gehalt, data_dict):
     """
     Calculate the social income and other related values based on the salary data and contribution rates.
@@ -18,9 +19,9 @@ def prv(brutto_gehalt, data_dict):
             - strpflich_brutto (float): The taxable gross salary.
     """
     # Unpacking the data
-    arbeitnehmeranteil = float(data_dict["arbeitnehmeranteil"]["value"])
-    arbeitgeberanteil = float(data_dict["arbeitgeberanteil"]["value"])
-    pauschal = float(data_dict["pauschal"]["value"])
+    arbeitnehmeranteil = float(data_dict["arbeitnehmeranteil"]["value"]) / 100
+    arbeitgeberanteil = float(data_dict["arbeitgeberanteil"]["value"]) / 100
+    pauschal = float(data_dict["pauschal"]["value"]) 
     steuer_frei = float(data_dict["steuer_frei"]["value"])
     grenzbetrag = float(data_dict["grenzbetrag"]["value"])
     sozi_freibetrags = float(data_dict["sozi_freibetrags"]["value"])
@@ -39,25 +40,27 @@ def prv(brutto_gehalt, data_dict):
 
     zurechnungsbetrag_2 = max(0, (2.5 / arbeitgeberanteil) - sozi_freibetrags)
 
-    sozialver_brutto = brutto_gehalt + (zurechnungsbetrag_1 + zurechnungsbetrag_2)
+    sozialver_brutto = brutto_gehalt + \
+        (zurechnungsbetrag_1 + zurechnungsbetrag_2)
 
     return sozialver_brutto, strpflich_brutto, arbeitnehmer_beitrag, arbeitgeber_beitrag
 
 
+def main():
+    # Example function call
+    brutto_gehalt = 8600
+    csv_data = {
+        "arbeitnehmeranteil": {"value": 0.0181},
+        "arbeitgeberanteil": {"value": 0.0549},
+        "pauschal": {"value": 92.03},
+        "steuer_frei": {"value": 219},
+        "grenzbetrag": {"value": 100},
+        "sozi_freibetrags": {"value": 13.30}
+    }
 
-# Example function call
-brutto_gehalt = 8600
-csv_data = {
-    "arbeitnehmeranteil": {"value": 0.0181},
-    "arbeitgeberanteil": {"value": 0.0549},
-    "pauschal": {"value": 92.03},
-    "steuer_frei": {"value": 219},
-    "grenzbetrag": {"value": 100},
-    "sozi_freibetrags": {"value": 13.30}
-}
+    sozialver_brutto, strpflich_brutto, _, _ = prv(
+        brutto_gehalt, csv_data)
 
-sozialver_brutto, strpflich_brutto,_,_ = prv(
-    brutto_gehalt,csv_data)
+    print("Social Gross Salary:", sozialver_brutto)
+    print("Taxable Gross Salary:", strpflich_brutto)
 
-print("Social Gross Salary:", sozialver_brutto)
-print("Taxable Gross Salary:", strpflich_brutto)

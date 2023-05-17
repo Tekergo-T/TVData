@@ -1,0 +1,11 @@
+name,value
+info,"IV. Zulagen für Beschäftigte im Pflegedienst gemäß Teil IV der Entgeltordnung"
+func_type,fabsolute
+label_de,Pflegezulage
+label_en,Care Allowance
+info_de,"Zulage für Beschäftigte im Pflegedienst."
+info_en,"Allowance for employees in the nursing service."
+options,0;2;3;4;5;6;7;8;9
+default_option,0
+options_label_de,Kein;Pflegezulage 2;Pflegezulage 3;Pflegezulage 4;Pflegezulage 5;Pflegezulage 6;Pflegezulage 7;Pflegezulage 8;Pflegezulage 9
+options_label_en,None;Care Allowance 2;Care Allowance 3;Care Allowance 4;Care Allowance 5;Care Allowance 6;Care Allowance 7;Care Allowance 8;Care Allowance 9
