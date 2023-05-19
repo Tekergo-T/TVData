@@ -1,0 +1,11 @@
+name,value
+info,"Beträge der in der Entgeltordnung (Anlage A zum TV-L) geregelten Zulagen – gültig ab 1. Dezember 2022 –"
+func_type,fabsolute
+label_de,Entgeltgruppenzulage
+label_en,Tier Allowance
+info_de,"Entgeltgruppenzulagen gemäß Teil II der Entgeltordnung in Höhe von {{yes_value}} zusätzlich zum monatlichen Bruttogehalt."
+info_en,"Remuneration tier allowance according to Part II of the Remuneration Regulations in the amount of {{yes_value}} in addition to the monthly gross salary."
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes
