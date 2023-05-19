@@ -1,0 +1,11 @@
+name,value
+info,"Familienzuschlag"
+func_type,fabsolute
+label_de,Familienzuschlag Stufe 2
+label_en,Family Allowance Level 2
+info_de,"Die Familienzuschlag beträgt 285,40 € für das erste Kind und erhöht sich dann<ul><li>um 131,52 € für das zweite Kind,</li><li>und um 409,76 € für jedes weitere Kind.</li></ul>Für die Besoldungsgruppen A 3 bis A 5 und für Anwärterinnen und Anwärter der unteren Besoldungsgruppe des öffentlichen Dienstes erhöht sich der Familienzuschlag weiter:<ol><li>für die Besoldungsgruppen A 3 bis A 5 und für Beamtenanwärterinnen und Beamtenanwärter um 5,37 € für das erste Kind,</li><li>und für jedes weitere Kind<ul><li>um 26,84 € in der Besoldungsgruppe A 3,</li><li>um 21,47 € in der Besoldungsgruppe A 4,</li><li>um 16,10 € in der Besoldungsgruppe A 5.</li></ul></li></ol>"
+info_en,"The family allowance for the first child is €285.40, and then increases<ul><li>by € 131.52 for the second child,</li><li>and by €409.76 for each additional child.</li></ul>For grades A 3 to A 5 and for candidates in the lower grade of the civil service, the family allowance further increases:<ol><li>by €5.37 for the first child for pay grades A 3 to A 5 and for civil service candidates by,</li><li>and for each further child:<ul><li>by €26.84 in pay grade A 3,</li><li>by €21.47 in pay grade A 4,</li><li>by €16.10 in pay grade A 5.</li></ul></li></ol>"
+options,0;1;2;3;4;5
+default_option,0
+options_label_de,Kein;1;2;3;4;5
+options_label_en,None;1;2;3;4;5

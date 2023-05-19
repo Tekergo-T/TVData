@@ -17,6 +17,8 @@ def prv(brutto_gehalt, data_dict):
         Tuple: A tuple containing the following values:
             - sozialver_brutto (float): The gross salary used to determine the social security contributions.
             - strpflich_brutto (float): The taxable gross salary.
+            - arbeitnehmer_beitrag (float):
+            - arbeitgeber_beitrag (float):
     """
     arbeitnehmeranteil = float(data_dict["arbeitnehmeranteil"]["value"]) / 100
     arbeitgeberanteil = float(data_dict["arbeitgeberanteil"]["value"]) / 100

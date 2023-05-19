@@ -1,0 +1,11 @@
+name,value
+info,"Zulage für flugzeugtechnisches Personal, flugsicherungstechnisches Personal der militärischen Flugsicherung und technisches Personal des Einsatzführungsdienstes"
+func_type,fabsolute
+label_de,Luftunterstützung - 5
+label_en,Air Support - 5
+info_de,"Stellenzulage Nr. 5 - Zulage für flugzeugtechnisches Personal, flugsicherungstechnisches Personal der militärischen Flugsicherung und technisches Personal des Einsatzführungsdienstes."
+info_en,"Position Allowance Nr. 5 - Allowance for aircraft technical personnel, military air traffic control technical personnel and technical personnel of the mission control service."
+options,0;1;2;3
+default_option,0
+options_label_de,Kein;Flugzeugtechnisches Personal;Flugsicherungstechnisches Personal;Ausbildung des Personals
+options_label_en,None;Aircraft technicians;Air traffic control technicians;Training of personnel
