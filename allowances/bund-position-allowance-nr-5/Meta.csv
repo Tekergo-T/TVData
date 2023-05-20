@@ -1,11 +1,11 @@
 name,value
 info,"Zulage für flugzeugtechnisches Personal, flugsicherungstechnisches Personal der militärischen Flugsicherung und technisches Personal des Einsatzführungsdienstes"
 func_type,fabsolute
-label_de,Luftunterstützung - 5
-label_en,Air Support - 5
-info_de,"Stellenzulage Nr. 5 - Zulage für flugzeugtechnisches Personal, flugsicherungstechnisches Personal der militärischen Flugsicherung und technisches Personal des Einsatzführungsdienstes."
-info_en,"Position Allowance Nr. 5 - Allowance for aircraft technical personnel, military air traffic control technical personnel and technical personnel of the mission control service."
-options,0;1;2;3
+label_de,Flugtechnikerzulage - 5
+label_en,Flight Tech. Bonus - 5
+info_de,"Stellenzulage Nr. 5 - Zulage für flugzeugtechnisches Personal, flugsicherungstechnisches Personal der militärischen Flugsicherung und technisches Personal des Einsatzführungsdienstes:<ol><li>Flugzeugtechnisches Personal</li><li>Flugsicherungstechnisches Personal der militärischen Flugsicherung und als technisches Personal des Einsatzführungsdienstes</li><li>Hauptamtliches Personal zentraler Ausbildungseinrichtungen, das nach einer Verwendung gemäß Nummer 1 oder Nummer 2 Beamte und Soldaten für solche Verwendungen ausbildet</li></ol>"
+info_en,"Position Allowance Nr. 5 - Allowance for aircraft technical personnel, military air traffic control technical personnel and technical personnel of the mission control service.<ol><li>Aircraft technical personnel</li><li>Air traffic control technical personnel of the military air traffic control and technical personnel of the operations command service</li><li>Full-time personnel of central training institutions, which train officers and soldiers for such positions after serving according to number 1 or number 2</li></ol>"
+options,0;1
 default_option,0
-options_label_de,Kein;Flugzeugtechnisches Personal;Flugsicherungstechnisches Personal;Ausbildung des Personals
-options_label_en,None;Aircraft technicians;Air traffic control technicians;Training of personnel
+options_label_de,Nein;Ja
+options_label_en,No;Yes

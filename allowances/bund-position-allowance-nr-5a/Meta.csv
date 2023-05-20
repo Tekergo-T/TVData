@@ -1,8 +1,8 @@
 name,value
 info,"Zulage für flugzeugtechnisches Personal, flugsicherungstechnisches Personal der militärischen Flugsicherung und technisches Personal des Einsatzführungsdienstes"
 func_type,fabsolute
-label_de,Luftunterstützung - 5a
-label_en,Air Support - 5a
+label_de,Flugpersonalzulage - 5a
+label_en,Flight Pers. Bonus - 5a
 info_de,"Stellenzulage Nr. 5a - Zulage für Beamte und Soldaten im militärischen Flugsicherungsbetriebsdienst, Einsatzführungsdienst und Geoinformationsdienst der Bundeswehr:<ol><li>als Flugsicherungskontrollpersonal in<ol><li>Flugsicherungssektoren,</li><li>Flugsicherungsstellen,</li><li>einer Lehrtätigkeit an einer Schule,</li></ol></li><li>als Flugdatenbearbeitungspersonal in Flugsicherungssektoren,</li><li>als Flugberatungspersonal in<ol><li>Flugsicherungsstellen,</li><li>zentralen Stellen des Flugberatungsdienstes,</li><li>einer Lehrtätigkeit an einer Schule,</li></ol></li><li>als Betriebspersonal des Einsatzführungsdienstes<ol><li>mit erfolgreich abgeschlossenem Lehrgang Radarleitung/Einsatzführungsoffizier,</li><li>ohne Lehrgang Radarleitung/Einsatzführungsoffizier<ol><li>im Einsatzdienst in Luftverteidigungsanlagen,</li><li>in einer Lehrtätigkeit im Einsatzführungsdienst,</li></ol></li></ol></li><li>in Stabs-, Fach- und Truppenführerfunktionen – nicht jedoch bei einer obersten Bundesbehörde – sowie als Ausbildungspersonal der militärischen Flugsicherung oder des Einsatzführungsdienstes,</li><li>im Flugwetterberatungsdienst oder im Wetterbeobachtungsdienst auf Flugplätzen mit Flugbetrieb der Bundeswehr oder in den zentralen Geoinformationsberatungsstellen.</li></ol>"
 info_en,"Position Allowance Nr. 5a - Allowance for civil servants and soldiers in the military air traffic control operations service, operational command service and geoinformation service of the German Armed Forces."
 options,0;5a-1-1;5a-1-2;5a-1-3;5a-2;5a-3;5a-4-1-1;5a-4-1-2;5a-4-2;5a-5;5a-6
