@@ -1,0 +1,11 @@
+name,value
+info,"Zulage für Beamte und Soldaten als Luftfahrttechnisches Prüfpersonal und freigabeberechtigtes Personal"
+func_type,fabsolute
+label_de,Luftfahrttech.-Zulage - 6a
+label_en,Avi. Tech. Allowance - 6a
+info_de,"Stellenzulage Nr. 6a - Zulage für Beamte und Soldaten als Luftfahrttechnisches Prüfpersonal und freigabeberechtigtes Personal. Die Zulage für Luftfahrttechnisches Prüfpersonal und freigabeberechtigtes Personal beträgt {{yes_value}}."
+info_en,"Position Allowance Nr. 6a - Allowance for civil servants and soldiers as aviation technical inspectors and certifying staff. The additional payment for aeronautical inspection personnel and certifying staff is {{yes_value}}."
+options,0;yes
+default_option,0
+options_label_de,Nein;Ja
+options_label_en,No;Yes
