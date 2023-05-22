@@ -1,0 +1,11 @@
+name,value
+info,"Zulage für Beamte und Soldaten mit vollzugspolizeilichen Aufgaben"
+func_type,fabsolute
+label_de,Vollzugspoliz. Zulage - 9
+label_en,Law Enforcement - 9
+info_de,"Stellenzulage Nr. 9 - <ul><li>Beamte und Soldaten nach einer Dienstzeit von 1. einem Jahr - 95,00€</li><li>Beamte und Soldaten nach einer Dienstzeit von 2. zwei Jahren - 228,00 €</li></ul>"
+info_en,"Position Allowance Nr. 9 - <ul><li>Civil servants and soldiers after a period of service of 1. one year - €95.00</li><li>Civil servants and soldiers after service of 2. two years - €228.00</li></ul>"
+options,0j;1j;2j
+default_option,0j
+options_label_de,0 Jahre;1 Jahre; 2 Jahre
+options_label_en,0 Years;1 Years;2 Years

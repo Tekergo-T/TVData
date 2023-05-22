@@ -1,0 +1,11 @@
+name,value
+info,"Zulage für Beamte und Soldaten bei dem Bundesamt für Migration und Flüchtlinge"
+func_type,fabsolute
+label_de,BfM&F Zulage - 8c
+label_en,BfM&F Allowance - 8c
+info_de,"Stellenzulage Nr. 8c - Zulage für Beamte und Soldaten bei dem Bundesamt für Migration und Flüchtlinge beträgt {{yes_value}}."
+info_en,"Position Allowance Nr. 8c - Allowance for civil servants and soldiers at the Federal Office for Migration and Refugees is {{yes_value}}."
+options,0;yes
+default_option,0
+options_label_de,Nein;Ja
+options_label_en,No;Yes

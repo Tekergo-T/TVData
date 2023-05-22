@@ -1,0 +1,11 @@
+name,value
+info,"Zulage für Beamte der Bundeswehr als Gebietsärzte sowie für Soldaten als Rettungsmediziner oder als Gebietsärzte"
+func_type,fabsolute
+label_de,Ärzte & Rettung Zulage - 11
+label_en,Doctors & Rescue - 11
+info_de,"Stellenzulage Nr. 11 - Zulage für Beamte der Bundeswehr als Gebietsärzte sowie für Soldaten als Rettungsmediziner oder als Gebietsärzte.<ol><li>Eine Stellenzulage nach Anlage IX erhalten bis zum 31. Dezember 2023 <ol> <li>Beamte der Bundeswehr der Besoldungsgruppen A 13 bis A 16 mit der Approbation als Arzt, die die Weiterbildung zum Gebietsarzt erfolgreich abgeschlossen haben und in diesem Fachgebiet in einer kurativen Sanitätseinrichtung der Bundeswehr verwendet werden,</li> <li>Soldaten der Besoldungsgruppen A 13 bis A 16 als Sanitätsoffiziere mit der Approbation als Arzt, die <ol type='a'> <li>über die Zusatzqualifikation Rettungsmedizin verfügen und dienstlich zur Erhaltung dieser Qualifikation verpflichtet sind oder</li> <li>die Weiterbildung zum Gebietsarzt erfolgreich abgeschlossen haben und in diesem Fachgebiet verwendet werden.</li> </ol> </li> </ol> </li> <li>Bei gleichzeitigem Vorliegen der Voraussetzungen nach Absatz 1 Nummer 2 Buchstabe a und b wird die Stellenzulage nur einmal gewährt.</li> <li>Die Zulage nach Absatz 1 Nummer 2 wird um den Betrag nach Anlage IX erhöht, wenn der Soldat als Angehöriger einer Besatzung in Dienst gestellter seegehender Schiffe der Marine oder anderer Seestreitkräfte verwendet wird. Erfüllt der Soldat entsprechende Aufgaben auf einem solchen Schiff auf Grund einer Kommandierung, ohne zur Besatzung zu gehören, erhält er diesen Betrag anteilig für die Dauer der Kommandierung.</li> <li>Den Erwerb und die Erhaltung der Zusatzqualifikation Rettungsmedizin regelt das Bundesministerium der Verteidigung durch allgemeine Verwaltungsvorschrift.</li> </ol> "
+info_en,"Position Allowance Nr. 11 - Allowance for civil servants of the German Armed Forces as regional physicians and for soldiers as emergency medical technicians or as regional physicians."
+options,0;11-1-1;11-1-2;11-3
+default_option,0
+options_label_de,Kein;11-1-1;11-1-2;11-3
+options_label_en,None;11-1-1;11-1-2;11-3

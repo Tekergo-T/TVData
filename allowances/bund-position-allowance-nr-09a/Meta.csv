@@ -1,0 +1,11 @@
+name,value
+info,"Zulage im maritimen Bereich"
+func_type,fabsolute
+label_de,Maritimezulage - 9a
+label_en,Maritime Allowance - 9a
+info_de,"Stellenzulage Nr. 9a - Zulage im maritimen Bereich.<br/>(1) Eine Stellenzulage nach Anlage IX erhalten Beamte der Bundeswehr und Soldaten, wenn sie verwendet werden<ol><li>als Angehörige einer Besatzung in Dienst gestellter seegehender Schiffe der Marine oder anderer Seestreitkräfte,</li><li>als Angehörige einer Besatzung in Dienst gestellter U-Boote der Marine oder anderer Seestreitkräfte oder</li><li>als Kampfschwimmer oder Minentaucher mit gültigem Kampfschwimmer- oder Minentaucherschein auf einer Stelle des Stellenplans, die eine Kampfschwimmer- oder Minentaucherausbildung voraussetzt.</li></ol><p>Sind gleichzeitig mehrere Tatbestände nach Satz 1 Nummer 1 bis 3 erfüllt, wird nur die höhere Zulage gewährt.</p><p>(2) Die Stellenzulage nach Absatz 1 Satz 1 Nummer 1 oder Nummer 2 erhalten auch Beamte der Bundeswehr und Soldaten, die auf Grund einer Abordnung oder einer Kommandierung Aufgaben an Bord eines seegehenden Schiffes oder U-Bootes der Marine oder anderer Streitkräfte zu erfüllen haben, ohne zur Besatzung zu gehören. Ist dieses Schiff oder U-Boot noch nicht in Dienst gestellt, steht die Zulage ab dem Tag der Zugehörigkeit zur Fahrmannschaft für die Dauer der Verwendung zu. Absatz 1 Satz 2 gilt entsprechend.</p>(3) Eine Stellenzulage nach Anlage IX erhalten auch Beamte und Soldaten in einer Verwendung als<ol><li>Angehörige einer Besatzung anderer seegehender Schiffe, die überwiegend zusammenhängend mehrstündig seewärts der in § 1 der Flaggenrechtsverordnung festgelegten Grenzen der Seefahrt verwendet werden,</li><li>Angehörige einer Besatzung anderer, als der unter Nummer 1 genannter seegehender Schiffe,</li><li>Taucher für den maritimen Einsatz.</li></ol>"
+info_en,"Position Allowance Nr. 9a - Allowance in the maritime sector."
+options,0;9a-1-1;9a-1-2;9a-1-3;9a-3-1;9a-2-2;9a-2-3
+default_option,0
+options_label_de,Kein;9a-1-1;9a-1-2;9a-1-3;9a-3-1;9a-2-2;9a-2-3
+options_label_en,None;9a-1-1;9a-1-2;9a-1-3;9a-3-1;9a-2-2;9a-2-3
