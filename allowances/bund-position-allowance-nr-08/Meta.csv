@@ -1,8 +1,8 @@
 name,value
 info,"Zulage für Beamte und Soldaten bei den Nachrichtendiensten"
 func_type,fabsolute
-label_de,Nachrichtend. Zulage - 8
-label_en,Intel. Service Allowance - 8
+label_de,Nachrichtendiensten - 8
+label_en,Intelligence Service - 8
 info_de,"Stellenzulage Nr. 8 - Die Zulage für Beamte und Soldaten bei den Nachrichtendiensten beträgt {{yes_value}}."
 info_en,"Position Allowance Nr. 8 - The allowance for civil servants and soldiers in the intelligence services is {{yes_value}}."
 options,0;yes

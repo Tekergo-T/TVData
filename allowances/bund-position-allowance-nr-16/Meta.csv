@@ -1,0 +1,11 @@
+name,value
+info,"Zulage für Beamte und Soldaten der Cyberverteidigung bei der Bundeswehr"
+func_type,fabsolute
+label_de,Cyberverteidigung - 16
+label_en,Cyber Defense- 16
+info_de,"Stellenzulage Nr. 16 - Zulage für Beamte und Soldaten der Cyberverteidigung bei der Bundeswehr beträgt {{yes_value}}."
+info_en,"Position Allowance Nr. 16 - Allowance for civil servants and soldiers of cyber defense in the German Armed Forces is {{yes_value}}."
+options,0;yes
+default_option,0
+options_label_de,Nein;Ja
+options_label_en,No;Yes

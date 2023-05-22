@@ -1,8 +1,8 @@
 name,value
 info,"Zulage für militärische Führungsfunktionen"
 func_type,fabsolute
-label_de,Führungsf.-Zulage - 4/4a
-label_en,Leader. Func. Bonus - 4/4a
+label_de,Führungsfunktionen - 4/4a
+label_en,Command Functions - 4/4a
 info_de,"Stellenzulage Nr. 4 - Zulage für militärische Führungsfunktionen."
 info_en,"Position Allowance Nr. 4 - Allowance for military command functions."
 options,0;1;2;3;4;5;6

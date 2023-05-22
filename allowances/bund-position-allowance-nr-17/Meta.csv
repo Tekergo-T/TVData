@@ -1,0 +1,11 @@
+name,value
+info,"Zulage für Beamte bei der Bundesanstalt für den Digitalfunk der Behörden und Organisationen mit Sicherheitsaufgaben und beim Informationstechnikzentrum Bund"
+func_type,fabsolute
+label_de,Digifunk BOS & ITZB - 17
+label_en,Dig. Radio BOS & ITZB - 17
+info_de,"Stellenzulage Nr. 17 - Zulage für Beamte bei der Bundesanstalt für den Digitalfunk der Behörden und Organisationen mit Sicherheitsaufgaben und beim Informationstechnikzentrum Bund beträgt {{yes_value}}."
+info_en,"Position Allowance Nr. 17 - Allowance for civil servants at the Federal Agency for Digital Radio of Security Authorities and Organizations and at the Federal Information Technology Center is {{yes_value}}."
+options,0;yes
+default_option,0
+options_label_de,Nein;Ja
+options_label_en,No;Yes

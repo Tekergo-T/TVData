@@ -1,0 +1,11 @@
+name,value
+info,"Zulage für Beamte der Bundeswehr und Soldaten in Verwendungen zur Aufrechterhaltung und Sicherstellung des IT-Betriebs und der IT-Infrastruktur der Bundeswehr"
+func_type,fabsolute
+label_de,IT-Betriebs - 18
+label_en,IT Operations - 18
+info_de,"Stellenzulage Nr. 18 - Zulage für Beamte der Bundeswehr und Soldaten in Verwendungen zur Aufrechterhaltung und Sicherstellung des IT-Betriebs und der IT-Infrastruktur der Bundeswehr beträgt {{yes_value}}."
+info_en,"Position Allowance Nr. 18 - Allowance for civil servants of the German Armed Forces and soldiers in assignments to maintain and ensure IT operations and the IT infrastructure of the German Armed Forces is {{yes_value}}."
+options,0;yes
+default_option,0
+options_label_de,Nein;Ja
+options_label_en,No;Yes

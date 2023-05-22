@@ -1,0 +1,11 @@
+name,value
+info,"Zulage für Flugsicherungslotsen"
+func_type,fabsolute
+label_de,Flugsicherungslotsen - 14
+label_en,Air Traffic cont.- 14
+info_de,"Stellenzulage Nr. 14 - Zulage für Flugsicherungslotsen beträgt {{yes_value}}."
+info_en,"Position Allowance Nr. 14 - Allowance for air traffic controllers is {{yes_value}}."
+options,0;yes
+default_option,0
+options_label_de,Nein;Ja
+options_label_en,No;Yes
