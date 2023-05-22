@@ -1,0 +1,11 @@
+name,value
+info,"Richter und Staatsanwälte der Besoldungsgruppen"
+func_type,fabsolute
+label_de,Stellenzulage
+label_en,Position Allowance
+info_de,"Zulage für Richter und Staatsanwälte beträgt {{yes_value}}."
+info_en,"Allowance for judges and prosecutors is {{yes_value}}."
+options,0;yes
+default_option,0
+options_label_de,Nein;Ja
+options_label_en,No;Yes

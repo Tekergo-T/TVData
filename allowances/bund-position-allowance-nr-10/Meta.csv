@@ -1,8 +1,8 @@
 name,value
 info,"Zulage für Beamte und Soldaten im Einsatzdienst der Feuerwehr"
 func_type,fabsolute
-label_de,Feuerwehrzulage - 10
-label_en,Firefighters Allowance - 10
+label_de,Einsatz. Feuerwehr - 10
+label_en,Op. Serv. Fire Dep. - 10
 info_de,"Stellenzulage Nr. 10 - Zulage für Beamte und Soldaten im Einsatzdienst der Feuerwehr: <ul><li>Beamte und Soldaten nach einer Dienstzeit von 1. einem Jahr - 95,00€</li><li>Beamte und Soldaten nach einer Dienstzeit von 2. zwei Jahren - 190,00 €</li></ul>"
 info_en,"Position Allowance Nr. 10 - Allowance for civil servants and soldiers in the operational service of the fire department: <ul><li>Civil servants and soldiers after a period of service of 1. one year - €95.00</li><li>Civil servants and soldiers after service of 2. two years - €190.00</li></ul>"
 options,0j;1j;2j

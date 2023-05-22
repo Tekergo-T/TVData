@@ -1,0 +1,11 @@
+name,value
+info,"Zulage für Beamte im Außendienst der Steuerprüfung oder der Zollfahndung sowie bei der Zentralstelle für Finanztransaktionsuntersuchungen"
+func_type,fabsolute
+label_de,Außendienst Steuerp. - 13
+label_en,Tax Inspection - 13
+info_de,"Stellenzulage Nr. 13 - Zulage für Beamte im Außendienst der Steuerprüfung oder der Zollfahndung sowie bei der Zentralstelle für Finanztransaktionsuntersuchungen beträgt {{yes_value}}."
+info_en,"Position Allowance Nr. 13 - Allowance for civil servants in the field service of tax inspection or customs investigation and at the Central Financial Transaction Investigation Office is {{yes_value}}."
+options,0;yes
+default_option,0
+options_label_de,Nein;Ja
+options_label_en,No;Yes

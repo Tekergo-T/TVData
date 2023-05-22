@@ -1,0 +1,11 @@
+name,value
+info,""
+func_type,fabsolute
+label_de,Amtszulagen
+label_en,Official Allowances
+info_de,"Für herausgehobene Funktionen können Amtszulagen und Stellenzulagen vorgesehen werden. Sie dürfen 75 Prozent des Unterschiedsbetrages zwischen dem Endgrundgehalt der Besoldungsgruppe des Beamten, Richters oder Soldaten und dem Endgrundgehalt der nächsthöheren Besoldungsgruppe nicht übersteigen, soweit gesetzlich nichts anderes bestimmt ist."
+info_en,"Official and position allowances may be provided for prominent functions. They may not exceed 75 percent of the difference between the final basic salary of the grade of the civil servant, judge or soldier and the final basic salary of the next higher grade, unless otherwise provided by law."
+options,0;1;2;3;4;5;6;7;8
+default_option,0
+options_label_de,Kein;1;2;3;4;5;6;7;8
+options_label_en,None;1;2;3;4;5;6;7;8

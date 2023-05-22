@@ -1,8 +1,8 @@
 name,value
 info,"Zulage für Beamte mit Meisterprüfung oder Abschlussprüfung als staatlich geprüfter Techniker"
 func_type,fabsolute
-label_de,Meisterprüfung Zulage - 12
-label_en,Mast. Craftsman Exam. - 12
+label_de,Meisterprüfung - 12
+label_en,MS. Craftsman Exam. - 12
 info_de,"Stellenzulage Nr. 12 - Zulage für Beamte mit Meisterprüfung oder Abschlussprüfung als staatlich geprüfter Techniker beträgt {{yes_value}}."
 info_en,"Position Allowance Nr. 12 - Allowance for civil servants with master craftsman's examination or final examination as state-certified technician is {{yes_value}}."
 options,0;yes
