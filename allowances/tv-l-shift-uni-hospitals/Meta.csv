@@ -1,0 +1,12 @@
+name,value
+info,"§ 8 Absatz 7 Satz 1 gilt in folgender Fassung:"
+func_type,fabsolute
+label_de,Schichtzulage
+label_en,Shift Allowance
+info_de,"<ol><li>Beschäftigte, die ständig Wechselschichtarbeit leisten, erhalten eine Wechselschichtzulage von 150 &euro; monatlich.</li><li>Beschäftigte, die ständig Schichtarbeit leisten, erhalten eine Schichtzulage von 60 &euro; monatlich.</li></ol>"
+info_en,"<ol><li>Employees who constantly work alternating shifts receive an alternating shift allowance of €150 per month.</li><li>Employees who constantly perform shift work receive a shift allowance of €60 per month.</li></ol>"
+options,0;1;2
+default_option,0
+options_label_de,Kein;Wechselschichtarbeit;Schichtarbeit
+options_label_en,None;Alternating shift;Shift Work
+  
