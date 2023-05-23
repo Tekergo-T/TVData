@@ -1,0 +1,11 @@
+name,value
+info,"§ 20 (VKA) Jahressonderzahlung"
+func_type,frelative
+label_de,Jahressonderzahlung
+label_en,Annual Bonus
+info_de,"Arbeitnehmer, die am 1. Dezember in einem Arbeitsverhältnis stehen, haben Anspruch auf eine Jahressonderzahlung. Die Jahressonderzahlung beträgt {{yes_value}} des monatlichen Grundgehalts."
+info_en,"Employees who are in an employment relationship on December 1 are entitled to an annual bonus payment. The annual bonus payment amounts to {{yes_value}} of the base monthly salary."
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes
