@@ -190,7 +190,8 @@ Die Ordnerstruktur für die Speicherung der Entgelttabelleninformationen sieht w
   Sie umfasst die folgenden Felder:
 
    - `info`: Zusätzliche Informationen über die Zulage.
-   - func_type": Der zur Berechnung der Zulage verwendete Funktionstyp (z. B. fabsolute oder frelative).
+   - `func_type`: Der zur Berechnung der Zulage verwendete Funktionstyp (z. B. fabsolute oder frelative).
+   - `adding_type`: Soll dieser Betrag zum Monatsgehalt oder nur zum Jahresgehalt hinzugerechnet werden, wie ein Jahressonderzahlung (z. B. `monthly` oder `yearly`).
    - `label_de`: Das für die Zulage verwendete Label in deutscher Sprache.
    - `label_en`: Die Bezeichnung der Zulage in englischer Sprache.
    - `info_de`: Informationen über die Zulage in deutscher Sprache.
@@ -206,6 +207,7 @@ Die Ordnerstruktur für die Speicherung der Entgelttabelleninformationen sieht w
    name,value
    info,https://www.arbeitsagentur.de/bakarriere/ba-tarifvertrag
    func_type,fabsolute
+   adding_type,monthly
    label_de,Funktionsstufe 2
    label_en,Function Level 2
    info_de,"Die Funktionsstufe ist ein zusätzliches Entgelt innerhalb des Entgeltsystems der Bundesagentur für Arbeit, das für zusätzliche Aufgaben oder Herausforderungen aufgrund der Komplexität und Verantwortung der Tätigkeit gewährt wird. Die Zusatzzahlung für Funktionsstufe 2 beträgt {{yes_value}}."
@@ -418,7 +420,8 @@ The folder structure for storing the remuneration information is as follows:
   It includes the following fields:
 
    - `info`: Additional information about the allowance.
-   - `func_type`: The function type used to calculate the allowance (e.g., fabsolute or frelative).
+   - `func_type`: The function type used to calculate the allowance (e.g., `fabsolute` or `frelative`).
+   - `adding_type`: Should this be added to the monthly salary or only to the yearly salary, such as an annual bonus (e.g., `monthly` or `yearly`).
    - `label_de`: The label used for the allowance in German.
    - `label_en`: The label used for the allowance in English.
    - `info_de`: Information about the allowance in German.
