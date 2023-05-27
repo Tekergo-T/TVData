@@ -1,6 +1,7 @@
 name,value
 info,"Zulage für flugzeugtechnisches Personal, flugsicherungstechnisches Personal der militärischen Flugsicherung und technisches Personal des Einsatzführungsdienstes"
 func_type,fabsolute
+adding_type,monthly
 label_de,Flugtechniker - 5
 label_en,Flight Technical - 5
 info_de,"Stellenzulage Nr. 5 - Zulage für flugzeugtechnisches Personal, flugsicherungstechnisches Personal der militärischen Flugsicherung und technisches Personal des Einsatzführungsdienstes:<ol><li>Flugzeugtechnisches Personal</li><li>Flugsicherungstechnisches Personal der militärischen Flugsicherung und als technisches Personal des Einsatzführungsdienstes</li><li>Hauptamtliches Personal zentraler Ausbildungseinrichtungen, das nach einer Verwendung gemäß Nummer 1 oder Nummer 2 Beamte und Soldaten für solche Verwendungen ausbildet</li></ol>"

@@ -1,6 +1,7 @@
 name,value
 info,"Zulage für Beamte bei dem Bundesamt für Sicherheit in der Informationstechnik und bei der Zentralen Stelle für Informationstechnik im Sicherheitsbereich"
 func_type,fabsolute
+adding_type,monthly
 label_de,Information Security - 8b
 label_en,Information Security - 8b
 info_de,"Stellenzulage Nr. 8b - Zulage für Beamte bei dem Bundesamt für Sicherheit in der Informationstechnik und bei der Zentralen Stelle für Informationstechnik im Sicherheitsbereich beträgt {{yes_value}}."

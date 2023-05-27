@@ -1,6 +1,7 @@
 name,value
 info,"Zulage für Beamte beim Bundeskriminalamt, bei der Bundespolizei und der Zollverwaltung"
 func_type,fabsolute
+adding_type,monthly
 label_de,Bundeskriminalamt - 15
 label_en,Federal Police - 15
 info_de,"Stellenzulage Nr. 15 - Zulage für Beamte beim Bundeskriminalamt, bei der Bundespolizei und der Zollverwaltung beträgt {{yes_value}}."

@@ -1,6 +1,7 @@
 name,value
 info,Funktionszulagen gemäß Teil II Abschnitte 5 und 8 der Entgeltordnung
 func_type,fabsolute
+adding_type,monthly
 label_de,Funktionszulage
 label_en,Function Allowance
 info_de,"Bei der Funktionszulage handelt es sich um eine zusätzliche Vergütung für zusätzliche Aufgaben oder Herausforderungen, die sich aus der Komplexität und Verantwortung der Tätigkeit ergeben."

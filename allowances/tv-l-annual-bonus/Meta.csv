@@ -1,6 +1,7 @@
 name,value
 info,"§ 20 Jahressonderzahlung - Die Jahressonderzahlung wird ursprünglich auf jährlicher Basis definiert, hier jedoch auf monatlicher Basis, indem ich den Prozentsatz durch 12 teile"
 func_type,frelative
+adding_type,yearly
 label_de,Jahressonderzahlung
 label_en,Annual Bonus
 info_de,"Arbeitnehmer, die am 1. Dezember in einem Arbeitsverhältnis stehen, haben Anspruch auf eine Jahressonderzahlung. Die Jahressonderzahlung beträgt {{yes_value}} des monatlichen Grundgehalts."

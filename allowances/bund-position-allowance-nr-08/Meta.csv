@@ -1,6 +1,7 @@
 name,value
 info,"Zulage für Beamte und Soldaten bei den Nachrichtendiensten"
 func_type,fabsolute
+adding_type,monthly
 label_de,Nachrichtendiensten - 8
 label_en,Intelligence Service - 8
 info_de,"Stellenzulage Nr. 8 - Die Zulage für Beamte und Soldaten bei den Nachrichtendiensten beträgt {{yes_value}}."

@@ -1,8 +1,11 @@
 name,value
 info,"III. Vorarbeiterzulagen gemäß Nr. 8 der Vorbemerkungen zu Teil III der Entgeltordnung"
 func_type,fabsolute
+adding_type,monthly
 label_de,Vorarbeiterzulage
 label_en,Foreman Allowance
+info_de,"Vorarbeiterzulagen gemäß Nr. 8 der Vorbemerkungen zu Teil III der Entgeltordnung."
+info_en,"Foreman allowances in accordance with No. 8 of the preliminary remarks to Part III of the remuneration regulations"
 options,0;1;2
 default_option,0
 options_label_de,Kein;Vorarbeiterzulage 1;Vorarbeiterzulage 2

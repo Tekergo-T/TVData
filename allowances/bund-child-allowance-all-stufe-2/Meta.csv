@@ -1,5 +1,6 @@
 name,value
 info,"Familienzuschlag"
+adding_type,monthly
 func_type,fabsolute
 label_de,Familienzuschlag Stufe 2
 label_en,Family Allowance Level 2

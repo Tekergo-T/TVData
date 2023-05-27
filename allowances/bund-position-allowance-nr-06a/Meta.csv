@@ -1,6 +1,7 @@
 name,value
 info,"Zulage für Beamte und Soldaten als Luftfahrttechnisches Prüfpersonal und freigabeberechtigtes Personal"
 func_type,fabsolute
+adding_type,monthly
 label_de,Luftfahrttech Prüfper. - 6a
 label_en,Aviation tech. ins. - 6a
 info_de,"Stellenzulage Nr. 6a - Zulage für Beamte und Soldaten als Luftfahrttechnisches Prüfpersonal und freigabeberechtigtes Personal. Die Zulage für Luftfahrttechnisches Prüfpersonal und freigabeberechtigtes Personal beträgt {{yes_value}}."

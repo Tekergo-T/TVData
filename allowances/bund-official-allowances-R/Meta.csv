@@ -1,6 +1,7 @@
 name,value
 info,""
 func_type,fabsolute
+adding_type,monthly
 label_de,Amtszulagen
 label_en,Official Allowances
 info_de,"Für herausgehobene Funktionen können Amtszulagen und Stellenzulagen vorgesehen werden. Sie dürfen 75 Prozent des Unterschiedsbetrages zwischen dem Endgrundgehalt der Besoldungsgruppe des Beamten, Richters oder Soldaten und dem Endgrundgehalt der nächsthöheren Besoldungsgruppe nicht übersteigen, soweit gesetzlich nichts anderes bestimmt ist."

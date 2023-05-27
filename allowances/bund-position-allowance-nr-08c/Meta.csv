@@ -1,5 +1,6 @@
 name,value
 info,"Zulage für Beamte und Soldaten bei dem Bundesamt für Migration und Flüchtlinge"
+adding_type,monthly
 func_type,fabsolute
 label_de,BfM&F - 8c
 label_en,BfM&F - 8c

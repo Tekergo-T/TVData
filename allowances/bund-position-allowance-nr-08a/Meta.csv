@@ -1,6 +1,7 @@
 name,value
 info,"Zulage für Beamte der Bundeswehr und Soldaten in der Fernmelde- und elektronischen Aufklärung, der satellitengestützten abbildenden Aufklärung oder der Luftbildauswertung"
 func_type,fabsolute
+adding_type,monthly
 label_de,Telecom. Aufklärungs - 8a
 label_en,Telecom. Recon. - 8a
 info_de,"Stellenzulage Nr. 8a - Zulage für Beamte der Bundeswehr und Soldaten in der Fernmelde- und elektronischen Aufklärung, der satellitengestützten abbildenden Aufklärung oder der Luftbildauswertung beträgt {{yes_value}}."

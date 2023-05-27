@@ -1,6 +1,7 @@
 name,value
 info,https://www.arbeitsagentur.de/bakarriere/ba-tarifvertrag
 func_type,fabsolute
+adding_type,monthly
 label_de,Funktionsstufe 2
 label_en,Function Level 2
 info_de,"Die Funktionsstufe ist ein zusätzliches Entgelt innerhalb des Entgeltsystems der Bundesagentur für Arbeit, das für zusätzliche Aufgaben oder Herausforderungen aufgrund der Komplexität und Verantwortung der Tätigkeit gewährt wird. Die Zusatzzahlung für Funktionsstufe 2 beträgt {{yes_value}}."

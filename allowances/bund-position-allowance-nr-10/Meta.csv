@@ -1,6 +1,7 @@
 name,value
 info,"Zulage für Beamte und Soldaten im Einsatzdienst der Feuerwehr"
 func_type,fabsolute
+adding_type,monthly
 label_de,Einsatz. Feuerwehr - 10
 label_en,Op. Serv. Fire Dep. - 10
 info_de,"Stellenzulage Nr. 10 - Zulage für Beamte und Soldaten im Einsatzdienst der Feuerwehr: <ul><li>Beamte und Soldaten nach einer Dienstzeit von 1. einem Jahr - 95,00€</li><li>Beamte und Soldaten nach einer Dienstzeit von 2. zwei Jahren - 190,00 €</li></ul>"

@@ -1,6 +1,7 @@
 name,value
 info,"Zulage für Flugsicherungslotsen"
 func_type,fabsolute
+adding_type,monthly
 label_de,Flugsicherungslotsen - 14
 label_en,Air Traffic cont.- 14
 info_de,"Stellenzulage Nr. 14 - Zulage für Flugsicherungslotsen beträgt {{yes_value}}."

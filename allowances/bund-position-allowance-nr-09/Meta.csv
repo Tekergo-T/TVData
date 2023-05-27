@@ -1,5 +1,6 @@
 name,value
 info,"Zulage für Beamte und Soldaten mit vollzugspolizeilichen Aufgaben"
+adding_type,monthly
 func_type,fabsolute
 label_de,Vollzugspolizeilichen - 9
 label_en,Law Enforcement - 9

@@ -1,10 +1,11 @@
 name,value
 info," n h a n g 9 ( z u A r t i k e l 4 N u m m e r 2 )"
 func_type,fabsolute
+adding_type,monthly
 label_de,Anrechnungsbetrag
 label_en,Risk-Weighted Bonus
-info_de,"Anrechnungsbetrag nach § 39 Absatz 2 Satz 1"
-info_en,"Risk-Weighted amount in accordance with section 39 (2) sentence 1"
+info_de,"Anrechnungsbetrag nach § 39 Absatz 2 Satz 1."
+info_en,"Risk-Weighted amount in accordance with section 39 (2) sentence 1."
 options,no;yes
 default_option,no
 options_label_de,Nein;Ja

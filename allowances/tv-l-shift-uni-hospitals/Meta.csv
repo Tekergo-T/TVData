@@ -1,6 +1,7 @@
 name,value
 info,"§ 8 Absatz 7 Satz 1 gilt in folgender Fassung:"
 func_type,fabsolute
+adding_type,monthly
 label_de,Schichtzulage
 label_en,Shift Allowance
 info_de,"<ol><li>Beschäftigte, die ständig Wechselschichtarbeit leisten, erhalten eine Wechselschichtzulage von 150 &euro; monatlich.</li><li>Beschäftigte, die ständig Schichtarbeit leisten, erhalten eine Schichtzulage von 60 &euro; monatlich.</li></ol>"

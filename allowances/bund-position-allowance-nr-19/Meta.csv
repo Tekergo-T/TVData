@@ -1,6 +1,7 @@
 name,value
 info,"Zulage für Beamte der Zentrale der Bundesagentur für Arbeit"
 func_type,fabsolute
+adding_type,monthly
 label_de,BA-Zentrale - 19
 label_en,EA-Central - 19
 info_de,"Stellenzulage Nr. 19 - Zulage für Beamte der Zentrale der Bundesagentur für Arbeit beträgt {{yes_value}}."

@@ -1,6 +1,7 @@
 name,value
 info,"Zulage für militärische Führungsfunktionen"
 func_type,fabsolute
+adding_type,monthly
 label_de,Führungsfunk. - 4/4a
 label_en,Command Func. - 4/4a
 info_de,"Stellenzulage Nr. 4 - Zulage für militärische Führungsfunktionen."

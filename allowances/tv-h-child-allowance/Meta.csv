@@ -1,6 +1,7 @@
 name,value
 info,"§ 23a Kinderzulage"
 func_type,fabsolute
+adding_type,monthly
 label_de,Kinderzulage
 label_en,Child Allowance
 info_de,"Kinderzulage von 100 € für jedes berücksichtigungsfähige Kind. Die Kinderzulage erhöht sich für das dritte und jedes weitere Kind um 53,05 €."

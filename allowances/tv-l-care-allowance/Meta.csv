@@ -1,6 +1,7 @@
 name,value
 info,"IV. Zulagen für Beschäftigte im Pflegedienst gemäß Teil IV der Entgeltordnung"
 func_type,fabsolute
+adding_type,monthly
 label_de,Pflegezulage
 label_en,Care Allowance
 info_de,"Zulage für Beschäftigte im Pflegedienst."
