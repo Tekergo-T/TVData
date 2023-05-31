@@ -1,0 +1,12 @@
+name,value
+info,"Beschäftigte, die in Teil B Abschnitt XXIV der Anlage 1 zum TVöD"
+func_type,fabsolute
+adding_type,monthly
+label_de,Praxisleitung
+label_en,Practice Manager
+info_de,"Arbeitnehmerinnen und Arbeitnehmer der Entgeltgruppen S 7, S 8a, S 8b, S 9, S 11a, S 13 (Fallgruppen 1-5), S 15 (Fallgruppen 1-5), S 16, S 17 (Fallgruppen 1-5) und S 18 (Fallgruppen 1-3), die als Praxisanleiterinnen und Praxisanleiter für Berufs- und Fachschülerinnen und Berufs- und Fachschüler in den Bereichen frühkindliche Bildung, Kinderbetreuung, Sozialassistenz oder Behindertenhilfe mit mindestens 15 % ihrer Gesamtarbeitszeit tätig sind, erhalten eine monatliche Bruttovergütung von {{yes_value}}."
+info_en,"Employees in salary groups S 7, S 8a, S 8b, S 9, S 11a, S 13 (case groups 1-5), S 15 (case groups 1-5), S 16, S 17 (case groups 1-5), and S 18 (case groups 1-3) who work as practical instructors for vocational and technical school students in the fields of early childhood education, childcare, social assistance, or disability support with a minimum of 15% of their total working time will receive a monthly gross allowance of {{yes_value}}."
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes

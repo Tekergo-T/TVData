@@ -1,0 +1,12 @@
+name,value
+info,"§ 3 Sonderzahlung 2022"
+func_type,fabsolute
+adding_type,yearly
+label_de,Jahressonderzahlung
+label_en,Annual Bonus
+info_de,"Beschäftigte der Entgeltgruppen 10 bis 15, deren Arbeitsverhältnis am 31. Dezember bestand (bisherige Leistungen) und am 1. Februar des Folgejahres noch besteht, erhalten eine einmalige Sonderzahlung von {{yes_value}}. Diese Zahlung wird mit dem Entgelt im Februar des jeweiligen Jahres ausgezahlt."
+info_en,"Employees in pay groups 10 to 15, whose employment relationship existed on December 31 (previous benefits) and still exists on February 1 of the following year, will receive a one-time special payment of {{yes_value}}. This payment will be disbursed with the remuneration in February of that year."
+options,no;yes
+default_option,yes
+options_label_de,Nein;Ja
+options_label_en,No;Yes

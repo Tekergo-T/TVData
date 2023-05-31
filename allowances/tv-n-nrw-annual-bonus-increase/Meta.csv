@@ -1,0 +1,12 @@
+name,value
+info,"§ 3 Sonderzahlung 2022"
+func_type,fabsolute
+adding_type,yearly
+label_de,Erhöhungsbetrag
+label_en,Amount of Raise
+info_de,"Die Jahresprämie erhöht sich um {{yes_value}}."
+info_en,"The annual bonus increases by {{yes_value}}."
+options,no;yes
+default_option,yes
+options_label_de,Nein;Ja
+options_label_en,No;Yes

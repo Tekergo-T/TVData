@@ -1,0 +1,12 @@
+name,value
+info,"Beschäftigte, die in Teil B Abschnitt XXIV der Anlage 1 zum TVöD"
+func_type,fabsolute
+adding_type,monthly
+label_de,SuE-Zulage
+label_en,SuE-Allowance
+info_de,"Arbeitnehmer können den SuE-Zuschuss in Höhe von {{yes_value}} erhalten."
+info_en,"Employees can receive the SuE allowance in the amount of {{yes_value}}."
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes

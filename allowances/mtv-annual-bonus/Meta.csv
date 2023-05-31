@@ -1,0 +1,12 @@
+name,value
+info,"§ 18 Dreizehntes Monatseinkommen"
+func_type,frelative
+adding_type,yearly
+label_de,13. Monatseinkommen
+label_en,13th Month Salary
+info_de,"Die Arbeitnehmer haben Anspruch auf ein 13. monatliches Einkommen. Dieser Betrag wird in der Regel zusammen mit dem Gehalt im November eines jeden Jahres ausgezahlt und berechnet sich als 1/12 des Gesamteinkommens, das im Zeitraum vom 1. Dezember des Vorjahres bis zum 30. November des laufenden Jahres (Bezugszeitraum) erzielt wurde."
+info_en,"The employees are entitled to a 13th monthly income. This amount is typically paid along with the salary in November each year, and it is calculated as 1/12 of the total earnings received during the period from December 1st of the previous year to November 30th of the current year (reference period)."
+options,no;yes
+default_option,yes
+options_label_de,Nein;Ja
+options_label_en,No;Yes
