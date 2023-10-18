@@ -1,0 +1,12 @@
+name,value
+info,"§ 21 Jahressonderzahlung"
+func_type,frelative
+adding_type,yearly
+label_de,Jahressonderzahlung
+label_en,Annual Bonus
+info_de,"Beschäftigte haben anteilig zu ihrer Zugehörigkeit zu Dataport im Kalenderjahr Anspruch auf eine Jahressonderzahlung. Die Jahressonderzahlung beträgt {{yes_value}} des Beschäftigten in den Kalendermonaten Juli, August und September durchschnittlich gezahlten monatlichen Entgelts."
+info_en,"Employees shall be entitled to a special annual payment in proportion to their affiliation with Dataport in the calendar year. The annual special payment shall amount to {{yes_value}} of the average monthly remuneration paid to employees in the calendar months of July, August and September."
+options,no;yes
+default_option,yes
+options_label_de,Nein;Ja
+options_label_en,No;Yes
