@@ -7,6 +7,6 @@ label_en,Tier Allowance
 info_de,"Entgeltgruppenzulagen in Höhe von {{yes_value}} zusätzlich zum monatlichen Bruttogehalt."
 info_en,"Remuneration tier allowance in the amount of {{yes_value}} in addition to the monthly gross salary."
 options,no;yes
-default_option,no
+default_option,yes
 options_label_de,Nein;Ja
 options_label_en,No;Yes
