@@ -1,8 +1,8 @@
 name,value
 pay_grad_name,E
-valid_from,2023.04.01
-link,"https://www.tarifregister.nrw.de/system/files/media/document/file/1-1_1-2_sparten-tv_tv-n_nw_idf_15_aetv_1-3-2022.pdf"
+valid_from,2024.03.01
+link,"https://www.verdi.de/++file++6482cf3e4856c398472d49ef/download/3905_116_Tab_TV-N%20BW_NW_NDS_Tarifeinigung.pdf"
 name_de,Tarifvertrag Nahverkehr Nordrhein-Westfalen
 name_en,North Rhine-Westphalia Public Transport Collective Agreement
 prv,vbl-west;vbl-east;vbl-west-n-atv;vbl-east-n-atv
-allowances,tv-n-nrw-annual-bonus;tv-n-nrw-annual-bonus-increase
+allowances,tv-n-nrw-annual-bonus

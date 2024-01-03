@@ -1,0 +1,12 @@
+name,value
+info,"§ 20 Jahressonderzahlung - Die Jahressonderzahlung wird ursprünglich auf jährlicher Basis definiert, hier jedoch auf monatlicher Basis, indem ich den Prozentsatz durch 12 teile"
+func_type,fabsolute
+adding_type,yearly
+label_de,Weihnachtszuwendung
+label_en,Christmas Allowance
+info_de,"Alle vom Geltungsbereich dieses Tarifvertrages erfassten Arbeitnehmer in Vollzeit, die am 31. Oktober in einem Arbeitsverhältnis zum Arbeitgeber stehen, erhalten eine Weihnachtszuwendung in Höhe von {{yes_value}}."
+info_en,"All full-time employees covered by the scope of this collective bargaining agreement who are employed by the employer on October 31 shall receive a Christmas bonus in the amount of {{yes_value}}."
+options,no;yes
+default_option,yes
+options_label_de,Nein;Ja
+options_label_en,No;Yes

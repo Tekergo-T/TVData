@@ -1,0 +1,12 @@
+name,value
+info,https://www.arbeitsagentur.de/bakarriere/ba-tarifvertrag
+func_type,fabsolute
+adding_type,monthly
+label_de,Funktionsstufe 1
+label_en,Function Level 1
+info_de,"Die Funktionsstufe ist ein zusätzliches Entgelt innerhalb des Entgeltsystems der Bundesagentur für Arbeit, das für zusätzliche Aufgaben oder Herausforderungen aufgrund der Komplexität und Verantwortung der Tätigkeit gewährt wird. Die Zusatzzahlung für Funktionsstufe 1 beträgt {{yes_value}}."
+info_en,"Funktionsstufe represents additional compensation within the Federal Employment Agency's pay system, awarded for extra tasks or challenges based on job complexity and responsibilities. The additional payment for Function Level 1 is {{yes_value}}."
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes
