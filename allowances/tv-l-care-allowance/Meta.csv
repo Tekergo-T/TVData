@@ -4,7 +4,7 @@ func_type,fabsolute
 adding_type,monthly
 label_de,Pflegezulage
 label_en,Care Allowance
-info_de,"Zulage für Beschäftigte im Pflegedienst."
+info_de,"Zulagen für Beschäftigte im Pflegedienst gemäß Teil IV der Entgeltordnung"
 info_en,"Allowance for employees in the nursing service."
 options,0;2;3;4;5;6;7;8;9
 default_option,0
