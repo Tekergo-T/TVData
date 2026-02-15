@@ -1,5 +1,5 @@
 name,value,comment
-link,https://www.vbl.de/documents/d/vbl/vorlaufige_rechengroessen_2025_ost,
+link,https://www.vbl.de/documents/d/vbl/rechengroessen_2026_ost,
 info,,
 calc_fun,vbl_east,
 label_de,VBL-Ost 4% (nich ATV),
@@ -10,6 +10,6 @@ arbeitnehmeranteil,2.0,
 arbeitgeberanteil,2.0,
 umlage,1.06,
 pauschal,89.48,"Pauschalversteuerung der Arbeitgeberumlage nach § 40b EStG i. V. m. § 16 Abs. 2 ATV"
-steuer_frei,322.50,"Steuerfreie Umlage des Arbeitgebers nach § 3 Nr. 56 EStG"
+steuer_frei,338,"Steuerfreie Umlage des Arbeitgebers nach § 3 Nr. 56 EStG"
 grenzbetrag,100,"Zurechnungsbetrag 1: abzgl. Grenzbetrag"
 sozi_freibetrags,13.30,"Zurechnungsbetrag 2: abzgl. Abzüglich des Freibetrags"
