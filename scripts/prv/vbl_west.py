@@ -26,6 +26,8 @@ def prv(brutto_gehalt, data_dict):
     grenzbetrag = float(data_dict["grenzbetrag"]["value"])
     sozi_freibetrags = float(data_dict["sozi_freibetrags"]["value"])
 
+    zurechnungs_grenze_2 = float(data_dict.get("zurechnungs_grenze_2", {"value": 1821.49})["value"])
+
     arbeitgeber_beitrag = arbeitgeberanteil * brutto_gehalt
     arbeitnehmer_beitrag = arbeitnehmeranteil * brutto_gehalt
 
@@ -38,7 +40,7 @@ def prv(brutto_gehalt, data_dict):
     zurechnungsbetrag_1 = max(0, min(steuer_frei, arbeitgeber_beitrag) +
                               min(pauschal, pauschal_rest) - grenzbetrag) + steuer_erhoehen
 
-    zurechnungsbetrag_2 = max(0, (2.5 / arbeitgeberanteil) - sozi_freibetrags)
+    zurechnungsbetrag_2 = max(0, (0.025 * min(brutto_gehalt, zurechnungs_grenze_2)) - sozi_freibetrags)
 
     sozialver_brutto = brutto_gehalt + \
         (zurechnungsbetrag_1 + zurechnungsbetrag_2)

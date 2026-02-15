@@ -42,7 +42,7 @@ def prv(brutto_gehalt, data_dict):
     zurechnungsbetrag_1 = max(0, min(steuer_frei, umlage_des_arbeitgebers_beitrag) +
                               min(pauschal, pauschal_rest) - grenzbetrag) + max(0, steuer_erhoehen)
 
-    zurechnungsbetrag_2 = max(0, (brutto_gehalt / 100 - sozi_freibetrags))
+    zurechnungsbetrag_2 = max(0, (brutto_gehalt * umlage - sozi_freibetrags))
 
     sozialver_brutto = strpflich_brutto + \
         (zurechnungsbetrag_1 + zurechnungsbetrag_2)
