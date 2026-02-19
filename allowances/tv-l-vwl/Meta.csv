@@ -1,0 +1,12 @@
+name,value
+info,Vermögenswirksame Leistungen entsprechend TV-L
+func_type,fabsolute
+adding_type,monthly
+label_de,Vermögenswirksame Leistungen
+label_en,Capital-forming Benefits
+info_de,"Beschäftigte erhalten vermögenswirksame Leistungen in Höhe von {{yes_value}} pro Monat gemäß TV-L."
+info_en,"Employees receive capital-forming benefits of {{yes_value}} per month according to TV-L."
+options,no;yes
+default_option,yes
+options_label_de,Nein;Ja
+options_label_en,No;Yes
