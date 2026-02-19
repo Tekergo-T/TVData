@@ -2,7 +2,9 @@ import sys
 import os
 
 # Add relevant paths to sys.path
-sys.path.append(os.path.abspath("/home/run/Documents/TheWizzArt/flaskTest/fastapi-html/LohnTastik.de/templates/public_sector/shared/TVData/scripts"))
+scripts_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
+if scripts_dir not in sys.path:
+    sys.path.insert(0, scripts_dir)
 
 from prv.vbl_east import prv as prv_east
 
