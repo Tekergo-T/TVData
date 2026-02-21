@@ -7,6 +7,6 @@ label_en,Capital-forming Benefits
 info_de,"Beschäftigte erhalten vermögenswirksame Leistungen in Höhe von {{yes_value}} pro Monat gemäß TV-L."
 info_en,"Employees receive capital-forming benefits of {{yes_value}} per month according to TV-L."
 options,no;yes
-default_option,yes
+default_option,no
 options_label_de,Nein;Ja
 options_label_en,No;Yes
