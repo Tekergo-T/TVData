@@ -1,0 +1,12 @@
+name,value
+info,Jahressonderzahlung für Beschäftigte der DRV (tarifliche Sonderzahlung)
+func_type,frelative
+adding_type,yearly
+label_de,DRV Jahressonderzahlung
+label_en,DRV Annual Bonus
+info_de,"Beschäftigte der Deutschen Rentenversicherung erhalten eine Jahressonderzahlung. Die Höhe beträgt {{yes_value}} des maßgeblichen monatlichen Entgelts (gruppenspezifisch)."
+info_en,"Employees of German Pension Insurance receive an annual bonus payment. The amount is {{yes_value}} of the relevant monthly salary (group-specific)."
+options,no;yes
+default_option,yes
+options_label_de,Nein;Ja
+options_label_en,No;Yes

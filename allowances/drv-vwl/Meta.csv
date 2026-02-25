@@ -1,0 +1,12 @@
+name,value
+info,Vermögenswirksame Leistungen (DRV)
+func_type,fabsolute
+adding_type,monthly
+label_de,DRV Vermögenswirksame Leistungen
+label_en,DRV Capital-forming Benefits
+info_de,"Beschäftigte können vermögenswirksame Leistungen in Höhe von {{yes_value}} pro Monat erhalten."
+info_en,"Employees can receive capital-forming benefits of {{yes_value}} per month."
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes
