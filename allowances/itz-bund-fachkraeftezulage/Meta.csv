@@ -1,0 +1,12 @@
+name,value
+info,https://www.itzbund.de/DE/karriere/warumitzbund/entwicklungweiterbildung/entwicklungweiterbildung.html?nn=178398#title2504081
+func_type,fabsolute
+adding_type,monthly
+label_de,Fachkräftezulage ITZBund
+label_en,ITZBund Skilled Worker Allowance
+info_de,"Monatliche Fachkräftezulage (Arbeitsmarktzulage) für die Gewinnung und Bindung von IT-Fachkräften im ITZBund. Die Höhe kann je nach Funktion, Qualifikation und Arbeitsmarktlage bis zu {{1000_value}} betragen."
+info_en,"Monthly skilled-worker allowance (labor-market allowance) to attract and retain IT specialists at ITZBund. Depending on role, qualification and labor market conditions, the amount can be up to {{1000_value}}."
+options,0;250;500;750;1000
+default_option,0
+options_label_de,Keine;250 EUR;500 EUR;750 EUR;1000 EUR
+options_label_en,None;250 EUR;500 EUR;750 EUR;1000 EUR
