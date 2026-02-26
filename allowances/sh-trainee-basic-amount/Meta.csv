@@ -1,0 +1,12 @@
+name,value
+info,Anwärtergrundbetrag Schleswig-Holstein
+func_type,fabsolute
+adding_type,monthly
+label_de,Anwärtergrundbetrag SH
+label_en,Trainee Basic Amount SH
+info_de,"Anwärtergrundbetrag nach Eingangsamt."
+info_en,"Trainee basic amount by entry office."
+options,none;a6_a8;a9_a11;a12;a13;a13_zul_r1
+default_option,none
+options_label_de,Kein;A6-A8;A9-A11;A12;A13;A13+Zulage/R1
+options_label_en,None;A6-A8;A9-A11;A12;A13;A13+allowance/R1

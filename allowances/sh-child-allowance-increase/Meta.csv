@@ -1,0 +1,12 @@
+name,value
+info,Erhöhung Familienzuschlag für Kinder
+func_type,fabsolute
+adding_type,monthly
+label_de,Kinderzuschlag SH
+label_en,Child Allowance Increase SH
+info_de,"Erhöhung des Familienzuschlags: 2. Kind +186,20 €, ab dem 3. Kind +481,22 €."
+info_en,"Increase of family allowance: 2nd child +€186.20, from 3rd child +€481.22."
+options,0;1;2;3;4;5
+default_option,0
+options_label_de,Kein Kind;1 Kind;2 Kinder;3 Kinder;4 Kinder;5 Kinder
+options_label_en,No child;1 child;2 children;3 children;4 children;5 children
