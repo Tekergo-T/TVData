@@ -1,0 +1,10 @@
+name,value
+pay_grad_name,E
+valid_from,2026.05.01
+link,https://oeffentlicher-dienst.info/bg/;https://www.dguv.de/karriere/index.jsp
+name_de,Tarifvertrag DGUV / BG-AT
+name_en,Collective Agreement DGUV / BG-AT
+prv,vbl-west;vbl-east;vbl-west-n-atv;vbl-east-n-atv
+allowances,dguv-annual-bonus
+entgeltregelungen_de,"Entgelttabelle BG-AT (gültig ab 01.05.2026); Jahressonderzahlung 100% laut DGUV-Karriereportal; leistungsorientierte Bezahlung als weiterer Entgeltbestandteil"
+entgeltregelungen_en,"BG-AT pay table (valid from 2026-05-01); annual bonus 100% according to DGUV career portal; performance-related pay as additional compensation component"
