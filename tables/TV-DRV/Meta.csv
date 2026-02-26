@@ -1,0 +1,10 @@
+name,value
+pay_grad_name,E
+valid_from,2026.05.01
+link,https://www.deutsche-rentenversicherung.de/Bund/DE/Ueber-uns/Tarifvertraege/tarifvertraege.html
+name_de,Tarifvertrag Deutsche Rentenversicherung (DRV)
+name_en,Collective Agreement German Pension Insurance (DRV)
+prv,vbl-west;vbl-east;vbl-west-n-atv;vbl-east-n-atv;kvbw
+allowances,drv-annual-bonus;drv-vwl
+entgeltregelungen_de,Stufenzuordnung und Stufenlaufzeiten gemäß TV EntgO-DRV in Verbindung mit den allgemeinen Regelungen des TVöD; Jahressonderzahlung gemäß tariflicher Regelungen der DRV
+entgeltregelungen_en,Classification and progression periods according to TV EntgO-DRV in conjunction with general TVöD regulations; annual bonus according to DRV collective agreement provisions
