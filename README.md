@@ -125,7 +125,6 @@ Die Ordnerstruktur für die Speicherung der Entgelttabelleninformationen sieht w
    - `name_en`: Der Name der Entgelttabelle in englischer Sprache.
    - `allowances`: Eine durch Semikolon getrennte Liste der Namen der Zulagen, die mit dieser Entgelttabelle verbunden sind.
    - `prv`: Eine durch Semikolon getrennte Liste der mit dieser Entgelttabelle verknüpften Pensionsplantypen.
-   - `ref_table` (Optional): Ermöglicht die Vererbung von Daten aus einer anderen Entgelttabelle. Wenn angegeben, wird die `Table.csv` aus dem referenzierten Ordner geladen, sofern keine lokale Datei vorhanden ist.
 
 
 #### Zusatzrentenversicherung 
@@ -250,7 +249,7 @@ Führen Sie folgende Schritte aus, um eine neue Tabelle für Zulagen einzurichte
 1. Erstellen Sie einen neuen Ordner unter dem Ordner `allowances` mit einem aussagekräftigen Namen für die Zulage (z. B. `tv-l-function-allowance`).
 2. Erstellen Sie innerhalb des neu erstellten Ordners die folgenden Dateien:
    - `Table.csv`: Erstellen Sie eine Tabelle mit den Zulagen für jede Kombination aus Entgeltgruppe und Option. Die Zeilen stehen für die Entgeltgruppen, die Spalten für die Optionen. Die Zellenwerte stellen die Zulagen dar. Verwenden Sie `-1` für die Entgeltgruppe, wenn die Option für alle Entgeltgruppen gilt.
-   - `Meta.csv`: Fügen Sie Metainformationen zur Zulage hinzu. Die Feldnamen und -werte entnehmen Sie bitte dem obigen Beispiel.
+   - `Meta.csv`: Add meta information related to the allowance. Refer to the provided example above for field names and values.
 
 ### Verknüpfung der Entgelttabelle, der Zusatzrentenversicherung und der Zulagen
 
@@ -361,7 +360,6 @@ The folder structure for storing the remuneration information is as follows:
    - `name_en`: The name of the remuneration table in English.
    - `allowances`: A semicolon-separated list of allowance names associated with this remuneration table.
    - `prv`: A semicolon-separated list of pension plan types associated with this remuneration table.
-   - `ref_table` (Optional): Enables data inheritance from another remuneration table. If specified, `Table.csv` is loaded from the referenced folder if no local file is present.
 
 
 #### Supplementary Pension Insurance 
