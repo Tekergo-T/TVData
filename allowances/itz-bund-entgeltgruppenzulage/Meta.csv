@@ -7,6 +7,6 @@ label_en,ITZBund Tier Allowance
 info_de,"ITZBund-Zulage (monatlich, seit 01.01.2020): E1-E4 {{yes_value:1}}, E5-E9a {{yes_value:5}}, E9b-E13 {{yes_value:9b}}, ab E14 {{yes_value:14}}."
 info_en,"ITZBund monthly allowance (since 2020-01-01): E1-E4 {{yes_value:1}}, E5-E9a {{yes_value:5}}, E9b-E13 {{yes_value:9b}}, ab E14 {{yes_value:14}}"
 options,no;yes
-default_option,no
+default_option,yes
 options_label_de,Nein;Ja
 options_label_en,No;Yes
