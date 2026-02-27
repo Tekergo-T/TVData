@@ -201,6 +201,11 @@ Die Ordnerstruktur für die Speicherung der Entgelttabelleninformationen sieht w
    - `options_label_de`: Die Bezeichnungen für die Optionen in deutscher Sprache, getrennt durch `;`.
    - `options_label_en`: Die Bezeichnungen für die Optionen in englischer Sprache, getrennt durch `;`.
 
+   **Dynamische Wert-Token:**
+   Informationstexte (`info_de`/`info_en`) können Platzhalter enthalten, die automatisch durch formatierte Werte aus der `Table.csv` ersetzt werden:
+   - `{{option_id_value}}`: Zeigt den Wert der gewählten Option für die aktuelle Entgeltgruppe an.
+   - `{{option_id_value:target_grade}}`: Zeigt den Wert der gewählten Option für eine explizit angegebene Entgeltgruppe (z. B. `{{yes_value:9b}}`) an.
+
 
    Beispiel:
    ```csv
@@ -430,6 +435,11 @@ The folder structure for storing the remuneration information is as follows:
    - `default_option`: The default option for the allowance.
    - `options_label_de`: The labels for the options in German, separated by ";".
    - `options_label_en`: The labels for the options in English, separated by ";".
+
+   **Dynamic Value Tokens:**
+   Information texts (`info_de`/`info_en`) can contain placeholders that are automatically replaced by formatted values from `Table.csv`:
+   - `{{option_id_value}}`: Displays the value of the selected option for the current pay grade.
+   - `{{option_id_value:target_grade}}`: Displays the value of the selected option for an explicitly specified pay grade (e.g., `{{yes_value:9b}}`).
 
 
    Example:
