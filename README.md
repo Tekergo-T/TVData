@@ -249,7 +249,7 @@ Führen Sie folgende Schritte aus, um eine neue Tabelle für Zulagen einzurichte
 1. Erstellen Sie einen neuen Ordner unter dem Ordner `allowances` mit einem aussagekräftigen Namen für die Zulage (z. B. `tv-l-function-allowance`).
 2. Erstellen Sie innerhalb des neu erstellten Ordners die folgenden Dateien:
    - `Table.csv`: Erstellen Sie eine Tabelle mit den Zulagen für jede Kombination aus Entgeltgruppe und Option. Die Zeilen stehen für die Entgeltgruppen, die Spalten für die Optionen. Die Zellenwerte stellen die Zulagen dar. Verwenden Sie `-1` für die Entgeltgruppe, wenn die Option für alle Entgeltgruppen gilt.
-   - `Meta.csv`: Add meta information related to the allowance. Refer to the provided example above for field names and values.
+   - `Meta.csv`: Fügen Sie Metainformationen zur Zulage hinzu. Die Feldnamen und -werte entnehmen Sie bitte dem obigen Beispiel.
 
 ### Verknüpfung der Entgelttabelle, der Zusatzrentenversicherung und der Zulagen
 
