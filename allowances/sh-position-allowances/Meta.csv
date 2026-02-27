@@ -1,0 +1,12 @@
+name,value
+info,Stellenzulagen nach §§47-54 SHBesG
+func_type,fabsolute
+adding_type,monthly
+label_de,Stellenzulagen SH
+label_en,Position Allowances SH
+info_de,"Wesentliche Stellenzulagen nach §§47-54 SHBesG."
+info_en,"Key position allowances according to §§47-54 SHBesG."
+options,none;allg_1a;allg_1b;allg_2;pol_1y;pol_2y;pol_abs4;fire_1y;fire_2y;jva;meister;steuer;justiz
+default_option,none
+options_label_de,Keine;Allgemeine Stellenzulage Nr.1a;Allgemeine Stellenzulage Nr.1b;Allgemeine Stellenzulage Nr.2;Polizei/Steuerfahndung nach 1 Jahr;Polizei/Steuerfahndung nach 2 Jahren;Polizei/Steuerfahndung Abs.4;Feuerwehr nach 1 Jahr;Feuerwehr nach 2 Jahren;Justizvollzug;Meister/Techniker;Steuerverwaltung;Justizverwaltung
+options_label_en,None;General allowance no.1a;General allowance no.1b;General allowance no.2;Police/tax investigation after 1 year;Police/tax investigation after 2 years;Police/tax investigation sec.4;Fire service after 1 year;Fire service after 2 years;Prison service;Master craftsman/technician;Tax administration;Judicial administration

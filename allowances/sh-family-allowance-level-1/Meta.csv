@@ -1,0 +1,12 @@
+name,value
+info,Familienzuschlag Stufe 1 Schleswig-Holstein
+func_type,fabsolute
+adding_type,monthly
+label_de,Familienzuschlag Stufe 1 SH
+label_en,Family Allowance Level 1 SH
+info_de,"Familienzuschlag Stufe 1 nach §44 SHBesG."
+info_en,"Family allowance level 1 according to §44 SHBesG."
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes
