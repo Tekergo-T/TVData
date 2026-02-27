@@ -125,6 +125,7 @@ Die Ordnerstruktur für die Speicherung der Entgelttabelleninformationen sieht w
    - `name_en`: Der Name der Entgelttabelle in englischer Sprache.
    - `allowances`: Eine durch Semikolon getrennte Liste der Namen der Zulagen, die mit dieser Entgelttabelle verbunden sind.
    - `prv`: Eine durch Semikolon getrennte Liste der mit dieser Entgelttabelle verknüpften Pensionsplantypen.
+   - `ref_table` (Optional): Ermöglicht die Vererbung von Daten aus einer anderen Entgelttabelle. Wenn angegeben, wird die `Table.csv` aus dem referenzierten Ordner geladen, sofern keine lokale Datei vorhanden ist.
 
 
 #### Zusatzrentenversicherung 
@@ -200,6 +201,11 @@ Die Ordnerstruktur für die Speicherung der Entgelttabelleninformationen sieht w
    - `default_option`: Die Standardoption für die Zulage.
    - `options_label_de`: Die Bezeichnungen für die Optionen in deutscher Sprache, getrennt durch `;`.
    - `options_label_en`: Die Bezeichnungen für die Optionen in englischer Sprache, getrennt durch `;`.
+
+   **Dynamische Wert-Token:**
+   Informationstexte (`info_de`/`info_en`) können Platzhalter enthalten, die automatisch durch formatierte Werte aus der `Table.csv` ersetzt werden:
+   - `{{option_id_value}}`: Zeigt den Wert der gewählten Option für die aktuelle Entgeltgruppe an.
+   - `{{option_id_value:target_grade}}`: Zeigt den Wert der gewählten Option für eine explizit angegebene Entgeltgruppe (z. B. `{{yes_value:9b}}`) an.
 
 
    Beispiel:
@@ -355,6 +361,7 @@ The folder structure for storing the remuneration information is as follows:
    - `name_en`: The name of the remuneration table in English.
    - `allowances`: A semicolon-separated list of allowance names associated with this remuneration table.
    - `prv`: A semicolon-separated list of pension plan types associated with this remuneration table.
+   - `ref_table` (Optional): Enables data inheritance from another remuneration table. If specified, `Table.csv` is loaded from the referenced folder if no local file is present.
 
 
 #### Supplementary Pension Insurance 
@@ -430,6 +437,11 @@ The folder structure for storing the remuneration information is as follows:
    - `default_option`: The default option for the allowance.
    - `options_label_de`: The labels for the options in German, separated by ";".
    - `options_label_en`: The labels for the options in English, separated by ";".
+
+   **Dynamic Value Tokens:**
+   Information texts (`info_de`/`info_en`) can contain placeholders that are automatically replaced by formatted values from `Table.csv`:
+   - `{{option_id_value}}`: Displays the value of the selected option for the current pay grade.
+   - `{{option_id_value:target_grade}}`: Displays the value of the selected option for an explicitly specified pay grade (e.g., `{{yes_value:9b}}`).
 
 
    Example:

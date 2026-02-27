@@ -9,6 +9,7 @@ from .defs import *
 import csv
 
 import importlib
+from functools import lru_cache
 
 
 def import_prv_function(prv_module):
@@ -41,6 +42,7 @@ def ls_prv():
     return os.listdir(ps_tables_path)
 
 
+@lru_cache(maxsize=128)
 def csv2dic(full_name):
     """
     Read a CSV file specified by `full_name` argument and return a dictionary containing the data.
@@ -79,6 +81,7 @@ def read_csv(table_name, csv_file):
 def read_all_table(TV):
     """
     Read all CSV files in the directory specified by the `TV` argument and return a dictionary containing the data.
+    Supports table referencing via 'ref_table' key in Meta.csv.
 
     Parameters:
     TV (str): The name of the directory containing the CSV files.
@@ -87,8 +90,26 @@ def read_all_table(TV):
     dict: A dictionary containing the data from all CSV files in the specified directory.
     """
     table_data = {}
-    for table in os.listdir(os.path.join(ps_tables_path, TV)):
-        table_data[table] = csv2dic(os.path.join(ps_tables_path, TV, table))
+    
+    # 1. Read local meta to check for references
+    meta = read_meta_table(TV)
+    ref_tv = meta.get("ref_table", {}).get("value")
+
+    # 2. If a reference exists, load its data first
+    if ref_tv:
+        ref_path = os.path.join(ps_tables_path, ref_tv)
+        if os.path.exists(ref_path):
+            for table in os.listdir(ref_path):
+                # Only load CSV files
+                if table.endswith(".csv"):
+                    table_data[table] = csv2dic(os.path.join(ref_path, table))
+
+    # 3. Load/Overwrite with local data
+    local_path = os.path.join(ps_tables_path, TV)
+    if os.path.exists(local_path):
+        for table in os.listdir(local_path):
+            if table.endswith(".csv"):
+                table_data[table] = csv2dic(os.path.join(local_path, table))
 
     return table_data
 
@@ -117,8 +138,11 @@ def read_table(TV=""):
     dict: A dictionary containing the data from all CSV files in the specified directory (or `ps_tables_path` if `TV` is not provided).
     """
     if TV:
-        # If a table name is specified, read only that table and return its data
-        return csv2dic(os.path.join(ps_tables_path, TV, "Table.csv"))
+        # If a table name is specified, read its Meta.csv to check for ref_table
+        meta = read_meta_table(TV)
+        ref_tv = meta.get("ref_table", {}).get("value", TV)
+        # Use referenced table for Table.csv if it exists
+        return csv2dic(os.path.join(ps_tables_path, ref_tv, "Table.csv"))
     else:
         # If no table name is specified, read all tables and return their data in a dictionary
         table_data = {}
