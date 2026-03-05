@@ -1,0 +1,12 @@
+name,value
+info,Amtszulagen Schleswig-Holstein
+func_type,fabsolute
+adding_type,monthly
+label_de,Amtszulagen A SH
+label_en,Official Allowances A SH
+info_de,"Amtszulagen nach Besoldungsgruppe und Fußnote für Schleswig-Holstein."
+info_en,"Official allowances by grade and footnote for Schleswig-Holstein."
+options,0;a6_1;a6_2j;a7_4;a7_5;a9_1;a13_4;a13_10_13;a14_6;a15_6;a16_8
+default_option,0
+options_label_de,Keine;A6 Fn.1;A6 nach 2 Jahren;A7 Fn.4;A7 Fn.5;A9 Fn.1;A13 Fn.4;A13 Fn.10-13;A14 Fn.6;A15 Fn.6;A16 Fn.8
+options_label_en,None;A6 fn.1;A6 after 2 years;A7 fn.4;A7 fn.5;A9 fn.1;A13 fn.4;A13 fn.10-13;A14 fn.6;A15 fn.6;A16 fn.8

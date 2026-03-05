@@ -1,0 +1,12 @@
+name,value
+info,Zulage für Dienst zu ungünstigen Zeiten
+func_type,fabsolute
+adding_type,monthly
+label_de,DUZ Schleswig-Holstein
+label_en,Unsocial Hours Allowance Schleswig-Holstein
+info_de,"Zulage pro Stunde für Dienst zu ungünstigen Zeiten."
+info_en,"Hourly allowance for service during unsocial hours."
+options,none;sofei;sat;night
+default_option,none
+options_label_de,Keine;Sonn-/Feiertag inkl. 24./31.12 ab 12 Uhr;Samstag 13-20 Uhr;Nacht 20-6 Uhr
+options_label_en,None;Sunday/public holiday incl. Dec 24/31 after 12pm;Saturday 1pm-8pm;Night 8pm-6am

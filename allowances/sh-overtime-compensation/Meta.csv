@@ -1,0 +1,12 @@
+name,value
+info,Mehrarbeitsvergütung Schleswig-Holstein
+func_type,fabsolute
+adding_type,monthly
+label_de,Mehrarbeitsvergütung SH
+label_en,Overtime Compensation SH
+info_de,"Mehrarbeitsvergütung je Stunde nach Besoldungsgruppe und Zusatzwerten nach §4 Abs.3."
+info_en,"Hourly overtime compensation by pay group plus add-ons under §4 para.3."
+options,base;extra1;extra2;extra3;extra4_5
+default_option,base
+options_label_de,Grundwert;Zusatz Nr.1;Zusatz Nr.2;Zusatz Nr.3;Zusatz Nr.4-5
+options_label_en,Base value;Extra no.1;Extra no.2;Extra no.3;Extra no.4-5

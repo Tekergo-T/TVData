@@ -1,0 +1,12 @@
+name,value
+info,Anrechnungsbetrag nach §43 Abs.2 SHBesG
+func_type,fabsolute
+adding_type,monthly
+label_de,Anrechnungsbetrag SH
+label_en,Risk-Weighted Amount SH
+info_de,"Anrechnungsbetrag nach §43 Abs.2 SHBesG."
+info_en,"Risk-weighted amount under §43 para.2 SHBesG."
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes

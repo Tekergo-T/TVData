@@ -1,0 +1,12 @@
+name,value
+info,Jährliche Sonderzahlung Schleswig-Holstein
+func_type,fabsolute
+adding_type,yearly
+label_de,Sonderzahlung SH (jährlich)
+label_en,Annual Special Payment SH
+info_de,"Jährliche Sonderzahlung inkl. Zusatzbetrag 2024."
+info_en,"Annual special payment including additional amount 2024."
+options,none;service_upto_a10;pension_upto_a10;survivor;orphan;trainee;child;extra_2024
+default_option,none
+options_label_de,Keine;Dienstbezüge bis A10;Versorgungsbezüge bis A10;Hinterbliebene;Waisen;Anwärter;Kinderbetrag;Zusatzbetrag 2024
+options_label_en,None;Salary up to A10;Pension up to A10;Survivors;Orphans;Trainees;Child amount;Additional amount 2024
