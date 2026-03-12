@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,fabsolute
+adding_type,monthly
+label_de,Mehrarbeit Zusatzbetraege nach Paragraf 4 Absatz 3 pro Stunde
+label_en,Overtime Supplement under section 4 paragraph 3 per hour
+info_de,Zusatzbetraege Nr1 23.05 Nr2 28.51 Nr3 33.90 Nr4 39.57 EUR
+info_en,Supplemental amounts no1 EUR 23.05 no2 EUR 28.51 no3 EUR 33.90 no4 EUR 39.57
+options,no;nr1;nr2;nr3;nr4
+default_option,no
+options_label_de,Keine;Nr. 1;Nr. 2;Nr. 3;Nr. 4
+options_label_en,None;No. 1;No. 2;No. 3;No. 4

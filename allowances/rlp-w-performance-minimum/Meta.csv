@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,fabsolute
+adding_type,monthly
+label_de,Mindestleistungsbezuege W2/W3
+label_en,Minimum Performance Allowance W2/W3
+info_de,Mindestleistungsbezuege fuer W2 und W3 421.78 EUR
+info_en,Minimum performance allowance for W2 and W3 EUR 421.78
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes

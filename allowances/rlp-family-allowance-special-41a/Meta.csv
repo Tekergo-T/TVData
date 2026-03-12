@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,fabsolute
+adding_type,monthly
+label_de,Sonderzuschlag zum Familienzuschlag Paragraf 41a
+label_en,Special Supplement to Family Allowance section 41a
+info_de,Sonderzuschlag gemaess Paragraf 41a nach Besoldungsgruppe und Stufe
+info_en,Special supplement under section 41a by pay grade and step
+options,0;2;3;4;5;6;7;8
+default_option,0
+options_label_de,Kein;Stufe 2;Stufe 3;Stufe 4;Stufe 5;Stufe 6;Stufe 7;Stufe 8
+options_label_en,None;Step 2;Step 3;Step 4;Step 5;Step 6;Step 7;Step 8

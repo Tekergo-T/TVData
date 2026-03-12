@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,fabsolute
+adding_type,monthly
+label_de,Anrechnungsbetrag Familienzuschlag
+label_en,Creditable Amount Family Allowance
+info_de,Anrechnungsbetrag A5-A8 142.82 EUR und A9-A12 151.61 EUR
+info_en,Creditable amount A5-A8 EUR 142.82 and A9-A12 EUR 151.61
+options,no;a5_a8;a9_a12
+default_option,no
+options_label_de,Keine;A5-A8;A9-A12
+options_label_en,None;A5-A8;A9-A12

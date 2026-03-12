@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,fabsolute
+adding_type,monthly
+label_de,Meister-/Technikerzulage
+label_en,Master/Technician Allowance
+info_de,Stellenzulage Nr 13 in Hoehe von 55 EUR monatlich
+info_en,Position allowance no 13 of EUR 55 per month
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes

@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,fabsolute
+adding_type,monthly
+label_de,Amtszulagen Rheinland-Pfalz
+label_en,Official Allowances Rhineland-Palatinate
+info_de,Amtszulagen nach Besoldungsgruppe und Fussnote RLP Stand 2025-02-01
+info_en,Official allowances by pay grade and footnote RLP valid from 2025-02-01
+options,0;1;2;3;4;5;6;7;8
+default_option,0
+options_label_de,Kein;Fn 1;Fn 2;Fn 3;Fn 4;Fn 5;Fn 6;Fn 7;Fn 8
+options_label_en,None;Fn 1;Fn 2;Fn 3;Fn 4;Fn 5;Fn 6;Fn 7;Fn 8

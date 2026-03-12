@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,fabsolute
+adding_type,monthly
+label_de,Allgemeine Stellenzulage
+label_en,General Position Allowance
+info_de,Stellenzulage Nr 12 nach Laufbahngruppe und Einstiegsamt
+info_en,Position allowance no 12 by career group and entry office
+options,no;a6_a13;a9_non_entry;a9_a13_entry
+default_option,no
+options_label_de,Keine;A6-A13;A9 nicht Einstiegsamt;A9-A13 Einstiegsamt
+options_label_en,None;A6-A13;A9 non-entry;A9-A13 entry

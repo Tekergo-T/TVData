@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,fabsolute
+adding_type,monthly
+label_de,Zulage fuer Dienst zu unguenstigen Zeiten pro Stunde
+label_en,Allowance for Service at Unfavorable Times per hour
+info_de,DUZ Stundensaetze SunHoliday 4.10 Sat1320 1.15 Night2006 2.11 EUR
+info_en,DUZ hourly rates SunHoliday EUR 4.10 Sat 13-20 EUR 1.15 Night 20-06 EUR 2.11
+options,no;sun_holiday;sat_13_20;night_20_6
+default_option,no
+options_label_de,Keine;Sonn-/Feiertag;Samstag 13-20 Uhr;Nacht 20-6 Uhr
+options_label_en,None;Sun/holiday;Saturday 13-20;Night 20-6

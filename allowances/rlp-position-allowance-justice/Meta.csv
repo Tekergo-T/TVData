@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,fabsolute
+adding_type,monthly
+label_de,Stellenzulage Justiz
+label_en,Position Allowance Judiciary
+info_de,Stellenzulage Nr 8 135 EUR Grundzulage 180 EUR nach 3 Jahren
+info_en,Position allowance no 8 EUR 135 base allowance EUR 180 after 3 years
+options,no;base;after_3y
+default_option,no
+options_label_de,Keine;Grundzulage;Nach 3 Jahren
+options_label_en,None;Base allowance;After 3 years
