@@ -1,0 +1,12 @@
+name,value
+info,Zulage für Dienst zu ungünstigen Zeiten (DUZ) NRW
+func_type,fabsolute
+adding_type,monthly
+label_de,DUZ NRW (ungünstige Zeiten)
+label_en,NRW DUZ (Unfavorable Hours)
+info_de,"Sonn- und Feiertage, bestimmte Samstage sowie 24./31.12.: 4,13 € pro Stunde."
+info_en,"Sundays/public holidays, certain Saturdays, and 24/31 Dec: €4.13 per hour."
+options,none;yes
+default_option,none
+options_label_de,Keine;Ja
+options_label_en,None;Yes

@@ -1,0 +1,12 @@
+name,value
+info,Familienzuschlag NRW Mietstufenmodell (bereitgestellte Beispiel-/Maximalwerte)
+func_type,fabsolute
+adding_type,monthly
+label_de,Familienzuschlag NRW Mietstufen (Beispielwerte)
+label_en,NRW Family Allowance Rent-Level Model (Example Values)
+info_de,"Enthält nur die bereitgestellten Beispiel-/Maximalwerte: Stufe 3 (2 Kinder, Mietstufen I/IV/VII), Maximalwerte Stufe 4/5 sowie Sonderregel A5-Aufschläge."
+info_en,"Contains only provided sample/maximum values: level 3 (2 children, rent levels I/IV/VII), maxima for levels 4/5, plus A5 surcharges."
+options,none;stufe3_i_a5a6;stufe3_iv_a5a6;stufe3_vii_a5a6;stufe3_i_uebrige;stufe3_iv_uebrige;stufe3_vii_uebrige;stufe4_max;stufe5_max;a5_first_child_extra;a5_additional_child_extra
+default_option,none
+options_label_de,Keine;Stufe3 I A5-A6;Stufe3 IV A5-A6;Stufe3 VII A5-A6;Stufe3 I übrige;Stufe3 IV übrige;Stufe3 VII übrige;Stufe4 Max;Stufe5 Max;A5 erstes Kind +;A5 weiteres Kind +
+options_label_en,None;Level3 I A5-A6;Level3 IV A5-A6;Level3 VII A5-A6;Level3 I others;Level3 IV others;Level3 VII others;Level4 max;Level5 max;A5 first child extra;A5 additional child extra
