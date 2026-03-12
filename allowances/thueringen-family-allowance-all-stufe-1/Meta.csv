@@ -1,0 +1,12 @@
+name,value
+info,"Familienzuschlag"
+adding_type,monthly
+func_type,fabsolute
+label_de,Familienzuschlag Stufe 1 Thüringen
+label_en,Family allowance level 1 Thuringia
+info_de,"Stufe 1: 177,25 €. Kinderzuschlag: 1. Kind 326,41 €, 2. Kind 529,16 €, 3. Kind 830,50 €, ab 4. Kind 803,23 € je Kind."
+info_en,"Level 1: €177.25. Child allowance: first child €326.41, second €529.16, third €830.50, fourth and each additional €803.23."
+options,0;1;2;3;4;5
+default_option,0
+options_label_de,Kein;1;2;3;4;5
+options_label_en,None;1;2;3;4;5

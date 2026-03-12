@@ -1,0 +1,12 @@
+name,value
+info,"Allgemeine Stellenzulage Nr. 7"
+func_type,fabsolute
+adding_type,monthly
+label_de,Allgemeine Stellenzulage Thüringen
+label_en,General position allowance Thuringia
+info_de,"Buchstabe a: 102,42 €; Buchstabe b: 112,26 €."
+info_en,"Letter a: €102.42; letter b: €112.26."
+options,0;1;2
+default_option,0
+options_label_de,Kein Anspruch;Buchstabe a;Buchstabe b
+options_label_en,None;Letter a;Letter b

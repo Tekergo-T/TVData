@@ -1,0 +1,12 @@
+name,value
+info,"Mehrarbeitsvergütung allgemein (§4 Abs.1 ThürMVergVO)"
+func_type,fabsolute
+adding_type,hourly
+label_de,Mehrarbeitsvergütung allgemein Thüringen
+label_en,General overtime compensation Thuringia
+info_de,"A6-A8: 18,40 €/h; A9-A12: 25,25 €/h; A13-A16 sowie C/W: 34,86 €/h."
+info_en,"A6-A8: €18.40/h; A9-A12: €25.25/h; A13-A16 and C/W: €34.86/h."
+options,0
+default_option,0
+options_label_de,Standard
+options_label_en,Standard
