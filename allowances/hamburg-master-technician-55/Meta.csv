@@ -1,0 +1,12 @@
+name,value
+info,""
+func_type,fabsolute
+adding_type,monthly
+label_de,Meister-/Technikerzulage (§ 55)
+label_en,Master/Technician Allowance (§ 55)
+info_de,"Zulage nach § 55 HmbBesG (Stand ab 01.08.2025)."
+info_en,"Allowance according to § 55 HmbBesG (as of 2025-08-01)."
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes

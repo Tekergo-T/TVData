@@ -1,0 +1,12 @@
+name,value
+info,""
+func_type,fabsolute
+adding_type,monthly
+label_de,Grundleistungsbezüge W2/W3
+label_en,Basic Performance Pay W2/W3
+info_de,"Grundleistungsbezüge nach § 33 für W2 und W3."
+info_en,"Basic performance pay under § 33 for W2 and W3."
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes

@@ -1,0 +1,12 @@
+name,value
+info,""
+func_type,fabsolute
+adding_type,monthly
+label_de,Polizei/Steuerfahndung (§ 49)
+label_en,Police/Tax Investigation (§ 49)
+info_de,"Stellenzulage nach § 49 HmbBesG (Stand ab 01.08.2025)."
+info_en,"Position allowance under § 49 HmbBesG (as of 2025-08-01)."
+options,0;1year;2years
+default_option,0
+options_label_de,Kein;nach 1 Jahr;nach 2 Jahren
+options_label_en,None;after 1 year;after 2 years
