@@ -1,0 +1,12 @@
+name,value
+info,Sonderzahlung Kinderbetrag
+func_type,fabsolute
+adding_type,monthly
+label_de,Sonderzahlung Kinderbetrag
+label_en,Special Payment Child Amount
+info_de,"Sonderbetrag für Kinder: 2,13 € monatlich."
+info_en,"Special child amount: €2.13 monthly."
+options,yes
+default_option,yes
+options_label_de,Ja
+options_label_en,Yes

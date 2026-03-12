@@ -1,0 +1,12 @@
+name,value
+info,Wesentliche Stellenzulagen Hessen (Auszug)
+func_type,fabsolute
+adding_type,monthly
+label_de,Stellenzulagen Hessen (Auszug)
+label_en,Hesse Position Allowances (Extract)
+info_de,"Enthält Nr. 8 (160/146,40), Nr. 9 (100), Nr. 10 (21,42/48,19) und Nr. 13 Abs.1 (26,78/104,74/116,42)."
+info_en,"Contains no. 8 (160/146.40), no. 9 (100), no. 10 (21.42/48.19), and no. 13 para.1 (26.78/104.74/116.42)."
+options,nr8-1;nr8-2;nr9;nr10-mD;nr10-gD;nr13-1a;nr13-1b;nr13-2-3
+default_option,nr8-1
+options_label_de,Nr8 Abs1;Nr8 Abs2;Nr9;Nr10 mittlerer Dienst;Nr10 gehobener Dienst;Nr13 1a;Nr13 1b;Nr13 Nr2/3
+options_label_en,No8 para1;No8 para2;No9;No10 intermediate;No10 upper;No13 1a;No13 1b;No13 no2/3

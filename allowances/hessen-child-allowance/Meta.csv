@@ -1,0 +1,12 @@
+name,value
+info,Kinderbezogener Anteil Familienzuschlag Hessen
+func_type,fabsolute
+adding_type,monthly
+label_de,Kinderbezogener Anteil
+label_en,Child-related Component
+info_de,"Kinderbezogener Anteil: 1. und 2. Kind je 263,22 €, ab dem 3. Kind je 806,72 €."
+info_en,"Child-related component: first and second child 263.22 €, from third child 806.72 € each."
+options,1-2;3+
+default_option,1-2
+options_label_de,1. und 2. Kind;ab 3. Kind
+options_label_en,1st and 2nd child;from 3rd child

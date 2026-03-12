@@ -1,0 +1,12 @@
+name,value
+info,Sonderzahlung jährlicher Festbetrag im Juli
+func_type,fabsolute
+adding_type,yearly
+label_de,Sonderzahlung Juli-Festbetrag
+label_en,Special Payment July Fixed Amount
+info_de,"Jährlicher Festbetrag im Juli für Besoldungsgruppen bis A8: 166,17 €."
+info_en,"Annual fixed amount in July for pay grades up to A8: €166.17."
+options,yes
+default_option,yes
+options_label_de,Ja
+options_label_en,Yes
