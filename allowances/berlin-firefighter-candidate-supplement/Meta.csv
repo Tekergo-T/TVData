@@ -1,0 +1,12 @@
+name,value
+info,"Sonderregel Feuerwehr"
+func_type,frelative
+adding_type,monthly
+label_de,Feuerwehrzuschlag Anwärter
+label_en,Firefighter Candidate Supplement
+info_de,"+20 % während Einsatzpraktikum (>40h/Woche)."
+info_en,"+20% during operational internship (>40h/week)."
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes

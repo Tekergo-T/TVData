@@ -1,0 +1,12 @@
+name,value
+info,"Familienzuschlag §40 BBesG BE"
+func_type,fabsolute
+adding_type,monthly
+label_de,Familienzuschlag Berlin
+label_en,Berlin Family Allowance
+info_de,"Familienzuschlag für Kinder gemäß §40 BBesG BE."
+info_en,"Family allowance for children according to §40 BBesG BE."
+options,0;1;2;3;4;5
+default_option,0
+options_label_de,Kein;1 Kind;2 Kinder;3 Kinder;4 Kinder;5 Kinder
+options_label_en,None;1 child;2 children;3 children;4 children;5 children

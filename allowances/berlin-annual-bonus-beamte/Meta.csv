@@ -1,0 +1,12 @@
+name,value
+info,"Jährliche Sonderzahlung"
+func_type,fabsolute
+adding_type,yearly
+label_de,Jährliche Sonderzahlung Berlin Beamte
+label_en,Annual Special Payment Berlin Civil Service
+info_de,"Sonderzahlung im Dezember gemäß Besoldungsübersicht Berlin (01.02.2025)."
+info_en,"December special annual payment according to Berlin pay overview (2025-02-01)."
+options,none;a5_a9_beamte;a5_a9_versorgung;others_beamte_richter;others_versorgung;anwaerter;kind
+default_option,none
+options_label_de,Keine;A5-A9 Beamte;A5-A9 Versorgung;Übrige Beamte/Richter;Übrige Versorgung;Anwärter;Kinderbetrag
+options_label_en,None;A5-A9 civil servants;A5-A9 pensioners;Other civil servants/judges;Other pensioners;Candidates;Child amount

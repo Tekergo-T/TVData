@@ -1,0 +1,12 @@
+name,value
+info,"Ergänzender Familienzuschlag §40a"
+func_type,fabsolute
+adding_type,monthly
+label_de,Ergänzender Familienzuschlag Berlin
+label_en,Supplementary Berlin Family Allowance
+info_de,"Ergänzender Familienzuschlag nach §40a."
+info_en,"Supplementary family allowance according to §40a."
+options,no;no_40;one_child;two_children
+default_option,no
+options_label_de,Nein;Kein Zuschlag §40;1 Kind;2 Kinder
+options_label_en,No;No §40 allowance;1 child;2 children

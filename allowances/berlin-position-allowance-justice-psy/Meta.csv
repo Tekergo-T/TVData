@@ -1,0 +1,12 @@
+name,value
+info,"Nr. 12"
+func_type,fabsolute
+adding_type,monthly
+label_de,Stellenzulage Justizvollzug/Psychiatrie
+label_en,Justice/Psychiatry Position Allowance
+info_de,"Grundzulage sowie erhöhte Zulage nach 2 Jahren."
+info_en,"Base allowance and increased allowance after 2 years."
+options,no;base;after_2_years
+default_option,no
+options_label_de,Nein;Grund;Nach 2 Jahren
+options_label_en,No;Base;After 2 years

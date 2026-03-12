@@ -1,0 +1,12 @@
+name,value
+info,"Mehrarbeitsvergütung §4 Abs.1 MVergV"
+func_type,fabsolute
+adding_type,hourly
+label_de,Mehrarbeit Berlin §4 Abs.1
+label_en,Berlin Overtime §4 para.1
+info_de,"Stundensätze nach Besoldungsgruppenbereichen."
+info_en,"Hourly rates by salary group ranges."
+options,no;a5_a8;a9_a12;a13_a16
+default_option,no
+options_label_de,Nein;A5-A8;A9-A12;A13-A16
+options_label_en,No;A5-A8;A9-A12;A13-A16
