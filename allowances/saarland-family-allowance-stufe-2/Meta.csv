@@ -1,0 +1,12 @@
+name,value
+info,Familienzuschlag Saarland Stufe 2
+func_type,fabsolute
+adding_type,monthly
+label_de,Familienzuschlag Stufe 2
+label_en,Family Allowance Level 2
+info_de,Stufe 2 beträgt 320,81 €. Kindererhöhung: zweites Kind +160,81 €, ab drittem Kind +781,68 €. Zusatzbeträge A4 bis A6: erstes Kind +17,42 €, weitere Kinder A4 +69,70 €, A5 +46,47 €, A6 +23,23 €.
+info_en,Level 2 is 320.81 €. Child increase: second child +160.81 €, from third child +781.68 €. Additional amounts for A4 to A6: first child +17.42 €, additional children A4 +69.70 €, A5 +46.47 €, A6 +23.23 €.
+options,0;1
+default_option,0
+options_label_de,Nein;Ja
+options_label_en,No;Yes

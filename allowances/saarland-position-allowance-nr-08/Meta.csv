@@ -1,0 +1,12 @@
+name,value
+info,Stellenzulage Nr. 8 Feuerwehr
+func_type,fabsolute
+adding_type,monthly
+label_de,Stellenzulage Nr. 8 (Feuerwehr)
+label_en,Position Allowance No. 8 (Fire Service)
+info_de,Nach 1 Jahr 80,07 € und nach 2 Jahren 160,14 €.
+info_en,80.07 € after 1 year and 160.14 € after 2 years.
+options,0;1;2
+default_option,0
+options_label_de,Keine;nach 1 Jahr;nach 2 Jahren
+options_label_en,None;after 1 year;after 2 years
