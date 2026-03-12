@@ -1,0 +1,12 @@
+name,value
+info,§44 BremBesG Polizei und Steuerfahndung
+func_type,fabsolute
+adding_type,monthly
+label_de,Polizei- und Steuerfahndungszulage (§44)
+label_en,Police and Tax Investigation Allowance (§44)
+info_de,Zulage nach Dienstzeit gemäß §44 BremBesG.
+info_en,Allowance by years of service according to §44 BremBesG.
+options,none;after_1_year;after_2_years
+default_option,none
+options_label_de,Keine;Nach 1 Jahr;Nach 2 Jahren
+options_label_en,None;After 1 year;After 2 years

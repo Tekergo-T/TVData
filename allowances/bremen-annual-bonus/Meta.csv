@@ -1,0 +1,12 @@
+name,value
+info,Jährliche Sonderzahlung Bremen (Dezember)
+func_type,fabsolute
+adding_type,yearly
+label_de,Jährliche Sonderzahlung
+label_en,Annual Special Payment
+info_de,Jährliche Sonderzahlung nach Besoldungsgruppe sowie Kinderbetrag.
+info_en,Annual special payment by pay grade and child amount.
+options,none;yes
+default_option,none
+options_label_de,Keine;Ja
+options_label_en,None;Yes
