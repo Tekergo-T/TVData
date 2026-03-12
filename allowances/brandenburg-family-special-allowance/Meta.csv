@@ -1,0 +1,12 @@
+name,value
+info,Familiensonderzuschlag Brandenburg ab 01.07.2024
+adding_type,monthly
+func_type,fabsolute
+label_de,Familiensonderzuschlag Brandenburg
+label_en,Special Family Allowance Brandenburg
+info_de,"Familiensonderzuschlag für A5-A8 mit stufenabhängiger Staffelung. In der Tabelle sind die in der Übersicht ausgewiesenen Mindest- und Höchstwerte (Stufe 2 bis 12) hinterlegt."
+info_en,"Special family allowance for A5-A8 with step-dependent scaling. The table stores the minimum and maximum values (step 2 to 12) shown in the source overview."
+options,one_child_min;one_child_max;two_plus_min;two_plus_max
+default_option,one_child_min
+options_label_de,1 Kind Minimum;1 Kind Maximum;2+ Kinder Minimum;2+ Kinder Maximum
+options_label_en,1 child minimum;1 child maximum;2+ children minimum;2+ children maximum

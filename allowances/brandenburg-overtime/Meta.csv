@@ -1,0 +1,12 @@
+name,value
+info,Mehrarbeitsvergütung Brandenburg ab 01.07.2024
+adding_type,hourly
+func_type,fabsolute
+label_de,Mehrarbeitsvergütung Brandenburg
+label_en,Overtime Compensation Brandenburg
+info_de,"Mehrarbeitsvergütung je Stunde für A5-A8, A9-A12, A13-A16 sowie Zusatzsätze Nr. 1 bis 5."
+info_en,"Overtime compensation per hour for A5-A8, A9-A12, A13-A16 plus additional rates no. 1 to 5."
+options,a5_a8;a9_a12;a13_a16;nr1;nr2;nr3;nr4_5
+default_option,a9_a12
+options_label_de,A5-A8;A9-A12;A13-A16;Nr. 1;Nr. 2;Nr. 3;Nr. 4-5
+options_label_en,A5-A8;A9-A12;A13-A16;No. 1;No. 2;No. 3;No. 4-5

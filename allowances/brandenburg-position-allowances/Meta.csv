@@ -1,0 +1,12 @@
+name,value
+info,Wesentliche Stellenzulagen Brandenburg ab 01.07.2024
+adding_type,monthly
+func_type,fabsolute
+label_de,Stellenzulagen Brandenburg
+label_en,Position Allowances Brandenburg
+info_de,"Polizei-, Feuerwehr- und Vollzugsdienstzulage (nach 1/2 Jahren), Vorführzulage, Meisterzulage, Außendienstzulage und allgemeine Stellenzulage."
+info_en,"Police, fire service and correctional service allowances (after 1/2 years), escort allowance, master craft allowance, field service allowance and general position allowance."
+options,none;police_1y;police_2y;fire_1y;fire_2y;prison_1y;prison_2y;escort;meister;field_md;field_gd;general_aa;general_bb;general_bc
+default_option,none
+options_label_de,Keine;Polizeizulage nach 1 Jahr;Polizeizulage nach 2 Jahren;Feuerwehrzulage nach 1 Jahr;Feuerwehrzulage nach 2 Jahren;Vollzugsdienstzulage nach 1 Jahr;Vollzugsdienstzulage nach 2 Jahren;Vorführzulage;Meisterzulage;Außendienstzulage mittlerer Dienst;Außendienstzulage gehobener Dienst;Allgemeine Stellenzulage a aa;Allgemeine Stellenzulage a bb;Allgemeine Stellenzulage b/c
+options_label_en,None;Police allowance after 1 year;Police allowance after 2 years;Fire service allowance after 1 year;Fire service allowance after 2 years;Correctional service allowance after 1 year;Correctional service allowance after 2 years;Escort allowance;Master allowance;Field service allowance middle service;Field service allowance upper service;General allowance a aa;General allowance a bb;General allowance b/c

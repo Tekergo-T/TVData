@@ -1,0 +1,12 @@
+name,value
+info,Familienzuschlag Brandenburg ab 01.07.2024
+adding_type,monthly
+func_type,fabsolute
+label_de,Familienzuschlag Brandenburg
+label_en,Family Allowance Brandenburg
+info_de,"Familienzuschlag: 377,16 € für das 1. und 2. Kind, ab dem 3. Kind jeweils 888,39 € zusätzlich."
+info_en,"Family allowance: €377.16 for the 1st and 2nd child, and €888.39 for each child from the 3rd onward."
+options,0;1;2;3;4;5
+default_option,0
+options_label_de,Kein;1;2;3;4;5
+options_label_en,None;1;2;3;4;5
