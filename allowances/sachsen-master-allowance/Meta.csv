@@ -1,0 +1,12 @@
+name,value
+info,§50 SächsBesG
+func_type,fabsolute
+adding_type,monthly
+label_de,Meisterzulage
+label_en,Master Craftsman Allowance
+info_de,38,35 EUR monatlich.
+info_en,EUR 38.35 monthly.
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes

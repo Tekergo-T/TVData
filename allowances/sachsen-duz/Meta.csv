@@ -1,0 +1,12 @@
+name,value
+info,Dienst zu ungünstigen Zeiten
+func_type,fabsolute
+adding_type,monthly
+label_de,Dienst zu ungünstigen Zeiten (DUZ)
+label_en,Unfavorable Hours Duty Allowance
+info_de,Sonn- und Feiertage: 3,20 EUR; Samstag 13-20 Uhr: 0,64 EUR; Nacht 20-6 Uhr: 1,60 EUR je Stunde.
+info_en,Sundays/public holidays: EUR 3.20; Saturdays 1pm-8pm: EUR 0.64; Night 8pm-6am: EUR 1.60 per hour.
+options,no,sunday_holiday,saturday,night
+default_option,no
+options_label_de,Nein;Sonn- und Feiertage;Samstag 13-20 Uhr;Nacht 20-6 Uhr
+options_label_en,No;Sun/public holidays;Saturday 1pm-8pm;Night 8pm-6am
