@@ -1,0 +1,12 @@
+name,value
+info,"Stellenzulage Nr. 6 Außendienst Steuerprüfung"
+func_type,fabsolute
+adding_type,monthly
+label_de,Stellenzulage Außendienst Steuerprüfung
+label_en,Position allowance field tax audit
+info_de,"50,00 € (mittlerer Dienst), 75,00 € (gehobener Dienst)."
+info_en,"€50.00 (middle service), €75.00 (upper service)."
+options,0;1;2
+default_option,0
+options_label_de,Kein Anspruch;mittlerer Dienst;gehobener Dienst
+options_label_en,None;middle service;upper service

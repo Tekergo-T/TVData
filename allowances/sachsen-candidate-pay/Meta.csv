@@ -1,0 +1,12 @@
+name,value
+info,Anwärtergrundbetrag Sachsen
+func_type,fabsolute
+adding_type,monthly
+label_de,Anwärtergrundbetrag
+label_en,Candidate Basic Pay
+info_de,Anwärtergrundbetrag nach Eingangsamt.
+info_en,Candidate basic pay by entry office.
+options,no;a5;a6_a8;a9_a11;a12;a13_r1
+default_option,no
+options_label_de,Nein;A5;A6-A8;A9-A11;A12;A13/R1
+options_label_en,No;A5;A6-A8;A9-A11;A12;A13/R1

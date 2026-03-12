@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,fabsolute
+adding_type,monthly
+label_de,Besondere Stellenzulagen (Anlage 11)
+label_en,Special Position Allowances (Appendix 11)
+info_de,"Besondere Stellenzulagen für Polizei, Justizvollzug, Feuerwehr und Steuerverwaltung."
+info_en,"Special position allowances for police, correctional service, fire service and tax administration."
+options,none;police_1y;police_2y;prison_abs1;prison_1y;prison_2y;prison_abs3;fire_1y;fire_2y;tax_lg1;tax_lg2;meister_techniker
+default_option,none
+options_label_de,Keine;Polizei/Steuerfahndung nach 1 Jahr;Polizei/Steuerfahndung nach 2 Jahren;Justizvollzug Abs. 1;Justizvollzug nach 1 Jahr;Justizvollzug nach 2 Jahren;Justizvollzug Abs. 3;Feuerwehr nach 1 Jahr;Feuerwehr nach 2 Jahren;Steuerverwaltung LG 1;Steuerverwaltung LG 2;Meister/Techniker
+options_label_en,None;Police/tax investigation after 1 year;Police/tax investigation after 2 years;Correctional service para. 1;Correctional service after 1 year;Correctional service after 2 years;Correctional service para. 3;Fire service after 1 year;Fire service after 2 years;Tax administration LG 1;Tax administration LG 2;Master craftsman/technician

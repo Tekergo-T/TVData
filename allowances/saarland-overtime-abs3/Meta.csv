@@ -1,0 +1,12 @@
+name,value
+info,Mehrarbeitsvergütung §4 Abs.3 MVergV
+func_type,fabsolute
+adding_type,hourly
+label_de,Mehrarbeitsvergütung §4 Abs.3
+label_en,Overtime Compensation §4 para.3
+info_de,Nummer 1: 22,85 €/h; Nummer 2: 28,31 €/h; Nummer 3: 33,59 €/h; Nummer 4-5: 39,27 €/h.
+info_en,No. 1: 22.85 €/h; No. 2: 28.31 €/h; No. 3: 33.59 €/h; No. 4-5: 39.27 €/h.
+options,0;1;2;3;4
+default_option,0
+options_label_de,Keine;Nr. 1;Nr. 2;Nr. 3;Nr. 4-5
+options_label_en,None;No. 1;No. 2;No. 3;No. 4-5

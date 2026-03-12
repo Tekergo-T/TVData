@@ -1,0 +1,12 @@
+name,value
+info,""
+func_type,fabsolute
+adding_type,monthly
+label_de,Amtszulagen Thüringen
+label_en,Official Allowances Thuringia
+info_de,"Amtszulagen (monatlich) gemäß Besoldungstabelle Thüringen ab 01.02.2025."
+info_en,"Official allowances (monthly) according to Thuringia salary table from 2025-02-01."
+options,0;1;2;3;4;5;6
+default_option,0
+options_label_de,Keine;Fn1;Fn2;Fn3;Fn4;Fn5;Fn6
+options_label_en,None;Fn1;Fn2;Fn3;Fn4;Fn5;Fn6

@@ -1,0 +1,12 @@
+name,value
+info,"Mehrarbeitsvergütung allgemein (§4 Abs.1 MVergV LSA)"
+func_type,fabsolute
+adding_type,monthly
+label_de,Mehrarbeit allgemein je Stunde
+label_en,Overtime general per hour
+info_de,"Stundensätze der Mehrarbeitsvergütung allgemein."
+info_en,"General overtime compensation hourly rates."
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes

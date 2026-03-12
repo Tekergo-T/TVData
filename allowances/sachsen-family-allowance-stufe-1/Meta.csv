@@ -1,0 +1,12 @@
+name,value
+info,Familienzuschlag Sachsen
+adding_type,monthly
+func_type,fabsolute
+label_de,Familienzuschlag Stufe 1 (Sachsen)
+label_en,Family Allowance Level 1 (Saxony)
+info_de,Stufe 1: 271,90 EUR. Für das zweite Kind +271,90 EUR und für jedes weitere Kind +773,59 EUR. Zusatz A5: +5,11 EUR erstes Kind und +20,45 EUR weitere Kinder.
+info_en,Level 1: EUR 271.90. Second child +EUR 271.90 and each additional child +EUR 773.59. Additional for A5: +EUR 5.11 first child and +EUR 20.45 additional children.
+options,0;1;2;3;4;5
+default_option,0
+options_label_de,Kein;1;2;3;4;5
+options_label_en,None;1;2;3;4;5

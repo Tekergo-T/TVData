@@ -1,0 +1,12 @@
+name,value
+info,§46 BremBesG Justizvollzugszulage
+func_type,fabsolute
+adding_type,monthly
+label_de,Justizvollzugszulage (§46)
+label_en,Correctional Service Allowance (§46)
+info_de,Justizvollzugszulage nach §46 BremBesG.
+info_en,Correctional service allowance according to §46 BremBesG.
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes

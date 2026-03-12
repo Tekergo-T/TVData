@@ -1,0 +1,12 @@
+name,value
+info,"Amtszulagen Besoldungsordnung A"
+func_type,fabsolute
+adding_type,monthly
+label_de,Amtszulagen
+label_en,Official Allowances
+info_de,"Amtszulagen gemäß Besoldungstabelle Sachsen-Anhalt."
+info_en,"Official allowances according to Saxony-Anhalt salary table."
+options,0;1;2;3;4;9;11
+default_option,0
+options_label_de,Keine;1;2;3;4;9;11
+options_label_en,None;1;2;3;4;9;11

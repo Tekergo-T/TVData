@@ -1,0 +1,12 @@
+name,value
+info,"Anwärtergrundbetrag"
+func_type,fabsolute
+adding_type,monthly
+label_de,Anwärtergrundbetrag Berlin
+label_en,Berlin Candidate Basic Amount
+info_de,"Anwärtergrundbetrag nach Eingangsamt."
+info_en,"Candidate basic amount by entry grade."
+options,no;a5_a8;a9_a11;a12;a13;a13_plus
+default_option,no
+options_label_de,Nein;A5-A8;A9-A11;A12;A13;A13 + Zulage
+options_label_en,No;A5-A8;A9-A11;A12;A13;A13 + allowance

@@ -1,0 +1,12 @@
+name,value
+info,"Ausgleichszulage"
+func_type,fabsolute
+adding_type,monthly
+label_de,Ausgleichszulage §87 Abs.2 BBesG BE
+label_en,Compensation Allowance §87 para.2 BBesG BE
+info_de,"Ausgleichszulage gemäß §87 Abs.2 BBesG BE."
+info_en,"Compensation allowance according to §87 para.2 BBesG BE."
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes

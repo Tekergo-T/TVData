@@ -1,0 +1,12 @@
+name,value
+info,"Allgemeine Stellenzulage"
+func_type,fabsolute
+adding_type,monthly
+label_de,Allgemeine Stellenzulage (Nr. 13)
+label_en,General Position Allowance (Nr. 13)
+info_de,"Allgemeine Stellenzulage nach Kategorie a aa, a bb, b/c."
+info_en,"General position allowance by category a aa, a bb, b/c."
+options,0;aaa;abb;bc
+default_option,0
+options_label_de,Keine;a aa;a bb;b und c
+options_label_en,None;a aa;a bb;b and c

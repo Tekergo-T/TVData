@@ -1,0 +1,12 @@
+name,value
+info,"Stellenzulage Justizvollzug"
+func_type,fabsolute
+adding_type,monthly
+label_de,Justizvollzug (Nr. 10)
+label_en,Correctional Service (Nr. 10)
+info_de,"Stellenzulage Justizvollzug."
+info_en,"Position allowance for correctional service."
+options,0;yes
+default_option,0
+options_label_de,Nein;Ja
+options_label_en,No;Yes

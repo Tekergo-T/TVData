@@ -1,0 +1,12 @@
+name,value
+info,"Mehrarbeitsvergütung Schuldienst"
+func_type,fabsolute
+adding_type,hourly
+label_de,Mehrarbeitsvergütung Schuldienst Thüringen
+label_en,School overtime compensation Thuringia
+info_de,"Nr. 1: 23,48 €; Nr. 2: 29,07 €; Nr. 3: 34,49 €; Nr. 4: 40,26 € pro Unterrichtsstunde."
+info_en,"No. 1: €23.48; No. 2: €29.07; No. 3: €34.49; No. 4: €40.26 per teaching hour."
+options,0;1;2;3;4
+default_option,0
+options_label_de,Kein Anspruch;Nr.1;Nr.2;Nr.3;Nr.4
+options_label_en,None;No.1;No.2;No.3;No.4

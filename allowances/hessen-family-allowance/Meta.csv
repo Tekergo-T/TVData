@@ -1,0 +1,12 @@
+name,value
+info,§ 43 HBesG Familienzuschlag Stufen 1 bis 4
+func_type,fabsolute
+adding_type,monthly
+label_de,Familienzuschlag (Stufe)
+label_en,Family Allowance (Level)
+info_de,"Familienzuschlag nach § 43 HBesG: Stufe 1 bis 4."
+info_en,"Family allowance under § 43 HBesG: levels 1 to 4."
+options,1;2;3;4
+default_option,1
+options_label_de,Stufe 1;Stufe 2;Stufe 3;Stufe 4
+options_label_en,Level 1;Level 2;Level 3;Level 4

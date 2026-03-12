@@ -1,0 +1,12 @@
+name,value
+info,§49 BremBesG Meister- und Technikerzulage
+func_type,fabsolute
+adding_type,monthly
+label_de,Meister-/Technikerzulage (§49)
+label_en,Master/Technician Allowance (§49)
+info_de,Meister- und Technikerzulage nach §49 BremBesG.
+info_en,Master and technician allowance according to §49 BremBesG.
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes

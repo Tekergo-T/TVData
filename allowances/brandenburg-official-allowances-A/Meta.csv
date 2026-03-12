@@ -1,0 +1,12 @@
+name,value
+info,Amtszulagen Brandenburg ab 01.07.2024
+adding_type,monthly
+func_type,fabsolute
+label_de,Amtszulagen Brandenburg A
+label_en,Official Allowances Brandenburg A
+info_de,"Amtszulagen für A5, A6, A9, A13, A14 und A15 gemäß Besoldungstabelle Brandenburg. A9 Fußnote 2 ist mit 8 % des Endgrundgehalts A9 als Prozentwert hinterlegt."
+info_en,"Official allowances for A5, A6, A9, A13, A14 and A15 according to Brandenburg salary table. A9 footnote 2 is stored as 8% of final base salary A9 as percentage value."
+options,none;a5_fn1;a6_fn2;a9_fn13;a9_fn2_pct;a13_fn3_5;a14_fn3;a15_fn2_7
+default_option,none
+options_label_de,Keine;A5 Fußnote 1;A6 Fußnote 2;A9 Fußnote 1/3;A9 Fußnote 2 (8%);A13 Fußnote 3-5;A14 Fußnote 3;A15 Fußnote 2/7
+options_label_en,None;A5 footnote 1;A6 footnote 2;A9 footnote 1/3;A9 footnote 2 (8%);A13 footnote 3-5;A14 footnote 3;A15 footnote 2/7

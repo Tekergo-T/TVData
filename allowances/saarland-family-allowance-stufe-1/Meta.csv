@@ -1,0 +1,12 @@
+name,value
+info,Familienzuschlag Saarland Stufe 1
+func_type,fabsolute
+adding_type,monthly
+label_de,Familienzuschlag Stufe 1
+label_en,Family Allowance Level 1
+info_de,Stufe 1 beträgt 160,00 €.
+info_en,Level 1 is 160.00 €.
+options,0;1
+default_option,0
+options_label_de,Nein;Ja
+options_label_en,No;Yes

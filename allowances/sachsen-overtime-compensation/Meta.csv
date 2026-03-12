@@ -1,0 +1,12 @@
+name,value
+info,§18 Abs. 1 SächsEMAVO
+func_type,fabsolute
+adding_type,monthly
+label_de,Mehrarbeitsvergütung je Stunde
+label_en,Overtime Compensation per Hour
+info_de,A5-A8: 13,79 EUR; A9-A12: 18,93 EUR; A13-A16/R1-R2: 26,10 EUR.
+info_en,A5-A8: EUR 13.79; A9-A12: EUR 18.93; A13-A16/R1-R2: EUR 26.10.
+options,no;a5_a8;a9_a12;a13_a16
+default_option,no
+options_label_de,Nein;A5-A8;A9-A12;A13-A16/R1-R2
+options_label_en,No;A5-A8;A9-A12;A13-A16/R1-R2

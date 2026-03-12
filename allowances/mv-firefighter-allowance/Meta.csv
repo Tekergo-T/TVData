@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,fabsolute
+adding_type,monthly
+label_de,Feuerwehrzulage MV
+label_en,Firefighter Allowance MV
+info_de,
+info_en,
+options,no;1year;2years
+default_option,no
+options_label_de,no;1year;2years
+options_label_en,no;1year;2years

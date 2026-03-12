@@ -1,0 +1,12 @@
+name,value
+info,Mehrarbeitsvergütung NRW allgemein (§4 MVergV NRW)
+func_type,fabsolute
+adding_type,monthly
+label_de,Mehrarbeitsvergütung NRW (allgemein)
+label_en,NRW Overtime Compensation (General)
+info_de,"Stundensätze: A5–A8=18,39 €, A9–A12=25,24 €, A13–A16=34,80 €."
+info_en,"Hourly rates: A5–A8=€18.39, A9–A12=€25.24, A13–A16=€34.80."
+options,none;yes
+default_option,none
+options_label_de,Keine;Ja
+options_label_en,None;Yes

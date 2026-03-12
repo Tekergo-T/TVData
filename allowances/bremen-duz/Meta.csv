@@ -1,0 +1,12 @@
+name,value
+info,Zulage für Dienst zu ungünstigen Zeiten (DUZ)
+func_type,fabsolute
+adding_type,hourly
+label_de,DUZ
+label_en,Allowance for Unfavorable Hours
+info_de,Zulage je Stunde für Dienst zu ungünstigen Zeiten.
+info_en,Hourly allowance for service at unfavorable times.
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes

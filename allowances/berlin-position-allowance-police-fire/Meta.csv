@@ -1,0 +1,12 @@
+name,value
+info,"Nr. 9/10"
+func_type,fabsolute
+adding_type,monthly
+label_de,Stellenzulage Polizei/Feuerwehr
+label_en,Police/Fire Position Allowance
+info_de,"Stellenzulage nach 1 bzw. 2 Jahren Dienstzeit."
+info_en,"Position allowance after 1 or 2 years of service."
+options,no;after_1_year;after_2_years
+default_option,no
+options_label_de,Nein;Nach 1 Jahr;Nach 2 Jahren
+options_label_en,No;After 1 year;After 2 years

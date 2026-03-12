@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,fabsolute
+adding_type,monthly
+label_de,Anrechnungsbetrag §41 MV
+label_en,Credit Amount §41 MV
+info_de,
+info_en,
+options,no;a4-a8;a9-a12
+default_option,no
+options_label_de,no;a4-a8;a9-a12
+options_label_en,no;a4-a8;a9-a12

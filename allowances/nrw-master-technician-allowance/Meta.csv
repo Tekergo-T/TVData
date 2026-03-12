@@ -1,0 +1,12 @@
+name,value
+info,Meister-/Technikerzulage NRW (§56 Nr.2)
+func_type,fabsolute
+adding_type,monthly
+label_de,Meister-/Technikerzulage NRW
+label_en,NRW Master/Technician Allowance
+info_de,"Zulage: bis A6=40,27 €, A7–A8=39,79 €, ab A9=39,31 €."
+info_en,"Allowance: up to A6=€40.27, A7–A8=€39.79, A9+=€39.31."
+options,none;yes
+default_option,none
+options_label_de,Keine;Ja
+options_label_en,None;Yes

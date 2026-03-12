@@ -1,0 +1,12 @@
+name,value
+info,"Stellenzulage Meister / Techniker"
+func_type,fabsolute
+adding_type,monthly
+label_de,Meister / Techniker (Nr. 11)
+label_en,Master / Technician (Nr. 11)
+info_de,"Stellenzulage für Meister und Techniker."
+info_en,"Position allowance for masters and technicians."
+options,0;yes
+default_option,0
+options_label_de,Nein;Ja
+options_label_en,No;Yes

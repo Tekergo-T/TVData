@@ -1,0 +1,12 @@
+name,value
+info,"Kinderzuschlag zur jährlichen Sonderzahlung"
+func_type,fabsolute
+adding_type,yearly
+label_de,Sonderzahlung Kinderzuschlag
+label_en,Special Payment Child Supplement
+info_de,"Kinderzuschlag zur jährlichen Sonderzahlung je Kind."
+info_en,"Child supplement per child for annual special payment."
+options,0;1;2;3;4;5
+default_option,0
+options_label_de,0 Kinder;1 Kind;2 Kinder;3 Kinder;4 Kinder;5 Kinder
+options_label_en,0 children;1 child;2 children;3 children;4 children;5 children

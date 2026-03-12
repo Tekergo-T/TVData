@@ -1,0 +1,12 @@
+name,value
+info,"Erhöhungsbeträge Familienzuschlag (A5-A8)"
+func_type,fabsolute
+adding_type,monthly
+label_de,Erhöhungsbeträge Familienzuschlag A5-A8
+label_en,Family Allowance Increase A5-A8
+info_de,"Zusätzliche Erhöhungsbeträge für 1. und 2. Kind in A5-A8."
+info_en,"Additional increase amounts for first and second child in A5-A8."
+options,no;kind1;kind2
+default_option,no
+options_label_de,Nein;1. Kind;2. Kind
+options_label_en,No;1st child;2nd child

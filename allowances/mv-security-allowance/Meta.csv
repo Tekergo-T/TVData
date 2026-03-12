@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,fabsolute
+adding_type,monthly
+label_de,Sicherheitszulage MV
+label_en,Security Allowance MV
+info_de,
+info_en,
+options,no;a4-a5;a6-a9;a10plus
+default_option,no
+options_label_de,no;a4-a5;a6-a9;a10plus
+options_label_en,no;a4-a5;a6-a9;a10plus

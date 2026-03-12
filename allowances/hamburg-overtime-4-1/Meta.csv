@@ -1,0 +1,12 @@
+name,value
+info,""
+func_type,fabsolute
+adding_type,monthly
+label_de,Mehrarbeitsvergütung §4 Abs.1 (je Stunde)
+label_en,Overtime Compensation §4 Para.1 (per hour)
+info_de,"Mehrarbeitsvergütung gemäß §4 Abs.1 (stündlich)."
+info_en,"Overtime compensation according to §4 para.1 (hourly)."
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes

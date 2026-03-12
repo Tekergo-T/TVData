@@ -1,0 +1,12 @@
+name,value
+info,§49 SächsBesG
+func_type,fabsolute
+adding_type,monthly
+label_de,Steuerprüferzulage
+label_en,Tax Auditor Allowance
+info_de,17,05 EUR für Laufbahngruppe 1 und 38,35 EUR für Laufbahngruppe 2.
+info_en,EUR 17.05 for career group 1 and EUR 38.35 for career group 2.
+options,no;lg1;lg2
+default_option,no
+options_label_de,Keine;LG 1;LG 2
+options_label_en,None;CG 1;CG 2

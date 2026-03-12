@@ -1,0 +1,12 @@
+name,value
+info,""
+func_type,fabsolute
+adding_type,monthly
+label_de,Amtszulagen A
+label_en,Official Allowances A
+info_de,"Amtszulagen der hamburgischen Besoldungsordnung A gemäß Fußnoten."
+info_en,"Official allowances for Hamburg salary scale A according to footnotes."
+options,0;1;2;3;4;5;6
+default_option,0
+options_label_de,Kein;1;2;3;4;5;6
+options_label_en,None;1;2;3;4;5;6

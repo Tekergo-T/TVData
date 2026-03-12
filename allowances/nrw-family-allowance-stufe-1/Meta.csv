@@ -1,0 +1,12 @@
+name,value
+info,Familienzuschlag Stufe 1 NRW (§43 LBesG NRW)
+func_type,fabsolute
+adding_type,monthly
+label_de,Familienzuschlag NRW Stufe 1
+label_en,NRW Family Allowance Level 1
+info_de,"Stufe 1: A5–A6=164,64 €, A7–A8=162,70 €, übrige=168,76 €."
+info_en,"Level 1: A5–A6=€164.64, A7–A8=€162.70, others=€168.76."
+options,none;yes
+default_option,none
+options_label_de,Keine;Ja
+options_label_en,None;Yes

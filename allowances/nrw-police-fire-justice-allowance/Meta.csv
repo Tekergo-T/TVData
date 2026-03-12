@@ -1,0 +1,12 @@
+name,value
+info,Allgemeine Stellenzulage §§49–51 LBesG NRW
+func_type,fabsolute
+adding_type,monthly
+label_de,Stellenzulage Polizei/Feuerwehr/Justiz NRW
+label_en,NRW Position Allowance Police/Fire/Judiciary
+info_de,"Stellenzulage nach Dienstzeit: nach 1 Jahr bzw. nach 2 Jahren."
+info_en,"Position allowance by service time: after 1 year or after 2 years."
+options,none;after_1_year;after_2_years
+default_option,none
+options_label_de,Keine;nach 1 Jahr;nach 2 Jahren
+options_label_en,None;after 1 year;after 2 years

@@ -1,0 +1,12 @@
+name,value
+info,Zulage für Dienst zu ungünstigen Zeiten
+func_type,fabsolute
+adding_type,hourly
+label_de,Zulage für Dienst zu ungünstigen Zeiten
+label_en,Allowance for Service at Unfavorable Times
+info_de,Sonn- und Feiertage, bestimmte Samstage sowie 24./31.12.: 5,33 € je Stunde.
+info_en,Sundays and public holidays, specific Saturdays, and 24/31 Dec: 5.33 € per hour.
+options,0;1
+default_option,0
+options_label_de,Nein;Ja
+options_label_en,No;Yes
