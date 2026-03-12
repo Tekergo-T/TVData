@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,fabsolute
+adding_type,monthly
+label_de,Familienzuschlag Stufe 2 MV
+label_en,Family Allowance Level 2 MV
+info_de,
+info_en,
+options,no;yes
+default_option,no
+options_label_de,no;yes
+options_label_en,no;yes

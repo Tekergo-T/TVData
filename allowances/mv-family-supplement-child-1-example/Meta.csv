@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,fabsolute
+adding_type,monthly
+label_de,Familienergänzungszuschlag 1. Kind (Beispiel) MV
+label_en,Family Supplement 1st Child (Example) MV
+info_de,
+info_en,
+options,stufe1;stufe7
+default_option,stufe1
+options_label_de,stufe1;stufe7
+options_label_en,stufe1;stufe7

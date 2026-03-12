@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,frelative
+adding_type,yearly
+label_de,Jährliche Sonderzahlung MV
+label_en,Annual Special Payment MV
+info_de,Kinderbetrag zusätzlich 300 € je Kind.
+info_en,Additional child amount of €300 per child.
+options,0;a4-a9-aw;a10-a12;a13plus;b9-b11
+default_option,0
+options_label_de,Keine;A4-A9 + Anwärter;A10-A12;ab A13;B9-B11
+options_label_en,None;A4-A9 + trainees;A10-A12;from A13;B9-B11
