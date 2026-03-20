@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,fabsolute
+adding_type,monthly
+label_de,Zulage für Dienst zu ungünstigen Zeiten
+label_en,Allowance for Unfavorable Working Hours
+info_de,"Stundensätze für Dienst zu ungünstigen Zeiten (DUZ)."
+info_en,"Hourly rates for duty at unfavorable times (DUZ)."
+options,none;sun_holiday;sat_13_20;night_20_6
+default_option,none
+options_label_de,"Keine;Sonn-/Feiertag und besondere Samstage;Samstag 13-20 Uhr;Nachtzeit 20-6 Uhr"
+options_label_en,"None;Sundays/holidays and certain Saturdays;Saturday 1-8 PM;Night hours 8 PM-6 AM"

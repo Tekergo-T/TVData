@@ -1,0 +1,12 @@
+name,value
+info,Mehrarbeitsvergütung §4 Abs.3 MVergV
+func_type,fabsolute
+adding_type,hourly
+label_de,Mehrarbeitsvergütung §4 Abs.3
+label_en,Overtime Compensation §4 para.3
+info_de,"Mehrarbeitsvergütung pro Stunde nach § 4 Abs. 3 MVergV."
+info_en,"Hourly overtime compensation under § 4 para. 3 MVergV."
+options,1;2;3;4-5
+default_option,1
+options_label_de,Nummer 1;Nummer 2;Nummer 3;Nummer 4 und 5
+options_label_en,Number 1;Number 2;Number 3;Number 4 and 5

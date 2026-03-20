@@ -1,0 +1,12 @@
+name,value
+info,"Zulage für Dienst zu ungünstigen Zeiten"
+func_type,fabsolute
+adding_type,hourly
+label_de,DUZ Berlin
+label_en,DUZ Berlin
+info_de,"Stundensätze für Dienst zu ungünstigen Zeiten."
+info_en,"Hourly rates for service at unfavorable times."
+options,no;sun_holiday;sat_13_20;night_20_6
+default_option,no
+options_label_de,Nein;Sonn- und Feiertage;Samstag 13-20 Uhr;Nachtzeit 20-6 Uhr
+options_label_en,No;Sunday/Holidays;Saturday 13-20;Night 20-6

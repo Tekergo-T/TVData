@@ -1,0 +1,12 @@
+name,value
+info,Stellenzulage Nr. 11 Meister/Techniker
+func_type,fabsolute
+adding_type,monthly
+label_de,Stellenzulage Nr. 11 (Meister/Techniker)
+label_en,Position Allowance No. 11 (Master craftsperson/Technician)
+info_de,Monatlich 40,69 €.
+info_en,Monthly 40.69 €.
+options,0;1
+default_option,0
+options_label_de,Nein;Ja
+options_label_en,No;Yes

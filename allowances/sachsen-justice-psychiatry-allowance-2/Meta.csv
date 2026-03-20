@@ -1,0 +1,12 @@
+name,value
+info,§48 Abs. 2 SächsBesG
+func_type,fabsolute
+adding_type,monthly
+label_de,Justizvollzug/Psychiatrie Zulage (Abs. 2)
+label_en,Justice/Psychiatry Allowance (Para. 2)
+info_de,82,67 EUR nach 1 Jahr und 165,34 EUR nach 2 Jahren.
+info_en,EUR 82.67 after 1 year and EUR 165.34 after 2 years.
+options,no;year1;year2
+default_option,no
+options_label_de,Nein;Nach 1 Jahr;Nach 2 Jahren
+options_label_en,No;After 1 year;After 2 years

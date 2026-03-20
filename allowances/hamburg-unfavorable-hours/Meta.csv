@@ -1,0 +1,12 @@
+name,value
+info,""
+func_type,fabsolute
+adding_type,monthly
+label_de,Zulage für Dienst zu ungünstigen Zeiten (je Stunde)
+label_en,Allowance for Service at Unfavorable Times (per hour)
+info_de,"Zulage je Stunde für Sonntage, gesetzliche Feiertage, Samstage vor Ostern/Pfingsten ab 12 Uhr sowie 24. und 31. Dezember (wenn kein Sonntag)."
+info_en,"Hourly allowance for Sundays, legal holidays, Saturdays before Easter/Pentecost from 12 p.m., as well as 24 and 31 December (if not Sunday)."
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes

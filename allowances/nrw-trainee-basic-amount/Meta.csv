@@ -1,0 +1,12 @@
+name,value
+info,Anwärtergrundbetrag NRW
+func_type,fabsolute
+adding_type,monthly
+label_de,Anwärtergrundbetrag NRW
+label_en,NRW Trainee Basic Amount
+info_de,"A5–A8: 1.499,78 €, A9–A11: 1.555,68 €, A12: 1.700,37 €, A13: 1.733,28 €, A13+Strukturzulage: 1.769,43 €."
+info_en,"A5–A8: €1,499.78, A9–A11: €1,555.68, A12: €1,700.37, A13: €1,733.28, A13+structural allowance: €1,769.43."
+options,none;a5_a8;a9_a11;a12;a13;a13_plus_structure
+default_option,none
+options_label_de,Keine;A5-A8;A9-A11;A12;A13;A13 + Strukturzulage
+options_label_en,None;A5-A8;A9-A11;A12;A13;A13 + structural allowance

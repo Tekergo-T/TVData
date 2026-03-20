@@ -1,0 +1,12 @@
+name,value
+info,§42 BremBesG Allgemeine Stellenzulage
+func_type,fabsolute
+adding_type,monthly
+label_de,Allgemeine Stellenzulage (§42)
+label_en,General Position Allowance (§42)
+info_de,Allgemeine Stellenzulage nach §42 BremBesG.
+info_en,General position allowance according to §42 BremBesG.
+options,none;nr1a;nr1b;nr2
+default_option,none
+options_label_de,Keine;Nr.1a;Nr.1b;Nr.2
+options_label_en,None;No.1a;No.1b;No.2

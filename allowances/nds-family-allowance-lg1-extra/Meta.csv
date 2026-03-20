@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,fabsolute
+adding_type,monthly
+label_de,Familienzuschlag LG1 Zuschlag
+label_en,Family Allowance LG1 Surcharge
+info_de,"Zusätzlicher Familienzuschlag für Laufbahngruppe 1 (A5-A9): +100,00 € je Kind (Stufe 2 und 3)."
+info_en,"Additional family allowance for career group 1 (A5-A9): +100.00 € per child (levels 2 and 3)."
+options,none;yes
+default_option,none
+options_label_de,"Nein;Ja"
+options_label_en,"No;Yes"

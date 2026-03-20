@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,fabsolute
+adding_type,monthly
+label_de,Familienzuschlag Niedersachsen
+label_en,Family Allowance Lower Saxony
+info_de,"Familienzuschlag mit Stufe 1/2 und Kindererhöhungen."
+info_en,"Family allowance with level 1/2 and child increments."
+options,none;stufe1;stufe2;child2;child3plus
+default_option,none
+options_label_de,"Keine;Stufe 1;Stufe 2;2. Kind;ab 3. Kind"
+options_label_en,"None;Level 1;Level 2;2nd child;from 3rd child"

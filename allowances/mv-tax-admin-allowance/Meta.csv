@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,fabsolute
+adding_type,monthly
+label_de,Steuerverwaltungszulage MV
+label_en,Tax Administration Allowance MV
+info_de,
+info_en,
+options,no;lg1-2ea;lg2-1ea
+default_option,no
+options_label_de,no;lg1-2ea;lg2-1ea
+options_label_en,no;lg1-2ea;lg2-1ea

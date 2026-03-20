@@ -1,0 +1,12 @@
+name,value
+info,SächsBesG
+func_type,fabsolute
+adding_type,monthly
+label_de,Amtszulagen Sachsen
+label_en,Official Allowances Saxony
+info_de,Amtszulagen gemäß Besoldungstabelle Freistaat Sachsen (ab 01.02.2025).
+info_en,Official allowances according to Saxony salary table (valid from 2025-02-01).
+options,0;1;2;3;4;5
+default_option,0
+options_label_de,Keine;Fn1;Fn2;Fn3;Fn4;Fn5
+options_label_en,None;Fn1;Fn2;Fn3;Fn4;Fn5

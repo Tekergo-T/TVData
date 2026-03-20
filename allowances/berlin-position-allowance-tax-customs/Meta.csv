@@ -1,0 +1,12 @@
+name,value
+info,"Nr. 26"
+func_type,fabsolute
+adding_type,monthly
+label_de,Stellenzulage Steuer- und Zollverwaltung
+label_en,Tax and Customs Position Allowance
+info_de,"Stellenzulage nach Laufbahn."
+info_en,"Position allowance by service career."
+options,no;mittlerer_dienst;gehobener_dienst
+default_option,no
+options_label_de,Nein;Mittlerer Dienst;Gehobener Dienst
+options_label_en,No;Middle Service;Upper Service

@@ -1,0 +1,12 @@
+name,value
+info,Allgemeine Stellenzulage Nr. 14
+func_type,fabsolute
+adding_type,monthly
+label_de,Stellenzulage Nr. 14 (allgemein)
+label_en,Position Allowance No. 14 (general)
+info_de,Kategorie aa: 24,91 €, bb: 97,40 €, b und c: 108,26 €.
+info_en,Category aa: 24.91 €, bb: 97.40 €, b and c: 108.26 €.
+options,0;aa;bb;bc
+default_option,0
+options_label_de,Keine;aa;bb;b und c
+options_label_en,None;aa;bb;b and c

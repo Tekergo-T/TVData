@@ -1,0 +1,12 @@
+name,value
+info,DUZ Brandenburg ab 01.07.2024
+adding_type,hourly
+func_type,fabsolute
+label_de,Zulage für Dienst zu ungünstigen Zeiten
+label_en,Allowance for Unfavorable Working Hours
+info_de,"Sonn- und Feiertage, bestimmte Samstage sowie 24./31.12.: 4,35 € je Stunde."
+info_en,"Sundays and public holidays, certain Saturdays, and Dec 24/31: €4.35 per hour."
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes

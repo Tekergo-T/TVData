@@ -1,0 +1,12 @@
+name,value
+info,Mehrarbeitsvergütung Schuldienst NRW (§4 MVergV NRW)
+func_type,fabsolute
+adding_type,monthly
+label_de,Mehrarbeitsvergütung Schuldienst NRW
+label_en,NRW Overtime Compensation Teaching
+info_de,"Unterrichtsstunde nach Nr. 1–5: 23,47 €, 29,09 €, 34,54 €, 40,39 €."
+info_en,"Per teaching hour for no. 1–5: €23.47, €29.09, €34.54, €40.39."
+options,none;nr1;nr2;nr3;nr4_5
+default_option,none
+options_label_de,Keine;Nr.1;Nr.2;Nr.3;Nr.4–5
+options_label_en,None;No.1;No.2;No.3;No.4–5

@@ -1,0 +1,12 @@
+name,value
+info,Familienzuschlag Sachsen
+adding_type,monthly
+func_type,fabsolute
+label_de,Familienzuschlag Stufe 2 (Sachsen)
+label_en,Family Allowance Level 2 (Saxony)
+info_de,Gültig für B- und W-Besoldung.
+info_en,Valid for B and W scales.
+options,0;1;2;3;4;5
+default_option,0
+options_label_de,Kein;1;2;3;4;5
+options_label_en,None;1;2;3;4;5

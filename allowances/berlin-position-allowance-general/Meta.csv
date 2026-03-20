@@ -1,0 +1,12 @@
+name,value
+info,"Nr. 27"
+func_type,fabsolute
+adding_type,monthly
+label_de,Allgemeine Stellenzulage Berlin
+label_en,General Berlin Position Allowance
+info_de,"Allgemeine Stellenzulage nach Kategorie."
+info_en,"General position allowance by category."
+options,no;aa;bb;c_d;abs2_bb;abs2_c_d
+default_option,no
+options_label_de,Nein;aa;bb;c/d;Abs.2 bb;Abs.2 c/d
+options_label_en,No;aa;bb;c/d;Sec.2 bb;Sec.2 c/d

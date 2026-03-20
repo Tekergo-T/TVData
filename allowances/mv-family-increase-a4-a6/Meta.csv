@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,fabsolute
+adding_type,monthly
+label_de,Familienzuschlag Erhöhung A4-A6 MV
+label_en,Family Allowance Increase A4-A6 MV
+info_de,
+info_en,
+options,no;a4;a5;a6
+default_option,no
+options_label_de,no;a4;a5;a6
+options_label_en,no;a4;a5;a6

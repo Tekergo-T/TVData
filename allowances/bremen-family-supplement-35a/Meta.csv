@@ -1,0 +1,12 @@
+name,value
+info,Familienergänzungszuschlag §35a BremBesG
+func_type,fabsolute
+adding_type,monthly
+label_de,Familienergänzungszuschlag (§35a)
+label_en,Family Supplement (§35a)
+info_de,Familienergänzungszuschlag je Kind gemäß §35a BremBesG.
+info_en,Family supplement per child according to §35a BremBesG.
+options,none;child_1_3;child_4_plus
+default_option,none
+options_label_de,Keine;1.-3. Kind;ab 4. Kind
+options_label_en,None;1st-3rd child;4th+ child

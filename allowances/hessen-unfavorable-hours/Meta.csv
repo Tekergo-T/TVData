@@ -1,0 +1,12 @@
+name,value
+info,Zulage für Dienst zu ungünstigen Zeiten
+func_type,fabsolute
+adding_type,hourly
+label_de,Zulage ungünstige Zeiten
+label_en,Allowance for Unfavorable Hours
+info_de,"Sonntage/Feiertage sowie bestimmte Samstags-/Nachtzeiten gemäß Hessentabelle."
+info_en,"Sundays/public holidays and specific Saturday/night periods per Hesse table."
+options,so-feiertag;sa-13-20;20-6
+default_option,so-feiertag
+options_label_de,So/Feiertag;Sa 13-20 Uhr;20-6 Uhr
+options_label_en,Sun/holiday;Sat 13-20;20-6

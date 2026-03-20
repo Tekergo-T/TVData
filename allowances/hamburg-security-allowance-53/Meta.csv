@@ -1,0 +1,12 @@
+name,value
+info,""
+func_type,fabsolute
+adding_type,monthly
+label_de,Sicherheitszulage (§ 53)
+label_en,Security Allowance (§ 53)
+info_de,"Sicherheitszulage nach § 53 HmbBesG (Stand ab 01.08.2025)."
+info_en,"Security allowance according to § 53 HmbBesG (as of 2025-08-01)."
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes

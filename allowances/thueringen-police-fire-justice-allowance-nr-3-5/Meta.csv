@@ -1,0 +1,12 @@
+name,value
+info,"Stellenzulage Nr. 3-5"
+func_type,fabsolute
+adding_type,monthly
+label_de,Stellenzulage Polizei/Feuerwehr/Justiz
+label_en,Position allowance police/fire brigade/judiciary
+info_de,"73,00 € nach 1 Jahr, 145,00 € nach 2 Jahren."
+info_en,"€73.00 after 1 year, €145.00 after 2 years."
+options,0;1;2
+default_option,0
+options_label_de,Kein Anspruch;nach 1 Jahr;nach 2 Jahren
+options_label_en,None;after 1 year;after 2 years

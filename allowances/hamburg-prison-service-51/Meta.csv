@@ -1,0 +1,12 @@
+name,value
+info,""
+func_type,fabsolute
+adding_type,monthly
+label_de,Justizvollzug (§ 51)
+label_en,Prison Service (§ 51)
+info_de,"Stellenzulage nach § 51 HmbBesG (Stand ab 01.08.2025)."
+info_en,"Position allowance under § 51 HmbBesG (as of 2025-08-01)."
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes

@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,fabsolute
+adding_type,monthly
+label_de,Mehrarbeitsvergütung Schuldienst
+label_en,Overtime Compensation School Service
+info_de,"Mehrarbeitsvergütung je Unterrichtsstunde im Schuldienst."
+info_en,"Overtime compensation per lesson hour in school service."
+options,none;nr1;nr2;nr3
+default_option,none
+options_label_de,"Keine;Nr. 1;Nr. 2;Nr. 3"
+options_label_en,"None;No. 1;No. 2;No. 3"

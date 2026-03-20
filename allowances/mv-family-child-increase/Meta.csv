@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,fabsolute
+adding_type,monthly
+label_de,Familienzuschlag Kindererhöhung MV
+label_en,Family Allowance Child Increase MV
+info_de,
+info_en,
+options,none;second-child;third-and-more
+default_option,none
+options_label_de,none;second-child;third-and-more
+options_label_en,none;second-child;third-and-more

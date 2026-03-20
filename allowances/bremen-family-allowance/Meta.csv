@@ -1,0 +1,12 @@
+name,value
+info,Familienzuschlag Bremen
+func_type,fabsolute
+adding_type,monthly
+label_de,Familienzuschlag
+label_en,Family Allowance
+info_de,Grundbeträge und Kindererhöhungen einschließlich Zusatzregel für A5.
+info_en,Base amounts and child increases including additional rule for A5.
+options,none;stufe1_a5_a8;stufe2_a5_a8;stufe1_other;stufe2_other;second_child;third_child;fourth_plus_child;a5_first_child_extra;a5_each_extra_child
+default_option,none
+options_label_de,Keine;Stufe 1 A5-A8;Stufe 2 A5-A8;Stufe 1 übrige;Stufe 2 übrige;2. Kind;3. Kind;ab 4. Kind;A5 erstes Kind +;A5 je weiteres Kind +
+options_label_en,None;Level 1 A5-A8;Level 2 A5-A8;Level 1 others;Level 2 others;2nd child;3rd child;4th+ child;A5 first child extra;A5 each extra child

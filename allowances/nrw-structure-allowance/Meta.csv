@@ -1,0 +1,12 @@
+name,value
+info,§47 LBesG NRW Strukturzulage
+func_type,fabsolute
+adding_type,monthly
+label_de,Strukturzulage NRW
+label_en,NRW Structural Allowance
+info_de,"Strukturzulage nach §47 LBesG NRW: a=11,36 €, b aa=90,89 €, b bb=102,63 €, c/d=114,06 €."
+info_en,"Structural allowance per §47 LBesG NRW: a=€11.36, b aa=€90.89, b bb=€102.63, c/d=€114.06."
+options,none;a;b_aa;b_bb;c_d
+default_option,none
+options_label_de,Keine;Buchstabe a;Buchstabe b aa;Buchstabe b bb;Buchstabe c und d
+options_label_en,None;Letter a;Letter b aa;Letter b bb;Letter c and d

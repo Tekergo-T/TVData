@@ -1,0 +1,12 @@
+name,value
+info,Sonderzahlung Grundbetrag monatlich
+func_type,frelative
+adding_type,monthly
+label_de,Sonderzahlung (monatlich)
+label_en,Special Payment (monthly)
+info_de,"Grundbetrag der Sonderzahlung: Beamtinnen und Beamte sowie Anwärterinnen und Anwärter 5 %, Versorgungsempfängerinnen und Versorgungsempfänger 2,66 %."
+info_en,"Special payment base amount: civil servants and candidates 5%, pension recipients 2.66%."
+options,beamte;versorgung
+default_option,beamte
+options_label_de,Beamtinnen/Beamte;Versorgungsempfänger/innen
+options_label_en,Civil servants;Pension recipients

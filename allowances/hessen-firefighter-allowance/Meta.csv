@@ -1,0 +1,12 @@
+name,value
+info,Feuerwehrzulage Vorbemerkung Nr. 7
+func_type,fabsolute
+adding_type,monthly
+label_de,Feuerwehrzulage
+label_en,Fire Service Allowance
+info_de,"Feuerwehrzulage nach Dienstzeit: nach 1 Jahr 80 €, nach 2 Jahren 160 €."
+info_en,"Fire service allowance by service time: after 1 year €80, after 2 years €160."
+options,0;1;2
+default_option,0
+options_label_de,Keine;nach 1 Jahr;nach 2 Jahren
+options_label_en,None;after 1 year;after 2 years

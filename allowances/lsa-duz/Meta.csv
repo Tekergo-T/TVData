@@ -1,0 +1,12 @@
+name,value
+info,"Zulage für Dienst zu ungünstigen Zeiten (DUZ)"
+func_type,fabsolute
+adding_type,monthly
+label_de,DUZ je Stunde
+label_en,DUZ per hour
+info_de,"Stundensätze der DUZ in Sachsen-Anhalt."
+info_en,"Hourly DUZ rates in Saxony-Anhalt."
+options,no;sun_holiday;sat;night
+default_option,no
+options_label_de,Keine;Sonn-/Feiertag;Samstag 13-20 Uhr;Nacht 20-6 Uhr
+options_label_en,None;Sunday/Holiday;Saturday 13-20;Night 20-6

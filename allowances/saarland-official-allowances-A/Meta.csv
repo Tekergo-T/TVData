@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,fabsolute
+adding_type,monthly
+label_de,Amtszulagen Saarland
+label_en,Official Allowances Saarland
+info_de,Amtszulagen gemäß Besoldungstabelle Saarland gültig ab 01.02.2025.
+info_en,Official allowances according to Saarland salary table valid from 2025-02-01.
+options,0;1;2;3;4;5;6;7
+default_option,0
+options_label_de,Kein;1;2;3;4;5;6;7
+options_label_en,None;1;2;3;4;5;6;7

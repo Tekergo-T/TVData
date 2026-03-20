@@ -1,0 +1,12 @@
+name,value
+info,§47 BremBesG Steuerverwaltungszulage
+func_type,fabsolute
+adding_type,monthly
+label_de,Steuerverwaltungszulage (§47)
+label_en,Tax Administration Allowance (§47)
+info_de,Steuerverwaltungszulage nach Laufbahngruppe gemäß §47 BremBesG.
+info_en,Tax administration allowance by career group according to §47 BremBesG.
+options,none;lg1;lg2
+default_option,none
+options_label_de,Keine;Laufbahngruppe 1;Laufbahngruppe 2
+options_label_en,None;Career group 1;Career group 2

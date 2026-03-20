@@ -1,0 +1,12 @@
+name,value
+info,"Zulage für Dienst zu ungünstigen Zeiten (DUZ)"
+func_type,fabsolute
+adding_type,hourly
+label_de,DUZ Thüringen
+label_en,Unfavorable hours allowance Thuringia
+info_de,"Sonn- und Feiertage sowie 24./31.12. ab 12 Uhr: 5,00 €/h; Samstage 13-20 Uhr: 1,50 €/h; Nachtzeit 20-6 Uhr: 5,00 €/h."
+info_en,"Sundays/public holidays and Dec 24/31 after 12:00: €5.00/h; Saturdays 13:00-20:00: €1.50/h; night 20:00-06:00: €5.00/h."
+options,0;1;2;3
+default_option,0
+options_label_de,Kein Anspruch;Sonn-/Feiertag;Samstag;Nacht
+options_label_en,None;Sunday/public holiday;Saturday;Night

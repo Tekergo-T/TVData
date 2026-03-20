@@ -1,0 +1,12 @@
+name,value
+info,§18 Abs. 2 SächsEMAVO
+func_type,fabsolute
+adding_type,monthly
+label_de,Mehrarbeitsvergütung Schuldienst
+label_en,Overtime Compensation School Service
+info_de,Lehrkräfte A11-A12: 21,82 EUR; ab A13: 30,27 EUR pro Unterrichtsstunde.
+info_en,Teaching staff A11-A12: EUR 21.82; from A13: EUR 30.27 per teaching hour.
+options,no;a11_a12;a13_plus
+default_option,no
+options_label_de,Nein;A11-A12;ab A13
+options_label_en,No;A11-A12;A13+

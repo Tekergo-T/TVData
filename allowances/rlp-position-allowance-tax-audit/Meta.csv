@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,fabsolute
+adding_type,monthly
+label_de,Stellenzulage Aussendienst Steuerpruefung
+label_en,Position Allowance Tax Audit Field Service
+info_de,Stellenzulage Nr 9 25 EUR fuer A6-A9 und 55 EUR fuer A9-A13
+info_en,Position allowance no 9 EUR 25 for A6-A9 and EUR 55 for A9-A13
+options,no;a6_a9;a9_a13
+default_option,no
+options_label_de,Keine;A6-A9;A9-A13
+options_label_en,None;A6-A9;A9-A13

@@ -1,0 +1,12 @@
+name,value
+info,
+func_type,fabsolute
+adding_type,monthly
+label_de,Familienzuschlag Erhoehung A5
+label_en,Family Allowance Increase A5
+info_de,Erhoehung A5 plus 5.32 EUR beim 1 Kind und plus 21.30 EUR bei 2 Kindern gesamt
+info_en,Increase for A5 plus EUR 5.32 with first child and plus EUR 21.30 total with two children
+options,no;child1;child2_total
+default_option,no
+options_label_de,Keine;1. Kind;2 Kinder gesamt
+options_label_en,None;1st child;2 children total

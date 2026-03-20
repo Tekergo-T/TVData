@@ -1,0 +1,12 @@
+name,value
+info,Außendienstzulage Steuerverwaltung NRW (§52)
+func_type,fabsolute
+adding_type,monthly
+label_de,Außendienstzulage Steuerverwaltung NRW
+label_en,NRW Tax Field Service Allowance
+info_de,"Außendienstzulage für Steuerverwaltung gemäß bereitgestellter Staffel."
+info_en,"Field service allowance for tax administration according to provided scale."
+options,none;lg1_bis_a6;a7_a8;ab_a9;lg2
+default_option,none
+options_label_de,Keine;LG1 bis A6;A7–A8;ab A9;LG2
+options_label_en,None;LG1 to A6;A7–A8;A9 and above;LG2
