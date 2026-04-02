@@ -30,28 +30,53 @@ def import_prv_function(prv_module):
     except ImportError:
         raise ImportError(
             f"Failed to import 'prv' function from module: {prv_module}")
+_table_paths_cache = None
+def _get_table_paths():
+    global _table_paths_cache
+    if _table_paths_cache is None:
+        _table_paths_cache = {}
+        for root, _, files in os.walk(ps_tables_path):
+            if 'Table.csv' in files:
+                table_name = os.path.basename(root)
+                _table_paths_cache[table_name] = root
+    return _table_paths_cache
 
+_allowance_paths_cache = None
+def _get_allowance_paths():
+    global _allowance_paths_cache
+    if _allowance_paths_cache is None:
+        _allowance_paths_cache = {}
+        for root, _, files in os.walk(ps_allowances_path):
+            if 'Table.csv' in files:
+                allowance_name = os.path.basename(root)
+                _allowance_paths_cache[allowance_name] = root
+    return _allowance_paths_cache
+
+_prv_paths_cache = None
+def _get_prv_paths():
+    global _prv_paths_cache
+    if _prv_paths_cache is None:
+        _prv_paths_cache = {}
+        for root, _, files in os.walk(prv_tables_path):
+            if 'Meta.csv' in files:
+                prv_name = os.path.basename(root)
+                _prv_paths_cache[prv_name] = root
+    return _prv_paths_cache
 
 def ls_tables():
     """List all remuneration tables in the directory specified by the `ps_tables_path` constant."""
-    return os.listdir(ps_tables_path)
+    return list(_get_table_paths().keys())
 
 
 def ls_prv():
     """List all the private retirement tables in the directory specified by the `prv_tables_path` constant."""
-    return os.listdir(ps_tables_path)
+    return list(_get_prv_paths().keys())
 
 
 @lru_cache(maxsize=128)
 def csv2dic(full_name):
     """
     Read a CSV file specified by `full_name` argument and return a dictionary containing the data.
-
-    Parameters:
-    full_name (str): The full path to the CSV file.
-
-    Returns:
-    dict: A dictionary containing the data from the CSV file.
     """
     table_data = {}
     with open(full_name, "r") as infile:
@@ -67,119 +92,78 @@ def csv2dic(full_name):
 def read_csv(table_name, csv_file):
     """
     Read a CSV file specified by `csv_file` argument from the directory specified by `table_name` argument and return a dictionary containing the data.
-
-    Parameters:
-    table_name (str): The name of the directory containing the CSV file.
-    csv_file (str): The name of the CSV file to read.
-
-    Returns:
-    dict: A dictionary containing the data from the CSV file.
     """
-    return csv2dic(os.path.join(ps_tables_path, table_name, csv_file))
+    paths = _get_table_paths()
+    if table_name in paths:
+        return csv2dic(os.path.join(paths[table_name], csv_file))
+    return {}
 
 
 def read_all_table(TV):
     """
     Read all CSV files in the directory specified by the `TV` argument and return a dictionary containing the data.
-
-    Parameters:
-    TV (str): The name of the directory containing the CSV files.
-
-    Returns:
-    dict: A dictionary containing the data from all CSV files in the specified directory.
     """
     table_data = {}
-    path = os.path.join(ps_tables_path, TV)
-    if os.path.exists(path):
-        for table in os.listdir(path):
-            if table.endswith(".csv"):
-                table_data[table] = csv2dic(os.path.join(path, table))
+    paths = _get_table_paths()
+    if TV in paths:
+        path = paths[TV]
+        for file in os.listdir(path):
+            if file.endswith(".csv"):
+                table_data[file] = csv2dic(os.path.join(path, file))
     return table_data
 
 
 def read_meta_table(TV):
     """
     Read the `Meta.csv` file in the directory specified by the `TV` argument and return a dictionary containing the data.
-
-    Parameters:
-    TV (str): The name of the directory containing the `Meta.csv` file.
-
-    Returns:
-    dict: A dictionary containing the data from the `Meta.csv` file.
     """
-    return csv2dic(os.path.join(ps_tables_path, TV, "Meta.csv"))
+    paths = _get_table_paths()
+    if TV in paths:
+        return csv2dic(os.path.join(paths[TV], "Meta.csv"))
+    return {}
 
 
 def read_table(TV=""):
     """
     Read all CSV files in the directory specified by the `TV` argument (if provided) or all CSV files in the `ps_tables_path` directory (if `TV` is not provided) and return a dictionary containing the data.
-
-    Parameters:
-    TV (str, optional): The name of the directory containing the CSV files. Defaults to "".
-
-    Returns:
-    dict: A dictionary containing the data from all CSV files in the specified directory (or `ps_tables_path` if `TV` is not provided).
     """
+    paths = _get_table_paths()
     if TV:
-        return csv2dic(os.path.join(ps_tables_path, TV, "Table.csv"))
+        if TV in paths:
+            return csv2dic(os.path.join(paths[TV], "Table.csv"))
+        return {}
     else:
-        # If no table name is specified, read all tables and return their data in a dictionary
         table_data = {}
-        for table in os.listdir(ps_tables_path):
-            table_data[table] = csv2dic(os.path.join(
-                ps_tables_path, table, "Table.csv"))
+        for table, path in paths.items():
+            table_data[table] = csv2dic(os.path.join(path, "Table.csv"))
         return table_data
 
 
 def read_allowance_data(allowances=None):
     """
     Read data from the "allowances" directory and return a dictionary of table data.
-
-    Args:
-    allowances (list): A list of allowance names to include in the output. If None, all allowances will be included.
-
-    Returns:
-    dict: A dictionary containing the data from the "allowances" directory.
     """
-    # Initialize an empty dictionary to store the table data
     table_data = {}
-
-    # Loop through each directory in the "allowances" directory
-    for allowance_name in os.listdir(ps_allowances_path):
-        # If the "allowances" argument is not specified or the current allowance is in the "allowances" argument list
+    paths = _get_allowance_paths()
+    for allowance_name, path in paths.items():
         if allowances is None or allowance_name in allowances:
-            # Read the "Meta.csv" and "Table.csv" files for the current allowance and add them to the dictionary
             table_data[allowance_name] = {
-                "Meta.csv": csv2dic(os.path.join(ps_allowances_path, allowance_name, "Meta.csv")),
-                "Table.csv": csv2dic(os.path.join(ps_allowances_path, allowance_name, "Table.csv"))
+                "Meta.csv": csv2dic(os.path.join(path, "Meta.csv")),
+                "Table.csv": csv2dic(os.path.join(path, "Table.csv"))
             }
 
-    # Return the dictionary containing the table data
     return table_data
 
 
 def read_prv_data(prv=None):
     """
     Read data from the "prv" directory and return a dictionary of table data.
-
-    Args:
-        prv (list): A list of PRV names to include in the output. If None, all PRVs will be included.
-
-    Returns:
-        dict: A dictionary containing the data from the "prv" directory.
     """
-    # Initialize an empty dictionary to store the table data
     table_data = {}
-
-    # Loop through each directory in the "prv" directory
-    for prv_name in os.listdir(prv_tables_path):
-        # If the "prv" argument is not specified or the current PRV is in the "prv" argument list
+    paths = _get_prv_paths()
+    for prv_name, path in paths.items():
         if prv is None or prv_name in prv:
-            # Read the "Meta.csv" file for the current PRV and add it to the dictionary
-            table_data[prv_name] = {"Meta.csv": csv2dic(
-                os.path.join(prv_tables_path, prv_name, "Meta.csv"))}
-
-    # Return the dictionary containing the table data
+            table_data[prv_name] = {"Meta.csv": csv2dic(os.path.join(path, "Meta.csv"))}
     return table_data
 
 
