@@ -1,0 +1,12 @@
+name,value
+info,§ 10 Abs. 6 TV-V: Monatliche Schichtzulage für Arbeitnehmer in ständiger Schichtarbeit
+func_type,fabsolute
+adding_type,monthly
+label_de,Schicht
+label_en,Shift Allowance
+info_de,Zulage für ständig in Schichtarbeit tätige Arbeitnehmer in Versorgungsbetrieben. Monatlich {{yes_value}} zusätzlich zum Bruttogehalt.
+info_en,Allowance for employees in constant shift work at utilities. {{yes_value}} monthly in addition to gross salary.
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes

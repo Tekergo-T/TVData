@@ -1,8 +1,8 @@
 name,value
 pay_grad_name,E
 valid_from,2026.06.01
-link,https://www.vka.de/assets/media/docs/0/Tarifvertr%C3%A4ge/230422_TV-V_AETV_17_Lesefassung.pdf
+link,https://www.vka.de/assets/media/docs/0/Tarifvertr%C3%A4ge/2025/TV-V_AETV_18_Lesefassung_Stand_1_6_2025.pdf
 name_en,Collective Agreement for Public Utilities
 name_de,Tarifvertrag für die Versorgungsbetriebe
 prv,vbl-west;vbl-east;vbl-west-n-atv;vbl-east-n-atv;kvbw
-allowances,tv-v-annual-bonus
+allowances,tv-v-annual-bonus;tv-v-wechselschicht-constant;tv-v-schicht-constant;tv-v-wechselschicht-supply;tv-v-schicht-supply;tv-v-vermogensbildung

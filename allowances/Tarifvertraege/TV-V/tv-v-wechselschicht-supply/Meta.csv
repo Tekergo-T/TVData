@@ -1,0 +1,12 @@
+name,value
+info,§ 10 Abs. 7 TV-V: Monatliche Wechselschichtzulage für versorgungs-/entsorgungstypische Tätigkeiten
+func_type,fabsolute
+adding_type,monthly
+label_de,Wechselschicht (Vers.)
+label_en,Shift Rotation (Supply)
+info_de,Zulage für Arbeitnehmer in ständiger versorgungs-/entsorgungstypischer Wechselschichtarbeit (z.B. Kraftwerke, Leitwarten, Entstördienst). Monatlich {{yes_value}} zusätzlich zum Bruttogehalt.
+info_en,Allowance for employees in constant supply/disposal-type shift rotation work (e.g. power plants, control centers). {{yes_value}} monthly in addition to gross salary.
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes

@@ -1,0 +1,12 @@
+name,value
+info,§ 10 Abs. 8 TV-V: Monatliche Schichtzulage für versorgungs-/entsorgungstypische Tätigkeiten
+func_type,fabsolute
+adding_type,monthly
+label_de,Schicht (Vers.)
+label_en,Shift Allowance (Supply)
+info_de,Zulage für Arbeitnehmer in ständiger versorgungs-/entsorgungstypischer Schichtarbeit (z.B. Kraft werke, Wartungsdienste, Netzbereiche). Monatlich {{yes_value}} zusätzlich zum Bruttogehalt.
+info_en,Allowance for employees in constant supply/disposal-type shift work (e.g. power plants, maintenance services). {{yes_value}} monthly in addition to gross salary.
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes

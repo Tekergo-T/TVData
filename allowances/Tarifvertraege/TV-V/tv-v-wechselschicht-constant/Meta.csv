@@ -1,0 +1,12 @@
+name,value
+info,§ 10 Abs. 5 TV-V: Monatliche Wechselschichtzulage für Arbeitnehmer in ständiger Wechselschichtarbeit
+func_type,fabsolute
+adding_type,monthly
+label_de,Wechselschicht
+label_en,Shift Rotation Allowance
+info_de,Zulage für ständig in Wechselschichtarbeit tätige Arbeitnehmer in Versorgungsbetrieben. Monatlich {{yes_value}} zusätzlich zum Bruttogehalt.
+info_en,Allowance for employees in constant shift rotation work at utilities. {{yes_value}} monthly in addition to gross salary.
+options,no;yes
+default_option,no
+options_label_de,Nein;Ja
+options_label_en,No;Yes
