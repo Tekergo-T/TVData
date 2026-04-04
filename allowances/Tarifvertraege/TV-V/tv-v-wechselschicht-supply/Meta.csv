@@ -4,8 +4,8 @@ func_type,fabsolute
 adding_type,monthly
 label_de,Wechselschicht (Vers.)
 label_en,Shift Rotation (Supply)
-info_de,Zulage für Arbeitnehmer in ständiger versorgungs-/entsorgungstypischer Wechselschichtarbeit (z.B. Kraftwerke, Leitwarten, Entstördienst). Monatlich {{yes_value}} zusätzlich zum Bruttogehalt.
-info_en,Allowance for employees in constant supply/disposal-type shift rotation work (e.g. power plants, control centers). {{yes_value}} monthly in addition to gross salary.
+info_de,"Zulage für Arbeitnehmer in ständiger versorgungs-/entsorgungstypischer Wechselschichtarbeit (z.B. Kraftwerke, Leitwarten, Entstördienst). Monatlich {{yes_value}} zusätzlich zum Bruttogehalt."
+info_en,"Allowance for employees in constant supply/disposal-type shift rotation work (e.g. power plants, control centers). {{yes_value}} monthly in addition to gross salary."
 options,no;yes
 default_option,no
 options_label_de,Nein;Ja

@@ -3,7 +3,7 @@ info,§ 17 Abs. 2 TV-V: Arbeitgeberzuschuss für vermögenswirksame Leistungen
 func_type,fabsolute
 adding_type,monthly
 label_de,Vermögensbildung
-label_en,Wealth Building Contribution
+label_en,Wealth Building Cont.
 info_de,Arbeitgeberzuschuss für vermögenswirksame Leistungen. Mindestens {{yes_value}} monatlich für Vollzeitbeschäftigte. Bis zu 50€/Monat möglich mit Eigenbeiträgen.
 info_en,Employer contribution for wealth-building savings. Minimum {{yes_value}} monthly for full-time employees. Up to €50/month possible with employee contributions.
 options,no;yes
