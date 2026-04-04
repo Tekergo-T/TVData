@@ -30,16 +30,26 @@ def import_prv_function(prv_module):
     except ImportError:
         raise ImportError(
             f"Failed to import 'prv' function from module: {prv_module}")
+import logging
+
+logger = logging.getLogger(__name__)
+
 _table_paths_cache = None
 def _get_table_paths():
     global _table_paths_cache
     if _table_paths_cache is None:
         _table_paths_cache = {}
+        # os.walk travels top-down, so we hit parent folders before subfolders.
         for root, _, files in os.walk(ps_tables_path):
-            if 'Table.csv' in files:
+            if 'Table.csv' in files and 'Meta.csv' in files:
                 table_name = os.path.basename(root)
-                _table_paths_cache[table_name] = root
+                # First valid folder wins, preventing nested subfolders from overwriting
+                if table_name not in _table_paths_cache:
+                    _table_paths_cache[table_name] = root
+                else:
+                    logger.warning(f"TVData Tables: Ignored duplicate path {root} for '{table_name}'. Keeping { _table_paths_cache[table_name] }")
     return _table_paths_cache
+
 
 _allowance_paths_cache = None
 def _get_allowance_paths():
@@ -47,10 +57,14 @@ def _get_allowance_paths():
     if _allowance_paths_cache is None:
         _allowance_paths_cache = {}
         for root, _, files in os.walk(ps_allowances_path):
-            if 'Table.csv' in files:
+            if 'Table.csv' in files and 'Meta.csv' in files:
                 allowance_name = os.path.basename(root)
-                _allowance_paths_cache[allowance_name] = root
+                if allowance_name not in _allowance_paths_cache:
+                    _allowance_paths_cache[allowance_name] = root
+                else:
+                    logger.warning(f"TVData Allowances: Ignored duplicate path {root} for '{allowance_name}'. Keeping { _allowance_paths_cache[allowance_name] }")
     return _allowance_paths_cache
+
 
 _prv_paths_cache = None
 def _get_prv_paths():
@@ -60,7 +74,10 @@ def _get_prv_paths():
         for root, _, files in os.walk(prv_tables_path):
             if 'Meta.csv' in files:
                 prv_name = os.path.basename(root)
-                _prv_paths_cache[prv_name] = root
+                if prv_name not in _prv_paths_cache:
+                    _prv_paths_cache[prv_name] = root
+                else:
+                    logger.warning(f"TVData PRV: Ignored duplicate path {root} for '{prv_name}'. Keeping { _prv_paths_cache[prv_name] }")
     return _prv_paths_cache
 
 def ls_tables():
