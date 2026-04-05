@@ -58,6 +58,7 @@ def _get_table_paths():
 
 _allowance_paths_cache = None
 def _get_allowance_paths():
+    """Recursively scan ps_allowances_path and index all folders containing Table.csv + Meta.csv."""
     global _allowance_paths_cache
     if _allowance_paths_cache is None:
         _allowance_paths_cache = {}
@@ -67,21 +68,10 @@ def _get_allowance_paths():
         for root, _, files in os.walk(ps_allowances_path):
             if 'Table.csv' in files and 'Meta.csv' in files:
                 allowance_name = os.path.basename(root)
-                # Handle unique IDs from nested paths (e.g., tv-l/schicht vs tv-v/schicht)
-                # If name is generic (like 'schicht'), try to use parent name as prefix
-                if allowance_name in ['schicht', 'wechselschicht', 'annual-bonus']:
-                    parent = os.path.basename(os.path.dirname(root)).lower()
-                    if parent not in [' Tarifvertraege', 'allowances']:
-                        allowance_name = f"{parent}-{allowance_name}"
-
                 if allowance_name not in _allowance_paths_cache:
                     _allowance_paths_cache[allowance_name] = root
                 else:
-                    # In case of collision, keep the one with shorter path (usually closer to target)
-                    existing_depth = _allowance_paths_cache[allowance_name].count(os.sep)
-                    current_depth = root.count(os.sep)
-                    if current_depth < existing_depth:
-                        _allowance_paths_cache[allowance_name] = root
+                    logger.warning(f"TVData: Duplicate allowance ID '{allowance_name}' found at {root}. Keeping { _allowance_paths_cache[allowance_name] }")
     return _allowance_paths_cache
 
 
@@ -193,19 +183,7 @@ def read_allowance_data(allowances=None):
                 "Table.csv": csv2dic(os.path.join(path, "Table.csv"))
             }
         else:
-            # TRY TO FIND IT BY BASENAME IF NOT IN CACHE (Recursive safeguard)
-            found = False
-            for root, _, files in os.walk(ps_allowances_path):
-                if 'Table.csv' in files and 'Meta.csv' in files:
-                    if os.path.basename(root) == allowance_name:
-                        table_data[allowance_name] = {
-                            "Meta.csv": csv2dic(os.path.join(root, "Meta.csv")),
-                            "Table.csv": csv2dic(os.path.join(root, "Table.csv"))
-                        }
-                        found = True
-                        break
-            if not found:
-                logger.error("TVData: Allowance '%s' requested but path not found in cache or disk (%d paths in cache).", allowance_name, len(paths))
+            logger.error("TVData: Allowance '%s' requested but not found in cache (%d paths in cache).", allowance_name, len(paths))
     return table_data
 
 
