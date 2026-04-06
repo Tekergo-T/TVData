@@ -37,32 +37,44 @@ Die Ordnerstruktur für die Speicherung der Entgelttabelleninformationen sieht w
 
 ```
 - tables Ordner
-  └── remuneration_name Ordner
-      ├── Adv.csv
-      ├── Table.csv
-      └── Meta.csv
+  └── [Kategorie] Ordner (z.B. Tarifvertraege, Beamte)
+      └── [Unterkategorie] Ordner (optional)
+          └── remunerations_name Ordner
+              ├── Adv.csv
+              ├── Table.csv
+              └── Meta.csv
 - prv Ordner
-  └── prv_name Ordner
-      ├── Meta.csv
+  └── [Kategorie] Ordner (optional)
+      └── prv_name Ordner
+          ├── Meta.csv
 - allowances Ordner
-  └── allowance_name Ordner
-      ├── Table.csv
-      └── Meta.csv
+  └── [Kategorie] Ordner (z.B. Tarifvertraege/TVoeD)
+      └── allowance_name Ordner
+          ├── Table.csv
+          └── Meta.csv
+- desc Ordner
+  └── [Thema] Ordner
+      ├── de.html
+      └── en.html
+- docs Ordner: Dokumentation der Datenextraktion und Quellen.
+- archive Ordner: Veraltete Tabellenstände und Archivdaten.
+- scripts Ordner: Python-Logik zum Laden und Verarbeiten der Daten.
 ```
 
 
 - Der Ordner `tables` enthält alle Entgelttabellen.
-- Jede Entgelttabelle wird in einem eigenen Ordner unter dem Ordner `tables` gespeichert.
-- Der Ordnername für jede Entgelttabelle sollte angegeben werden und wird später im Brutto-Netto-Gehaltsrechner verwendet.
+- Jede Entgelttabelle wird in einem eigenen Ordner gespeichert. Diese Ordner können in beliebig tief verschachtelten Unterverzeichnissen (Kategorien) organisiert sein.
+- Der Brutto-Netto-Gehaltsrechner scannt diese Ordner rekursiv. Die Identifizierung erfolgt über den Namen des untersten Ordners.
+- Bei Namenskollisionen wird der Pfad bevorzugt, der näher am Stammverzeichnis liegt.
 - Der Ordner mit den Entgelttabellen enthält drei Dateien: `Adv.csv`, `Table.csv`, und `Meta.csv`.
-- Im Ordner `prv` werden die Informationen zu den Pensionsplänen für den öffentlichen Sektor gespeichert.
-- Jeder Pensionsplan sollte seinen eigenen Ordner unter dem Ordner `prv` haben.
-- Der Ordnername für jeden Pensionsplan sollte unter dem Schlüsselwort `prv` in der Datei `Meta.csv` für die Entgelttabellen angegeben und verwendet werden.
+- Im Ordner `prv` werden die Informationen zu den Pensionsplänen (Zusatzversorgung) gespeichert. Auch hier ist eine Organisation in Unterordnern möglich.
+- Jeder Pensionsplan sollte seinen eigenen Ordner haben.
+- Der Ordnername für jeden Pensionsplan sollte unter dem Schlüsselwort `prv` in der Datei `Meta.csv` für die Entgelttabellen angegeben werden.
 - Der Ordner `prv_name` enthält eine "Meta.csv"-Datei mit den entsprechenden Informationen.
-- Der Ordner `allowances` enthält die Informationen zu den Zulagen.
-- Für jede Zulage sollte ein eigener Ordner unter dem Ordner `allowances` angelegt werden.
-- Der Name des Ordners für jede Zulage sollte unter dem Schlüsselwort `allowances` in der Datei `Meta.csv` für die Entgelttabellen angegeben und verwendet werden.
-- Der Ordner `allowances` enthält eine Datei "Table.csv" und eine Datei "Meta.csv".
+- Der Ordner `allowances` enthält die Informationen zu den Zulagen, organisiert in (verschachtelten) Kategorie-Unterordnern.
+- Für jede Zulage sollte ein eigener Ordner angelegt werden.
+- Der Name des Ordners für jede Zulage sollte unter dem Schlüsselwort `allowances` in der Datei `Meta.csv` für die Entgelttabellen angegeben werden.
+- Der Ordner einer Zulage enthält eine Datei "Table.csv" und eine Datei "Meta.csv".
 
 ### Tabellenbeschreibungen
 
@@ -140,7 +152,7 @@ Die Ordnerstruktur für die Speicherung der Entgelttabelleninformationen sieht w
 
    - `link`:: Die URL, die auf das Quelldokument für den Pensionsplan verweist.
    - `info`: Zusätzliche Informationen über den Pensionsplan.
-   - `calc_fun`: Der Dateiname, der die Funktion `prv` enthält, die für die Berechnung der Sozialversicherungsbeiträge und des steuerpflichtigen Bruttogehalts zuständig ist. Sie sollte im Ordner `script/prv` gespeichert werden und muss der angegebenen Definition entsprechen.
+   - `calc_fun`: Der Dateiname, der die Funktion `prv` enthält, die für die Berechnung der Sozialversicherungsbeiträge und des steuerpflichtigen Bruttogehalts zuständig ist. Sie sollte im Ordner `scripts/prv` gespeichert werden und muss der angegebenen Definition entsprechen.
    - `label_de`: Das für den Pensionsplan verwendete Label in deutscher Sprache.
    - `label_en`: Die Bezeichnung für den Pensionsplan in englischer Sprache.
    - `info_de`: Informationen über den Pensionsplan auf Deutsch.
@@ -228,7 +240,7 @@ Die Ordnerstruktur für die Speicherung der Entgelttabelleninformationen sieht w
 
 Um eine neue Entgelttabelle einzurichten, gehen Sie folgendermaßen vor:
 
-1. Erstellen Sie einen neuen Ordner unter dem Ordner `tables` mit einem aussagekräftigen Namen für die Entgelttabelle (z.B. `TV-L`).
+1. Erstellen Sie einen neuen Ordner innerhalb der passenden Kategorie unter `tables` (z.B. `tables/Tarifvertraege/TV-L/2024`) mit einem aussagekräftigen Namen.
 2. Erstellen Sie in dem neu angelegten Ordner die folgenden Dateien:
    - `Adv.csv`: Fügen Sie die Progression der Vergütung hinzu, wobei die Spalten die Tiers und die Zeilen die Entgeltgruppen darstellen. Die erste Spalte sollte den Namen/die Nummer der Entgeltgruppe (z. B. 1, 2a, 3 usw.) und die erste Zeile den Namen der Stufe enthalten. Die erste Zelle sollte `T` lauten. Geben Sie in die Zellen die Anzahl der Jahre ein, die in jeder Stufe verbracht werden müssen, um in die nächste Stufe aufzusteigen.
    - `Table.csv`: Erstellen Sie eine Tabelle mit der gleichen Struktur wie `Adv.csv`, aber geben Sie anstelle der Jahre das monatliche Bruttogehalt für jede Stufe und Entgeltgruppe ein.
@@ -238,15 +250,15 @@ Um eine neue Entgelttabelle einzurichten, gehen Sie folgendermaßen vor:
 
 Gehen Sie wie folgt vor, um eine neue Zusatzrentenversicherung einzurichten:
 
-1. Erstellen Sie einen neuen Ordner unter dem Ordner `prv` mit einem aussagekräftigen Namen für den Rentenplan (z. B. `vbl-west`).
+1. Erstellen Sie einen neuen Ordner unter dem Ordner `prv` (ggf. in einer Kategorie) mit einem aussagekräftigen Namen für den Rentenplan (z. B. `vbl-west`).
 2. Erstellen Sie innerhalb des neu erstellten Ordners eine Datei `Meta.csv` mit den erforderlichen Feldern zur Definition des Pensionsplans. Die Feldnamen und -werte entnehmen Sie bitte dem oben angeführten Beispiel.
-3. Dieser Schritt kann entfallen, wenn das `script/prv` bereits ein Skript enthält, das zur Berechnung der Sozialversicherungsbeiträge und des steuerpflichtigen Bruttogehalts verwendet werden kann. Andernfalls implementieren Sie eine Python-Funktion zur Berechnung des Sozialversicherungsbeitrags und des steuerpflichtigen Bruttogehalts auf der Grundlage des in der Datei `Meta.csv` angegebenen Werts `calc_fun`. Speichern Sie diese Funktion im Ordner `script/prv`.
+3. Dieser Schritt kann entfallen, wenn das `scripts/prv` bereits ein Skript enthält, das zur Berechnung der Sozialversicherungsbeiträge und des steuerpflichtigen Bruttogehalts verwendet werden kann. Andernfalls implementieren Sie eine Python-Funktion zur Berechnung des Sozialversicherungsbeitrags und des steuerpflichtigen Bruttogehalts auf der Grundlage des in der Datei `Meta.csv` angegebenen Werts `calc_fun`. Speichern Sie diese Funktion im Ordner `scripts/prv`.
 
 ### Einrichten einer neuen Zulagentabelle
 
 Führen Sie folgende Schritte aus, um eine neue Tabelle für Zulagen einzurichten:
 
-1. Erstellen Sie einen neuen Ordner unter dem Ordner `allowances` mit einem aussagekräftigen Namen für die Zulage (z. B. `tv-l-function-allowance`).
+1. Erstellen Sie einen neuen Ordner innerhalb einer passenden Kategorie unter `allowances` (z. B. `allowances/Tarifvertraege/TV-L/tv-l-function-allowance`).
 2. Erstellen Sie innerhalb des neu erstellten Ordners die folgenden Dateien:
    - `Table.csv`: Erstellen Sie eine Tabelle mit den Zulagen für jede Kombination aus Entgeltgruppe und Option. Die Zeilen stehen für die Entgeltgruppen, die Spalten für die Optionen. Die Zellenwerte stellen die Zulagen dar. Verwenden Sie `-1` für die Entgeltgruppe, wenn die Option für alle Entgeltgruppen gilt.
    - `Meta.csv`: Fügen Sie Metainformationen zur Zulage hinzu. Die Feldnamen und -werte entnehmen Sie bitte dem obigen Beispiel.
@@ -273,29 +285,41 @@ The folder structure for storing the remuneration information is as follows:
 
 ```
 - tables Folder
-  └── remuneration_name Folder
-      ├── Adv.csv
-      ├── Table.csv
-      └── Meta.csv
+  └── [Category] Folder (e.g., Tarifvertraege, Beamte)
+      └── [Subcategory] Folder (optional)
+          └── remuneration_name Folder
+              ├── Adv.csv
+              ├── Table.csv
+              └── Meta.csv
 - prv Folder
-  └── prv_name Folder
-      ├── Meta.csv
+  └── [Category] Folder (optional)
+      └── prv_name Folder
+          ├── Meta.csv
 - allowances Folder
-  └── allowance_name Folder
-      ├── Table.csv
-      └── Meta.csv
+  └── [Category] Folder (e.g., Tarifvertraege/TVoeD)
+      └── allowance_name Folder
+          ├── Table.csv
+          └── Meta.csv
+- desc Folder
+  └── [Topic] Folder
+      ├── de.html
+      └── en.html
+- docs Folder: Documentation of data extraction and sources.
+- archive Folder: Legacy tables and archived data.
+- scripts Folder: Python logic for loading and processing data.
 ```
 
 - The `tables` folder contains all the remuneration tables.
-- Each remuneration table is stored in a separate folder under the `tables` folder.
-- The folder name for each remuneration table should be specified and it is used later in the gross net salary calculator.
+- Each remuneration table is stored in a separate folder. These folders can be organized into nested subdirectories (categories).
+- The calculator scans these folders recursively. Identification is based on the name of the leaf folder.
+- In case of name collisions, the path closer to the root directory is preferred.
 - The remuneration table folder includes three files: `Adv.csv`, `Table.csv`, and `Meta.csv`.
-- The `prv` folder stores the information related to the Pension plans for the public sector.
-- Each Pension plan should have its folder under the `prv` folder.
+- The `prv` folder stores the information related to the Pension plans (supplementary insurance). Organization into subfolders is supported here as well.
+- Each Pension plan should have its folder.
 - The folder name for each Pension plan should be specified and used under the `prv` keyword in the remuneration tables `Meta.csv` file.
 - The Pension plan folder includes a `Meta.csv` file with the relevant information.
-- The `allowances` folder stores the information related to the allowances.
-- Each allowance should have its folder under the `allowances` folder.
+- The `allowances` folder stores the information related to the allowances, organized in (nested) category subfolders.
+- Each allowance should have its folder.
 - The folder name for each allowance should be specified and used under the `allowances` keyword in the remuneration tables `Meta.csv` file.
 - The allowance folder includes a `Table.csv` file and a `Meta.csv` file.
 
@@ -375,7 +399,7 @@ The folder structure for storing the remuneration information is as follows:
 
    - `link`: The URL linking to the source document for the Pension plan.
    - `info`: Additional information about the Pension plan.
-   - `calc_fun`: The file name that contains the `prv` function, which is responsible for calculating social security contribution and taxable gross salary, and it should be stored in the `script/prv` folder and must adhere to the specified definition.
+   - `calc_fun`: The file name that contains the `prv` function, which is responsible for calculating social security contribution and taxable gross salary, and it should be stored in the `scripts/prv` folder and must adhere to the specified definition.
    - `label_de`: The label used for the Pension plan in German.
    - `label_en`: The label used for the Pension plan in English.
    - `info_de`: Information about the Pension plan in German.
@@ -462,7 +486,7 @@ The folder structure for storing the remuneration information is as follows:
 
 To set up a new remuneration table, follow these steps:
 
-1. Create a new folder under the `tables` folder with a meaningful name for the remuneration table (e.g., `TV-L`).
+1. Create a new folder within a suitable category under `tables` (e.g., `tables/Tarifvertraege/TV-L/2024`) with a meaningful name.
 2. Inside the newly created folder, create the following files:
    - `Adv.csv`: Add the progression of the remuneration, where the columns represent the Tiers and the rows represent the pay grades. The first column should be the pay grade name/number (e.g. 1, 2a, 3 etc.), and the first row should be the tier name. The first cell should be `T`. Fill in the cells with the number of years that need to be spent in each tier to advance to the next tier.
    - `Table.csv`: Create a table with the same structure as `Adv.csv`, but instead of years, enter the monthly gross salary for each tier and pay grade.
@@ -472,15 +496,15 @@ To set up a new remuneration table, follow these steps:
 
 To set up a new Supplementary Pension Insurance, follow these steps:
 
-1. Create a new folder under the `prv` folder with a meaningful name for the Pension plan (e.g., `vbl-west`).
+1. Create a new folder under the `prv` folder (optionally in a category) with a meaningful name for the Pension plan (e.g., `vbl-west`).
 2. Inside the newly created folder, create a `Meta.csv` file with the necessary fields to define the Pension plan. Refer to the provided example above for field names and values.
-3. This step can be excluded if the `script/prv` already includes a script that can be used to calculate the social security contribution and taxable gross salary. Otherwise, implement a Python function for the calculation of social security contribution and taxable gross salary based on the provided `calc_fun` value in the `Meta.csv` file. Store this function under the `script/prv` folder.
+3. This step can be excluded if the `scripts/prv` already includes a script that can be used to calculate the social security contribution and taxable gross salary. Otherwise, implement a Python function for the calculation of social security contribution and taxable gross salary based on the provided `calc_fun` value in the `Meta.csv` file. Store this function under the `scripts/prv` folder.
 
 ### Setting up a New Allowance Table
 
 To set up a new allowance table, follow these steps:
 
-1. Create a new folder under the `allowances` folder with a meaningful name for the allowance (e.g., `tv-l-function-allowance`).
+1. Create a new folder within a suitable category under `allowances` (e.g., `allowances/Tarifvertraege/TV-L/tv-l-function-allowance`).
 2. Inside the newly created folder, create the following files:
    - `Table.csv`: Create a table with the allowance for each pay grade and option combination. The rows represent the pay grades, and the columns represent the options. The cell values represent the allowances. Use `-1` for the pay grade if the option applies to all pay grades.
    - `Meta.csv`: Add meta information related to the allowance. Refer to the provided example above for field names and values.
