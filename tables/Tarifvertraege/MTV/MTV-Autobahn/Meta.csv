@@ -1,7 +1,7 @@
 name,value
 pay_grad_name,E
-valid_from,2025.04.01
-link,"https://www.autobahn.de/storage/user_upload/qbank/240301_Entgeltwerte_Autobahn.pdf"
+valid_from,2026.05.01
+link,https://www.dbb.de/fileadmin/user_upload/globale_elemente/pdfs/2026/Entgelttabellen_Autobahn/03_vorlaeufige_Entgelttabelle_fuer_die_Beschaeftigten_der_Autobahn_GmbH_des_Bundes_von_Mai_2026_bis_Dezember_2026.pdf
 name_de,Manteltarifvertrag der Autobahn GmbH des Bundes
 name_en,Collective Agreement for the Autobahn GmbH of the federal government
 allowances,mtv-annual-bonus
