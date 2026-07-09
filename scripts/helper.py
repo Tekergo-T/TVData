@@ -126,12 +126,25 @@ def read_csv(table_name, csv_file):
     return {}
 
 
+def resolve_tv_name(TV):
+    """
+    Resolve the correct case-sensitive name of a remuneration table.
+    """
+    paths = _get_table_paths()
+    if TV in paths:
+        return TV
+    for key in paths:
+        if key.lower() == TV.lower():
+            return key
+    return TV
+
 def read_all_table(TV):
     """
     Read all CSV files in the directory specified by the `TV` argument and return a dictionary containing the data.
     """
     table_data = {}
     paths = _get_table_paths()
+    TV = resolve_tv_name(TV)
     if TV in paths:
         path = paths[TV]
         for file in os.listdir(path):
@@ -145,6 +158,7 @@ def read_meta_table(TV):
     Read the `Meta.csv` file in the directory specified by the `TV` argument and return a dictionary containing the data.
     """
     paths = _get_table_paths()
+    TV = resolve_tv_name(TV)
     if TV in paths:
         return csv2dic(os.path.join(paths[TV], "Meta.csv"))
     return {}
@@ -156,6 +170,7 @@ def read_table(TV=""):
     """
     paths = _get_table_paths()
     if TV:
+        TV = resolve_tv_name(TV)
         if TV in paths:
             return csv2dic(os.path.join(paths[TV], "Table.csv"))
         return {}
@@ -172,6 +187,9 @@ def read_allowance_data(allowances=None):
     """
     if isinstance(allowances, str):
         allowances = [allowances]
+        
+    if allowances is not None:
+        allowances = [a.strip() for a in allowances if a.strip()]
         
     table_data = {}
     paths = _get_allowance_paths()
